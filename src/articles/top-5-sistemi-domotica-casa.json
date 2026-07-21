@@ -1,0 +1,189 @@
+{
+  "slug": "top-5-sistemi-domotica-casa",
+  "title": "I 5 migliori sistemi di domotica per la casa: classifica e confronto 2026",
+  "seoTitle": "Migliori sistemi domotica casa: la top 5 | Media Edile",
+  "metaDescription": "I migliori sistemi di domotica per la casa: la classifica dei 5 impianti top per automazione, sicurezza e risparmio energetico. Confronta funzioni e prezzi.",
+  "category": "Top 5",
+  "categorySlug": "top-5",
+  "tags": [
+    "domotica",
+    "smart home",
+    "automazione",
+    "impianti",
+    "risparmio energetico"
+  ],
+  "author": "Redazione Media Edile",
+  "date": "2026-07-21",
+  "updated": "2026-07-21",
+  "readTime": 10,
+  "answerBox": "I migliori sistemi di domotica per la casa disponibili in Italia sono BTicino MyHome, Vimar By-me Plus, ABB-free@home, Gewiss e il sistema Wiser di Schneider Electric. Si tratta di piattaforme cablate o ibride, professionali e affidabili, che gestiscono luci, tapparelle, clima, sicurezza ed energia da un'unica app. Il costo per un appartamento di 100 mq varia indicativamente da 3.000 a 10.000 euro in base alle funzioni.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "I migliori sistemi di domotica per la casa hanno cambiato natura negli ultimi anni: da accessorio di lusso a infrastruttura dell'edificio, capace di integrare climatizzazione, illuminazione, sicurezza, ricarica dell'auto elettrica e gestione dell'energia prodotta dal fotovoltaico. Secondo i dati di settore, il mercato italiano della smart home continua a crescere a doppia cifra, trainato dalla riqualificazione energetica e dalla diffusione dei contatori intelligenti. In questa guida confrontiamo i cinque sistemi professionali più diffusi nella filiera edile italiana, quelli che installatori e progettisti specificano nei capitolati."
+    },
+    {
+      "type": "h2",
+      "id": "criteri-scelta-domotica",
+      "text": "Migliori sistemi di domotica: i criteri della nostra classifica"
+    },
+    {
+      "type": "p",
+      "text": "Abbiamo valutato i sistemi su cinque dimensioni: **affidabilità dell'architettura** (cablata su bus, wireless o ibrida), ampiezza delle funzioni gestibili, apertura verso standard di terze parti come KNX e protocollo Matter, qualità dell'app e delle interfacce, e diffusione della rete di installatori certificati in Italia. Un sistema domotico dura decenni: conta più la solidità del produttore e la disponibilità futura di ricambi dell'ultima funzione di tendenza."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Architettura cablata su bus: massima affidabilità, ideale in ristrutturazione e nuova costruzione.",
+        "Sistemi wireless e ibridi: perfetti per interventi senza opere murarie.",
+        "Standard aperti: compatibilità KNX e Matter garantisce l'integrazione futura.",
+        "Gestione energetica: monitoraggio consumi, carichi prioritari e integrazione con fotovoltaico.",
+        "Sicurezza: antintrusione, videosorveglianza e controllo accessi nella stessa piattaforma."
+      ]
+    },
+    {
+      "type": "ranking",
+      "title": "La classifica completa: i 5 migliori sistemi di domotica per la casa",
+      "items": [
+        {
+          "rank": 1,
+          "name": "BTicino MyHome",
+          "url": "https://www.bticino.it",
+          "text": "Il sistema del marchio italiano del gruppo Legrand è il più diffuso nella filiera residenziale nazionale. Architettura su bus proprietario con ampia gamma di comandi, termostati, videocitofonia e gestione energetica, integrabile con assistenti vocali e con lo standard Matter nelle ultime release. Il punto di forza è l'ecosistema completo: placche civili coordinate, app unica, formazione capillare degli installatori e assistenza tecnica su tutto il territorio. Adatto sia al singolo appartamento sia agli edifici multipiano."
+        },
+        {
+          "rank": 2,
+          "name": "Vimar By-me Plus",
+          "url": "https://www.vimar.com",
+          "text": "Il sistema domotico dell'azienda veneta Vimar unisce design delle serie civili e piattaforma tecnica matura: controllo di luci, tapparelle, clima multizona, scenari, energia e sicurezza, con supervisione da app e da touch screen. La logica di programmazione è apprezzata dagli installatori per la flessibilità, e la compatibilità con dispositivi di terze parti è in continua espansione. La rete di distribuzione e assistenza copre capillarmente l'Italia, con corsi di certificazione dedicati ai professionisti."
+        },
+        {
+          "rank": 3,
+          "name": "ABB-free@home",
+          "url": "https://www.abb.com",
+          "text": "Il sistema del gruppo ABB porta la domotica di derivazione KNX nel residenziale con un approccio modulare: funziona sia cablato sia in modalità wireless, ed è particolarmente adatto alle ristrutturazioni perché molte funzioni si attivano senza opere murarie invasive. Gestisce illuminazione, tapparelle, clima, scenari e controllo accessi, con app e comandi vocali. La programmazione semplificata via interfaccia web riduce i tempi di messa in servizio e i costi di installazione."
+        },
+        {
+          "rank": 4,
+          "name": "Gewiss",
+          "url": "https://www.gewiss.com",
+          "text": "L'azienda bergamasca propone un sistema domotico integrato nelle proprie serie civili, con architettura su bus e soluzioni che coprono comfort, sicurezza ed efficienza energetica. I punti qualificanti sono la continuità estetica tra placche tradizionali e comandi domotici, l'offerta completa anche per quadri elettrici e protezioni, e una rete commerciale molto radicata presso installatori e grossisti di materiale elettrico. È una scelta solida per chi vuole un unico interlocutore per tutto l'impianto."
+        },
+        {
+          "rank": 5,
+          "name": "Schneider Electric Wiser",
+          "url": "https://www.se.com",
+          "text": "Wiser è la piattaforma residenziale di Schneider Electric, orientata in modo particolare alla gestione dell'energia: monitoraggio dei consumi per carico, controllo di pompe di calore, ricarica dei veicoli elettrici e integrazione con impianti fotovoltaici e batterie. L'architettura wireless basata su standard aperti la rende flessibile negli interventi su edifici esistenti. Il marchio globale garantisce continuità di sviluppo e compatibilità con un vasto ecosistema di dispositivi di terze parti."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "costi-domotica-casa",
+      "text": "Quanto costa un impianto domotico nel 2026"
+    },
+    {
+      "type": "p",
+      "text": "Secondo le rilevazioni presso installatori e studi di progettazione, un impianto domotico completo per un appartamento di 100 mq costa tra 3.000 e 6.000 euro nella configurazione base (luci, tapparelle, clima), e tra 6.000 e 12.000 euro aggiungendo sicurezza, videocitofonia, audio multiroom e gestione energetica avanzata. Le soluzioni wireless riducono i costi di manodopera del 20-30% perché evitano tracce e opere murarie. In nuova costruzione, la domotica incide mediamente per il 3-5% sul costo complessivo dell'impianto elettrico."
+    },
+    {
+      "type": "table",
+      "caption": "Confronto tra i 5 migliori sistemi di domotica per la casa",
+      "headers": [
+        "Sistema",
+        "Produttore",
+        "Architettura",
+        "Punto di forza",
+        "Indicato per"
+      ],
+      "rows": [
+        [
+          "MyHome",
+          "BTicino",
+          "Bus cablato + wireless",
+          "Ecosistema completo",
+          "Nuove costruzioni"
+        ],
+        [
+          "By-me Plus",
+          "Vimar",
+          "Bus cablato",
+          "Design e flessibilità",
+          "Residenziale di pregio"
+        ],
+        [
+          "ABB-free@home",
+          "ABB",
+          "Cablato + wireless",
+          "Ristrutturazioni rapide",
+          "Edifici esistenti"
+        ],
+        [
+          "Domotica Gewiss",
+          "Gewiss",
+          "Bus cablato",
+          "Integrazione impianto elettrico",
+          "Impianti completi"
+        ],
+        [
+          "Wiser",
+          "Schneider Electric",
+          "Wireless standard aperti",
+          "Gestione energia",
+          "Case con fotovoltaico"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "come-scegliere-domotica",
+      "text": "Come scegliere tra i migliori sistemi di domotica per la casa"
+    },
+    {
+      "type": "p",
+      "text": "La prima scelta è l'architettura: in ristrutturazione con opere murarie conviene il bus cablato, più affidabile e duraturo; senza opere, il wireless professionale è la strada giusta. Verificate la compatibilità con lo standard Matter e con KNX per non restare vincolati a un solo ecosistema. Chiedete all'installatore la certificazione del produttore e un contratto di assistenza. Infine, progettate le funzioni per scenari reali: ingresso-uscita, notte, vacanza, gestione blackout. Un impianto semplice usato tutti i giorni vale più di un impianto complesso usato a metà."
+    },
+    {
+      "type": "quote",
+      "text": "La domotica che funziona è quella invisibile: il miglior sistema è quello che la famiglia usa senza accorgersene, con automazioni che riducono consumi e gesti quotidiani.",
+      "source": "Analisi della Redazione su indicazioni di installatori certificati"
+    },
+    {
+      "type": "h2",
+      "id": "domotica-risparmio-energetico",
+      "text": "Domotica e risparmio energetico: quanto si risparmia davvero"
+    },
+    {
+      "type": "p",
+      "text": "I dati di letteratura tecnica indicano risparmi tra il 10% e il 25% sui consumi termici ed elettrici grazie a termoregolazione evoluta, spegnimento dei carichi inutilizzati e ottimizzazione dell'autoconsumo fotovoltaico. Il beneficio maggiore arriva dall'abbinamento con pompe di calore e batterie: il sistema decide quando accumulare, quando ricaricare l'auto e quando modulare il clima in funzione delle tariffe orarie. In ottica di direttiva Case Green, la building automation diventa un requisito sempre più centrale nella valutazione energetica degli edifici."
+    },
+    {
+      "type": "p",
+      "text": "In sintesi, i cinque sistemi della classifica coprono ogni scenario: dal cantiere nuovo all'appartamento da ristrutturare senza demolizioni. Il consiglio è affidarsi a un installatore certificato dal produttore scelto e richiedere uno schema funzionale scritto prima dell'offerta economica."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto costa rendere domotica una casa di 100 mq?",
+      "a": "Tra 3.000 e 6.000 euro per le funzioni base (luci, tapparelle, clima) e tra 6.000 e 12.000 euro per impianti completi con sicurezza, energia e audio. Le soluzioni wireless professionali riducono i costi di manodopera perché evitano opere murarie."
+    },
+    {
+      "q": "Meglio domotica cablata o wireless?",
+      "a": "Il cablato su bus è più affidabile e dura decenni: è la scelta giusta in nuova costruzione o ristrutturazione importante. Il wireless professionale è ideale negli edifici esistenti senza opere murarie. Molti sistemi moderni sono ibridi e combinano entrambe le tecnologie."
+    },
+    {
+      "q": "La domotica fa risparmiare davvero energia?",
+      "a": "Sì: termoregolazione evoluta, gestione dei carichi e ottimizzazione dell'autoconsumo possono ridurre i consumi del 10-25%. Il beneficio cresce con fotovoltaico, pompa di calore e ricarica dell'auto elettrica gestite dalla stessa piattaforma."
+    },
+    {
+      "q": "Si può installare la domotica in una casa già abitata?",
+      "a": "Sì, con i sistemi wireless e ibridi si può domotizzare una casa esistente senza tracce né opere murarie, sostituendo interruttori e prese con attuatori intelligenti. I tempi di intervento sono in genere di pochi giorni per un appartamento."
+    },
+    {
+      "q": "Cosa succede al sistema domotico se salta internet?",
+      "a": "I sistemi professionali funzionano in locale: luci, clima e automazioni continuano a operare anche senza connessione. Internet serve solo per il controllo da remoto e gli aggiornamenti. È una differenza fondamentale rispetto ai dispositivi smart consumer basati solo sul cloud."
+    }
+  ],
+  "section": "Innovazione e BIM",
+  "sectionSlug": "innovazione"
+}

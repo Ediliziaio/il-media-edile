@@ -1,0 +1,24 @@
+# Il Media Edile
+
+> Il Media Edile è il blog di informazione dedicato all'edilizia italiana: news di settore,
+> norme e bonus, mercato, materiali e prodotti, impianti, innovazione BIM e sostenibilità,
+> con classifiche indipendenti dei migliori produttori selezionate dalla redazione.
+
+Lingua: italiano. Contenuto redazionale verificato, aggiornato regolarmente.
+Le classifiche Top 10 e Top 5 sono redazionali e indipendenti: nessuna posizione è in vendita.
+
+## Sezioni
+
+- [News](https://www.ilmediaedile.it/news): attualità, cantieri, eventi del settore costruzioni
+- [Norme e Bonus](https://www.ilmediaedile.it/norme-bonus): Superbonus, incentivi, sicurezza, normativa
+- [Mercato e Imprese](https://www.ilmediaedile.it/mercato): prezzi, mercato immobiliare, grandi imprese
+- [Materiali e Prodotti](https://www.ilmediaedile.it/materiali-prodotti): serramenti, ceramiche, porte, parquet, coperture
+- [Impianti ed Efficienza](https://www.ilmediaedile.it/impianti): fotovoltaico, pompe di calore, caldaie, ascensori
+- [Innovazione e BIM](https://www.ilmediaedile.it/innovazione): BIM, software, domotica, digitalizzazione
+- [Sostenibilità](https://www.ilmediaedile.it/sostenibilita): Case Green, certificazioni LEED/BREEAM/ITACA, isolanti
+- [Le Classifiche](https://www.ilmediaedile.it/classifiche): indice di tutte le Top 10 e Top 5
+
+## Contatto
+
+- Redazione: redazione@ilmediaedile.it
+- Pubblicità: advertising@ilmediaedile.it

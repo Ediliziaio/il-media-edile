@@ -1,0 +1,146 @@
+{
+  "slug": "bim-obbligatorio-appalti-2026",
+  "title": "BIM obbligatorio negli appalti pubblici: cosa devono sapere le imprese",
+  "seoTitle": "BIM obbligatorio negli appalti: guida 2026 | Il Media Edile",
+  "metaDescription": "BIM obbligatorio negli appalti pubblici: soglie, scadenze e requisiti per imprese e professionisti. Scopri cosa prevede il Codice e come adeguarsi al digitale.",
+  "category": "News",
+  "categorySlug": "news",
+  "tags": [
+    "bim",
+    "appalti pubblici",
+    "digitalizzazione",
+    "codice appalti",
+    "progettazione"
+  ],
+  "author": "Redazione Media Edile",
+  "date": "2026-07-21",
+  "updated": "2026-07-21",
+  "readTime": 10,
+  "answerBox": "Il BIM obbligatorio negli appalti pubblici è previsto dal Codice dei contratti pubblici con un percorso progressivo per soglie di importo: le stazioni appaltanti devono richiedere i metodi e gli strumenti della modellazione digitale per le nuove opere e per le opere di ristrutturazione al di sopra delle soglie fissate dai decreti attuativi, con estensione graduale nel tempo. Per imprese e professionisti significa investire in software, figure specializzate (BIM manager, BIM coordinator, BIM specialist) e procedure di gestione informativa certificabili.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Quando scatta l'obbligo, per quali importi, quali figure professionali servono e quanto costa adeguarsi: la diffusione del BIM — Building Information Modeling — negli appalti pubblici italiani sta entrando nella fase matura, e per migliaia di imprese e studi di progettazione la domanda non è più se digitalizzare i processi, ma con quali tempi e con quali investimenti. Ecco la mappa completa di un passaggio che ridisegna il modo di progettare e costruire le opere pubbliche."
+    },
+    {
+      "type": "h2",
+      "id": "bim-obbligatorio-codice-appalti",
+      "text": "BIM obbligatorio: cosa prevede il Codice degli appalti"
+    },
+    {
+      "type": "p",
+      "text": "Il [Codice dei contratti pubblici](https://www.gazzettaufficiale.it/eli/id/2023/03/31/23G00043/sg) — D.Lgs 36/2023, pubblicato sulla [Gazzetta Ufficiale](https://www.gazzettaufficiale.it) — ha introdotto l'obbligo di utilizzo di metodi e strumenti di modellazione informativa digitale per le opere pubbliche, con un meccanismo di applicazione **progressiva per soglie dimensionali** definito dai decreti attuativi. La logica è quella di partire dalle opere di maggiore importo e complessità per scendere gradualmente verso soglie più basse, coinvolgendo nel tempo anche interventi di taglia medio-piccola. La progettazione BIM riguarda sia le nuove costruzioni sia le ristrutturazioni rilevanti, con particolare attenzione alle opere di urbanizzazione e alle infrastrutture."
+    },
+    {
+      "type": "p",
+      "text": "Il perno operativo è il **capitolato informativo** della stazione appaltante, che definisce requisiti del modello, livelli di sviluppo informativo, formati di scambio e ambiente di condivisione dei dati. Le offerte devono dimostrare la capacità dell'operatore economico di rispondere a questi requisiti, con ricadute dirette sui criteri di aggiudicazione."
+    },
+    {
+      "type": "table",
+      "caption": "Il percorso di applicazione del BIM negli appalti pubblici italiani",
+      "headers": [
+        "Aspetto",
+        "Contenuto",
+        "Implicazione per gli operatori"
+      ],
+      "rows": [
+        [
+          "Soglie di applicazione",
+          "Obbligo progressivo per fasce di importo decrescenti",
+          "Monitorare le soglie vigenti per capire quando si è coinvolti"
+        ],
+        [
+          "Capitolato informativo",
+          "Requisiti del modello definiti dalla stazione appaltante",
+          "Saper leggere e rispondere ai requisiti informativi di gara"
+        ],
+        [
+          "Figure professionali",
+          "BIM manager, coordinator, specialist",
+          "Investire in personale formato o in partnership qualificate"
+        ],
+        [
+          "Formati e interoperabilità",
+          "Standard aperti e ambienti di condivisione dati",
+          "Dotarsi di piattaforme e procedure conformi"
+        ],
+        [
+          "Criteri di gara",
+          "Capacità BIM premiata nei punteggi tecnici",
+          "Trasformare la competenza digitale in vantaggio competitivo"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "figure-professionali-bim",
+      "text": "Le figure professionali e le competenze richieste"
+    },
+    {
+      "type": "p",
+      "text": "La diffusione del BIM ha creato una nuova geografia di professioni nel settore delle costruzioni. Il **BIM manager** definisce procedure, standard e protocolli di gestione informativa; il **BIM coordinator** governa la federazione dei modelli multidisciplinari e il coordinamento tra le discipline; il **BIM specialist** produce e gestisce i modelli delle singole discipline. Secondo gli osservatori di settore, la domanda di queste figure supera l'offerta, e la certificazione delle competenze — secondo gli standard riconosciuti — è diventata un requisito spendibile in gara e sul mercato del lavoro."
+    },
+    {
+      "type": "quote",
+      "text": "Il BIM non è un software da comprare ma un metodo di lavoro da adottare: le imprese che lo interpretano come un semplice adempimento ne raccolgono i costi, quelle che lo integrano nei processi ne raccolgono i benefici.",
+      "source": "Osservazioni raccolte dalla redazione tra professionisti della progettazione digitale"
+    },
+    {
+      "type": "h2",
+      "id": "bim-piccole-medie-imprese",
+      "text": "L'impatto sulle piccole e medie imprese"
+    },
+    {
+      "type": "p",
+      "text": "Il tema più sensibile riguarda il tessuto delle piccole e medie imprese, cuore del sistema produttivo edile italiano. Per una realtà di pochi addetti, gli investimenti in licenze, hardware e formazione possono essere rilevanti. Le stime degli analisti indicano però che il mercato sta maturando soluzioni proporzionate: **servizi BIM in outsourcing**, consorzi tra professionisti, piattaforme in abbonamento e percorsi formativi finanziati dai fondi interprofessionali. Gli avvalimenti e i raggruppamenti temporanei permettono inoltre di partecipare a gare con requisiti digitali elevati senza possederli interamente in proprio."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mappare le gare di interesse e verificare le soglie di obbligo BIM applicabili",
+        "Definire un piano di investimento: software, hardware, formazione del personale",
+        "Certificare le competenze delle figure chiave secondo gli standard riconosciuti",
+        "Valutare partnership, RTI o servizi esterni per colmare i gap di competenza",
+        "Adottare procedure documentate di gestione informativa, riutilizzabili in ogni gara",
+        "Trasformare la capacità BIM in elemento distintivo dell'offerta tecnica"
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "benefici-bim-cantiere-obbligatorio",
+      "text": "Dal BIM obbligatorio al cantiere digitale: i benefici attesi"
+    },
+    {
+      "type": "p",
+      "text": "Al di là dell'adempimento, la modellazione informativa promette benefici concreti lungo tutto il ciclo di vita dell'opera: **riduzione degli errori di progettazione** e delle varianti in corso d'opera, **coordinamento preventivo** delle interferenze tra strutture e impianti, **computi metrici** più affidabili, gestione informatizzata della manutenzione futura. Secondo gli osservatori, le esperienze più mature mostrano risparmi sui tempi e sui costi di esecuzione che compensano l'investimento iniziale. La prospettiva di medio periodo è l'integrazione con il **digital twin** delle infrastrutture e con i fascicoli digitali del fabbricato: per le imprese che sapranno posizionarsi su questa frontiera, il BIM obbligatorio si rivelerà non un vincolo, ma la porta di accesso al mercato delle costruzioni del prossimo decennio."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quando è obbligatorio il BIM negli appalti pubblici in Italia?",
+      "a": "L'obbligo è applicato in modo progressivo per soglie di importo, partendo dalle opere di maggiore dimensione e complessità fino a soglie più basse, secondo quanto stabilito dal Codice dei contratti pubblici e dai decreti attuativi. Le imprese devono verificare le soglie vigenti al momento di ogni gara."
+    },
+    {
+      "q": "Il BIM obbligatorio riguarda anche le ristrutturazioni?",
+      "a": "Sì, la disciplina riguarda sia le nuove opere sia gli interventi sul patrimonio esistente al di sopra delle soglie previste, incluse le ristrutturazioni rilevanti e le opere di urbanizzazione. Per l'esistente la modellazione parte spesso da rilievi strumentali e scansioni dello stato di fatto."
+    },
+    {
+      "q": "Quali figure professionali servono per lavorare in BIM?",
+      "a": "Le figure di riferimento sono il BIM manager, che definisce procedure e standard; il BIM coordinator, che coordina i modelli multidisciplinari; e il BIM specialist, che produce i modelli delle singole discipline. La certificazione delle competenze secondo gli standard riconosciuti è sempre più richiesta nelle gare."
+    },
+    {
+      "q": "Quanto costa a una piccola impresa adeguarsi al BIM?",
+      "a": "I costi variano in base a software, hardware e formazione, e possono essere significativi per le realtà più piccole. Il mercato offre però soluzioni proporzionate: piattaforme in abbonamento, servizi in outsourcing, consorzi tra professionisti e formazione finanziata dai fondi interprofessionali, oltre agli avvalimenti in gara."
+    },
+    {
+      "q": "Il BIM è obbligatorio anche per i subappalti e i privati?",
+      "a": "L'obbligo normativo riguarda gli appalti pubblici secondo le soglie previste, ma gli effetti si propagano alla filiera: le stazioni appaltanti e i general contractor estendono spesso i requisiti informativi a subappaltatori e fornitori. Nel mercato privato il BIM non è obbligatorio per legge, ma è sempre più richiesto dai committenti evoluti."
+    },
+    {
+      "q": "Quali sono i vantaggi concreti del BIM in cantiere?",
+      "a": "Secondo gli osservatori, i benefici principali sono la riduzione di errori e varianti in corso d'opera, il coordinamento preventivo delle interferenze tra discipline, computi più affidabili e una base informativa per la manutenzione futura dell'opera. Le esperienze mature registrano risparmi su tempi e costi che compensano l'investimento iniziale."
+    }
+  ],
+  "section": "Innovazione e BIM",
+  "sectionSlug": "innovazione"
+}

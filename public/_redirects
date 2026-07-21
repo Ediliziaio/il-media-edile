@@ -1,0 +1,4 @@
+# Fallback SPA (Netlify / hosting statico):
+# le rotte pre-renderizzate sono servite come file statici;
+# il fallback copre solo le rotte non pre-renderizzate (es. /cerca?q=...).
+/* /index.html 200
