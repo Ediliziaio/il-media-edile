@@ -10,7 +10,7 @@ import {
   getBySection,
   getRankings,
   articleUrl,
-  heroImage,
+  ogImage,
   inlineImage,
   SITE_URL,
   SITE_NAME,
@@ -178,16 +178,23 @@ export function staticPageSeo(page: StaticPageId): SeoOptions {
   return { title: c.title, description: c.description, canonical: `${SITE_URL}/${page}` }
 }
 
+export function notFoundSeo(): SeoOptions {
+  return {
+    title: `Pagina non trovata (404) — ${SITE_NAME}`,
+    description: 'La pagina richiesta non esiste o è stata spostata.',
+  }
+}
+
 export function articleSeo(article: Article): SeoOptions {
   const url = `${SITE_URL}${articleUrl(article)}`
-  const hero = `${SITE_URL}${heroImage(article)}`
+  const og = `${SITE_URL}${ogImage(article)}`
   const ranking = article.blocks.find((b): b is Extract<ArticleBlock, { type: 'ranking' }> => b.type === 'ranking')
   return {
     title: article.seoTitle,
     description: article.metaDescription,
     canonical: url,
     type: 'article',
-    image: hero,
+    image: og,
     published: article.date,
     modified: article.updated,
     section: article.section,
@@ -202,9 +209,9 @@ export function articleSeo(article: Article): SeoOptions {
         image: [
           {
             '@type': 'ImageObject',
-            url: hero,
-            width: 2048,
-            height: 1152,
+            url: og,
+            width: 1200,
+            height: 630,
             caption: article.title,
           },
           `${SITE_URL}${inlineImage(article)}`,

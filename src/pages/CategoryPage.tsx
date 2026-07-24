@@ -6,20 +6,15 @@ import { ArticleCard } from '@/components/ArticleCard'
 import { AdSlot } from '@/components/AdSlot'
 import { NewsletterBox } from '@/components/NewsletterBox'
 import { ChevronRight } from 'lucide-react'
+import NotFound from './NotFound'
 
 export default function CategoryPage() {
   const { categorySlug } = useParams<{ categorySlug: string }>()
   const section = sections.find((s) => s.slug === categorySlug)
 
-  if (!section) {
-    return (
-      <main className="mx-auto max-w-3xl px-4 py-20 text-center">
-        <h1 className="font-headline text-3xl font-extrabold">Sezione non trovata</h1>
-        <p className="mt-4 text-neutral-600">La sezione richiesta non esiste.</p>
-        <Link to="/" className="mt-6 inline-block text-[#0e9447] font-semibold hover:underline">Torna alla home page</Link>
-      </main>
-    )
-  }
+  // Sezione inesistente: stessa pagina 404 unica del sito (coerente col 404.html
+  // servito da Vercel → nessun mismatch d'idratazione).
+  if (!section) return <NotFound />
 
   const items = getBySection(section.slug)
   const featured = items[0]

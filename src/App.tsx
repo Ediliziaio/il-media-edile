@@ -13,6 +13,7 @@ const TagPage = lazy(() => import('@/pages/TagPage'))
 const SearchPage = lazy(() => import('@/pages/SearchPage'))
 const StaticPage = lazy(() => import('@/pages/StaticPage'))
 const NewsletterPage = lazy(() => import('@/pages/NewsletterPage'))
+const NotFound = lazy(() => import('@/pages/NotFound'))
 
 function PageFallback() {
   return (
@@ -42,6 +43,8 @@ export default function App() {
             <Route path="/cookie-policy" element={<StaticPage page="cookie-policy" />} />
             <Route path="/:categorySlug" element={<CategoryPage />} />
             <Route path="/:categorySlug/:slug" element={<ArticlePage />} />
+            <Route path="/404" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
       </div>

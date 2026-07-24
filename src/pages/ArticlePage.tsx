@@ -7,20 +7,15 @@ import { AdSlot } from '@/components/AdSlot'
 import { NewsletterBox } from '@/components/NewsletterBox'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Clock, ChevronRight, Tag, User, CalendarDays, ListOrdered, ExternalLink, Download } from 'lucide-react'
+import NotFound from './NotFound'
 
 export default function ArticlePage() {
   const { slug } = useParams<{ slug: string }>()
   const article = slug ? getArticle(slug) : undefined
 
-  if (!article) {
-    return (
-      <main className="mx-auto max-w-3xl px-4 py-20 text-center">
-        <h1 className="font-headline text-3xl font-extrabold">Articolo non trovato</h1>
-        <p className="mt-4 text-neutral-600">L'articolo richiesto non esiste o è stato spostato.</p>
-        <Link to="/" className="mt-6 inline-block text-[#0e9447] font-semibold hover:underline">Torna alla home page</Link>
-      </main>
-    )
-  }
+  // Articolo inesistente: pagina 404 unica del sito (coerente col 404.html
+  // servito da Vercel → nessun mismatch d'idratazione).
+  if (!article) return <NotFound />
 
   const color = sectionColors[article.sectionSlug] ?? '#0e9447'
   const toc = article.blocks.filter((b): b is Extract<ArticleBlock, { type: 'h2' }> => b.type === 'h2')
@@ -88,8 +83,10 @@ export default function ArticlePage() {
               <img
                 src={heroImage(article)}
                 alt={article.title}
-                width={2048}
-                height={1152}
+                width={1600}
+                height={825}
+                fetchPriority="high"
+                decoding="async"
                 itemProp="image"
                 className="w-full aspect-video object-cover rounded-xl"
               />

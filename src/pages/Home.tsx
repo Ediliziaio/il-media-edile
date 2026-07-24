@@ -18,6 +18,12 @@ export default function Home() {
 
   return (
     <main>
+      {/* H1 unico della home: definisce l'entità della testata per i motori.
+          sr-only per non competere con il masthead grafico dell'Header. */}
+      <h1 className="sr-only">
+        Il Media Edile — notizie, classifiche e guide sull'edilizia italiana
+      </h1>
+
       {/* Leaderboard top */}
       <div className="mx-auto max-w-7xl px-4 pt-4">
         <AdSlot slot="leaderboard-top" format="leaderboard" />

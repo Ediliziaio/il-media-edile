@@ -98,6 +98,27 @@ for (const path of paths) {
   }
 }
 
+// --- pagina 404 -----------------------------------------------------------
+// Vercel serve dist/404.html con status HTTP 404 per ogni URL senza file
+// statico. La marchiamo noindex (non deve mai entrare nell'indice).
+try {
+  const seo404 = { title: `Pagina non trovata (404) — Il Media Edile`, description: 'La pagina richiesta non esiste o è stata spostata.' }
+  // path a 3 segmenti: nessuna rotta lo matcha tranne il catch-all "*" → NotFound
+  const appHtml = render('/__not-found__/_/_')
+  let html = applySeo(template, seo404)
+  html = html.replace(
+    /<meta name="robots" content="[^"]*" \/>/,
+    '<meta name="robots" content="noindex, follow" />',
+  )
+  // rimuove il canonical: una 404 non deve dichiararne uno
+  html = html.replace(/\s*<link rel="canonical" href="[^"]*" \/>/, '')
+  html = replaceOnce(html, '<div id="root"></div>', `<div id="root">${appHtml}</div>`, '#root')
+  writeFileSync(join(dist, '404.html'), html)
+  console.log('[prerender] 404.html generato (noindex)')
+} catch (err) {
+  failed.push(`404.html: ${err.message}`)
+}
+
 console.log(`[prerender] ${written}/${paths.length} rotte pre-renderizzate`)
 if (failed.length) {
   console.error('[prerender] rotte fallite:\n  ' + failed.join('\n  '))

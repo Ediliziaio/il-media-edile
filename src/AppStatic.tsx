@@ -10,6 +10,7 @@ import TagPage from '@/pages/TagPage'
 import SearchPage from '@/pages/SearchPage'
 import StaticPage from '@/pages/StaticPage'
 import NewsletterPage from '@/pages/NewsletterPage'
+import NotFound from '@/pages/NotFound'
 
 /**
  * Variante di App per il rendering server-side (pre-rendering):
@@ -34,6 +35,8 @@ export default function AppStatic() {
           <Route path="/cookie-policy" element={<StaticPage page="cookie-policy" />} />
           <Route path="/:categorySlug" element={<CategoryPage />} />
           <Route path="/:categorySlug/:slug" element={<ArticlePage />} />
+          <Route path="/404" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
