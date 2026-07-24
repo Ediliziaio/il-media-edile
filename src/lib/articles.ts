@@ -101,8 +101,14 @@ export function articleUrl(a: Article): string {
   return `/${a.sectionSlug}/${a.slug}`
 }
 
+/** Immagine di copertina visibile (hero in pagina): WebP leggero per l'LCP. */
 export function heroImage(a: Article): string {
-  return `/images/${a.slug}-photo.png`
+  return `/images/${a.slug}-photo.webp`
+}
+
+/** Immagine per Open Graph / Twitter / JSON-LD: JPG 1200×630, compatibile ovunque. */
+export function ogImage(a: Article): string {
+  return `/images/${a.slug}-og.jpg`
 }
 
 export function inlineImage(a: Article): string {
