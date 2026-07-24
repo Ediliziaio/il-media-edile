@@ -1,4 +1,39 @@
+# Il Media Edile — robots.txt
+# Tutto il sito è indicizzabile e citabile. Nessun blocco.
+
 User-agent: *
+Allow: /
+
+# --- Motori di ricerca ---
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Applebot
+Allow: /
+
+# --- Crawler AI / generative engine (citabilità esplicita) ---
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: CCBot
 Allow: /
 
 Sitemap: https://www.ilmediaedile.it/sitemap.xml
