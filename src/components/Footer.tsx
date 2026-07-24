@@ -55,9 +55,16 @@ export function Footer() {
         </nav>
       </div>
       <div className="border-t border-neutral-800">
-        <div className="mx-auto max-w-7xl px-4 py-4 text-xs text-neutral-500 flex flex-col md:flex-row justify-between gap-2">
-          <span>© {new Date().getFullYear()} Il Media Edile — Informazione · Edilizia · Imprese</span>
-          <span>Redazione: redazione@ilmediaedile.it</span>
+        <div className="mx-auto max-w-7xl px-4 py-4 text-xs text-neutral-500 space-y-2">
+          <div className="flex flex-col md:flex-row justify-between gap-2">
+            <span>© {new Date().getFullYear()} Il Media Edile — Informazione · Edilizia · Imprese</span>
+            <span>Redazione: redazione@ilmediaedile.it</span>
+          </div>
+          <p className="text-neutral-600 leading-relaxed">
+            Il Media Edile è una testata editoriale di <strong className="text-neutral-400">Domus Group S.r.l.</strong> —
+            Sede legale: Via Aurelio Saffi 29, CAP 20123 · P.IVA 13132010961 ·
+            Capitale sociale 20.000,00&nbsp;€ i.v. · PEC: domusgroupsrl@legalmail.it
+          </p>
         </div>
       </div>
     </footer>
