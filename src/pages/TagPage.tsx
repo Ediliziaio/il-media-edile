@@ -1,14 +1,20 @@
 import { Link, useParams } from 'react-router'
-import { getByTag, getAllTags } from '@/lib/articles'
+import { getByTag, getAllTags, tagSlug, tagFromSlug } from '@/lib/articles'
 import { useSeo } from '@/lib/seo'
 import { tagSeo } from '@/lib/seoData'
 import { ArticleCard } from '@/components/ArticleCard'
 import { AdSlot } from '@/components/AdSlot'
 import { ChevronRight, Tag } from 'lucide-react'
+import NotFound from './NotFound'
 
 export default function TagPage() {
   const { tag } = useParams<{ tag: string }>()
-  const decoded = decodeURIComponent(tag ?? '')
+  // Il segmento URL è uno slug (es. "bonus-edilizi"): risolvi al tag originale.
+  const decoded = tagFromSlug(tag ?? '')
+
+  // Tag inesistente: pagina 404 unica del sito.
+  if (!decoded) return <NotFound />
+
   const items = getByTag(decoded)
   const allTags = getAllTags()
 
@@ -50,7 +56,7 @@ export default function TagPage() {
                 {allTags.map(({ tag: t, count }) => (
                   <Link
                     key={t}
-                    to={`/tag/${encodeURIComponent(t)}`}
+                    to={`/tag/${tagSlug(t)}`}
                     className={`text-xs px-3 py-1.5 rounded-full border transition-colors ${
                       t === decoded
                         ? 'bg-[#0e9447] text-white border-[#0e9447]'

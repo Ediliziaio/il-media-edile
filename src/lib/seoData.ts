@@ -12,6 +12,8 @@ import {
   articleUrl,
   ogImage,
   inlineImage,
+  tagSlug,
+  tagFromSlug,
   SITE_URL,
   SITE_NAME,
   type Article,
@@ -122,15 +124,16 @@ export function classificheSeo(): SeoOptions {
 }
 
 export function tagSeo(tag: string): SeoOptions {
+  const url = `${SITE_URL}/tag/${tagSlug(tag)}`
   return {
     title: `#${tag} — articoli e guide | ${SITE_NAME}`,
     description: `Tutti gli articoli de Il Media Edile su "${tag}": news, guide e classifiche del settore edile aggiornate dalla redazione.`,
-    canonical: `${SITE_URL}/tag/${encodeURIComponent(tag)}`,
+    canonical: url,
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
       name: `#${tag} — ${SITE_NAME}`,
-      url: `${SITE_URL}/tag/${encodeURIComponent(tag)}`,
+      url,
       inLanguage: 'it-IT',
       isPartOf: { '@id': `${SITE_URL}/#website` },
     },
@@ -273,7 +276,10 @@ export function getSeoForPath(path: string): SeoOptions | null {
   const staticId = p.slice(1) as StaticPageId
   if (staticId in STATIC_PAGES) return staticPageSeo(staticId)
   const tagMatch = p.match(/^\/tag\/(.+)$/)
-  if (tagMatch) return tagSeo(decodeURIComponent(tagMatch[1]))
+  if (tagMatch) {
+    const tag = tagFromSlug(tagMatch[1])
+    return tag ? tagSeo(tag) : null
+  }
   const segs = p.slice(1).split('/')
   if (segs.length === 1) {
     const section = sections.find((s) => s.slug === segs[0])
@@ -300,6 +306,6 @@ export function getAllPrerenderPaths(): string[] {
   ]
   for (const s of sections) paths.push(`/${s.slug}`)
   for (const a of articles) paths.push(articleUrl(a))
-  for (const { tag } of getAllTags()) paths.push(`/tag/${encodeURIComponent(tag)}`)
+  for (const { tag } of getAllTags()) paths.push(`/tag/${tagSlug(tag)}`)
   return paths
 }

@@ -125,3 +125,28 @@ export function getAllTags(): { tag: string; count: number }[] {
 export function getByTag(tag: string): Article[] {
   return articles.filter((a) => a.tags.includes(tag))
 }
+
+/** Slug URL-safe di un tag (niente %20): "Bonus edilizi" -> "bonus-edilizi". */
+export function tagSlug(tag: string): string {
+  return tag
+    .normalize('NFKD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+// Mappa slug -> tag originale (primo tag che genera quello slug).
+const tagBySlug: Record<string, string> = (() => {
+  const m: Record<string, string> = {}
+  for (const a of articles) for (const t of a.tags) {
+    const s = tagSlug(t)
+    if (!(s in m)) m[s] = t
+  }
+  return m
+})()
+
+/** Ricava il tag originale dal suo slug URL (undefined se sconosciuto). */
+export function tagFromSlug(slug: string): string | undefined {
+  return tagBySlug[slug]
+}

@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router'
-import { getArticle, getRelated, formatDate, renderInline, heroImage, inlineImage, sectionColors, SITE_NAME, type ArticleBlock } from '@/lib/articles'
+import { getArticle, getRelated, formatDate, renderInline, heroImage, inlineImage, sectionColors, tagSlug, SITE_NAME, type ArticleBlock } from '@/lib/articles'
 import { useSeo } from '@/lib/seo'
 import { articleSeo } from '@/lib/seoData'
 import { ArticleCard } from '@/components/ArticleCard'
@@ -159,7 +159,7 @@ export default function ArticlePage() {
               {article.tags.map((t) => (
                 <Link
                   key={t}
-                  to={`/tag/${encodeURIComponent(t)}`}
+                  to={`/tag/${tagSlug(t)}`}
                   className="text-xs bg-neutral-100 hover:bg-[#0e9447] hover:text-white text-neutral-700 px-3 py-1 rounded-full transition-colors"
                   itemProp="keywords"
                 >
