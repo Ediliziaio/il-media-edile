@@ -1,5 +1,5 @@
 import { Link, NavLink, useNavigate } from 'react-router'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { sections, articles, articleUrl } from '@/lib/articles'
 import { Search, Menu, X, Flame } from 'lucide-react'
 
@@ -13,6 +13,10 @@ function todayLine(): string {
 export function Header() {
   const [q, setQ] = useState('')
   const [open, setOpen] = useState(false)
+  // Data calcolata solo nel browser: nel pre-rendering (build) resterebbe
+  // congelata al giorno del build. Vuota lato server, impostata al montaggio.
+  const [today, setToday] = useState('')
+  useEffect(() => { setToday(todayLine()) }, [])
   const navigate = useNavigate()
   const tickerItems = articles.filter((a) => a.categorySlug === 'news').slice(0, 6)
 
@@ -44,7 +48,7 @@ export function Header() {
       {/* Masthead */}
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex items-center justify-between gap-4 py-3">
-          <div className="hidden lg:block text-xs text-neutral-400 w-52">{todayLine()}</div>
+          <div className="hidden lg:block text-xs text-neutral-400 w-52" suppressHydrationWarning>{today}</div>
           <Link to="/" className="block" aria-label="Il Media Edile — home page">
             <img src="/logo.png" alt="Il Media Edile — Informazione, Edilizia, Imprese" className="h-11 md:h-14 w-auto" />
           </Link>
