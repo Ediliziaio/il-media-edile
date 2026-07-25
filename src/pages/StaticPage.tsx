@@ -41,18 +41,18 @@ const content: Record<Props['page'], { body: ReactElement }> = {
       <>
         <h2>Redazione</h2>
         <p>
-          Per comunicati stampa, segnalazioni e proposte di collaborazione: <strong>redazione@ilmediaedile.it</strong>
+          Per comunicati stampa, segnalazioni e proposte di collaborazione: <strong>redazione@mediaedile.it</strong>
         </p>
         <h2>Pubblicità</h2>
         <p>
           Il Media Edile offre spazi pubblicitari in formati IAB standard: leaderboard 728×90, billboard 970×250,
           medium rectangle 300×250, half page 300×600 e posizioni in-feed native. Per il media kit e le tariffe:
-          <strong> advertising@ilmediaedile.it</strong>
+          <strong> advertising@mediaedile.it</strong>
         </p>
         <h2>Ufficio stampa e partnership</h2>
         <p>
           Aziende e associazioni di categoria interessate a partnership editoriali possono scrivere a
-          <strong> partnership@ilmediaedile.it</strong>
+          <strong> partnership@mediaedile.it</strong>
         </p>
       </>
     ),
@@ -65,7 +65,7 @@ const content: Record<Props['page'], { body: ReactElement }> = {
           Il Media Edile, ai sensi del Regolamento (UE) 2016/679 (GDPR).
         </p>
         <h2>Titolare del trattamento</h2>
-        <p>Il titolare del trattamento è Il Media Edile, contattabile all'indirizzo privacy@ilmediaedile.it.</p>
+        <p>Il titolare del trattamento è Il Media Edile, contattabile all'indirizzo privacy@mediaedile.it.</p>
         <h2>Dati raccolti</h2>
         <p>
           Il sito raccoglie: dati di navigazione anonimizzati a fini statistici; l'indirizzo email fornito
@@ -79,7 +79,7 @@ const content: Record<Props['page'], { body: ReactElement }> = {
         <h2>Diritti dell'interessato</h2>
         <p>
           L'utente può esercitare in qualsiasi momento i diritti di accesso, rettifica, cancellazione, limitazione e
-          portabilità scrivendo a privacy@ilmediaedile.it, e proporre reclamo al Garante per la protezione dei dati
+          portabilità scrivendo a privacy@mediaedile.it, e proporre reclamo al Garante per la protezione dei dati
           personali.
         </p>
       </>

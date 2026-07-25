@@ -2,7 +2,7 @@
 """Genera public/sitemap.xml dagli articoli JSON de Il Media Edile.
 
 Regole:
-- dominio canonico = https://www.ilmediaedile.it (coerente con canonical/robots).
+- dominio canonico = https://www.mediaedile.it (coerente con canonical/robots).
 - lastmod reali: sezioni e home ereditano la data dell'articolo piu recente.
 - niente pagine sottili: le pagine /tag sono incluse solo se hanno >= 2 articoli
   (i tag mono-articolo restano navigabili ma fuori dalla sitemap, per non
@@ -22,7 +22,7 @@ def tag_slug(tag: str) -> str:
     return t.strip("-")
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SITE = "https://www.ilmediaedile.it"
+SITE = "https://www.mediaedile.it"
 
 SECTION_SLUGS = ["news", "norme-bonus", "mercato", "materiali-prodotti",
                  "impianti", "innovazione", "sostenibilita"]

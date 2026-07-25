@@ -9,16 +9,16 @@ Le classifiche Top 10 e Top 5 sono redazionali e indipendenti: nessuna posizione
 
 ## Sezioni
 
-- [News](https://www.ilmediaedile.it/news): attualità, cantieri, eventi del settore costruzioni
-- [Norme e Bonus](https://www.ilmediaedile.it/norme-bonus): Superbonus, incentivi, sicurezza, normativa
-- [Mercato e Imprese](https://www.ilmediaedile.it/mercato): prezzi, mercato immobiliare, grandi imprese
-- [Materiali e Prodotti](https://www.ilmediaedile.it/materiali-prodotti): serramenti, ceramiche, porte, parquet, coperture
-- [Impianti ed Efficienza](https://www.ilmediaedile.it/impianti): fotovoltaico, pompe di calore, caldaie, ascensori
-- [Innovazione e BIM](https://www.ilmediaedile.it/innovazione): BIM, software, domotica, digitalizzazione
-- [Sostenibilità](https://www.ilmediaedile.it/sostenibilita): Case Green, certificazioni LEED/BREEAM/ITACA, isolanti
-- [Le Classifiche](https://www.ilmediaedile.it/classifiche): indice di tutte le Top 10 e Top 5
+- [News](https://www.mediaedile.it/news): attualità, cantieri, eventi del settore costruzioni
+- [Norme e Bonus](https://www.mediaedile.it/norme-bonus): Superbonus, incentivi, sicurezza, normativa
+- [Mercato e Imprese](https://www.mediaedile.it/mercato): prezzi, mercato immobiliare, grandi imprese
+- [Materiali e Prodotti](https://www.mediaedile.it/materiali-prodotti): serramenti, ceramiche, porte, parquet, coperture
+- [Impianti ed Efficienza](https://www.mediaedile.it/impianti): fotovoltaico, pompe di calore, caldaie, ascensori
+- [Innovazione e BIM](https://www.mediaedile.it/innovazione): BIM, software, domotica, digitalizzazione
+- [Sostenibilità](https://www.mediaedile.it/sostenibilita): Case Green, certificazioni LEED/BREEAM/ITACA, isolanti
+- [Le Classifiche](https://www.mediaedile.it/classifiche): indice di tutte le Top 10 e Top 5
 
 ## Contatto
 
-- Redazione: redazione@ilmediaedile.it
-- Pubblicità: advertising@ilmediaedile.it
+- Redazione: redazione@mediaedile.it
+- Pubblicità: advertising@mediaedile.it

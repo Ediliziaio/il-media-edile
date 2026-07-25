@@ -46,7 +46,7 @@ export const articles: Article[] = Object.values(modules)
   .map((m) => m.default)
   .sort((a, b) => b.date.localeCompare(a.date))
 
-export const SITE_URL = 'https://www.ilmediaedile.it'
+export const SITE_URL = 'https://www.mediaedile.it'
 export const SITE_NAME = 'Il Media Edile'
 
 /** Sezioni tematiche del blog (menu principale) */

@@ -4,7 +4,7 @@ Checklist operativa per pubblicare il sito e avviare l'indicizzazione.
 
 ## 1. Dominio e hosting
 
-1. Registra `ilmediaedile.it` (se libero) o aggiorna `SITE_URL` in `src/lib/articles.ts` con il dominio definitivo.
+1. Registra `mediaedile.it` (se libero) o aggiorna `SITE_URL` in `src/lib/articles.ts` con il dominio definitivo.
 2. Build di produzione: `npm run build` → la cartella `dist/` è un sito statico pronto.
 3. Deploy consigliato (gratuito, con HTTPS e CDN inclusi):
    - **Vercel** / **Netlify**: collega la cartella del progetto, build command `npm run build`, publish `dist/`.
@@ -16,7 +16,7 @@ Checklist operativa per pubblicare il sito e avviare l'indicizzazione.
 1. **Google Search Console**: verifica la proprietà del dominio → Sitemap → invia `https://<dominio>/sitemap.xml`.
 2. **Bing Webmaster Tools**: importa il sito da Search Console (un click).
 3. Richiedi l'indicizzazione manuale delle 5 pagine principali (home, classifiche, 3 articoli chiave).
-4. Verifica dopo 48-72 ore con `site:ilmediaedile.it` su Google.
+4. Verifica dopo 48-72 ore con `site:mediaedile.it` su Google.
 
 ## 3. Monitoraggio
 
