@@ -129,6 +129,9 @@ export function tagSeo(tag: string): SeoOptions {
     title: `#${tag} — articoli e guide | ${SITE_NAME}`,
     description: `Tutti gli articoli de Il Media Edile su "${tag}": news, guide e classifiche del settore edile aggiornate dalla redazione.`,
     canonical: url,
+    // Pagine di archivio sottili: navigabili e crawlabili (follow) ma fuori
+    // dall'indice, per non diluire la valutazione di qualita del sito.
+    noindex: true,
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',

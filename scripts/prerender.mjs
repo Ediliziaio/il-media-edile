@@ -43,6 +43,16 @@ function setMeta(html, attr, key, content) {
 function applySeo(html, seo) {
   html = replaceOnce(html, /<title>[\s\S]*?<\/title>/, `<title>${escText(seo.title)}</title>`, 'title')
   html = setMeta(html, 'name', 'description', seo.description)
+  if (seo.noindex) {
+    // pagine sottili (tag/archivi): noindex,follow. Niente in indice, ma i link
+    // vengono comunque seguiti per distribuire l'autorevolezza.
+    html = replaceOnce(
+      html,
+      /<meta name="robots" content="[^"]*" \/>/,
+      '<meta name="robots" content="noindex, follow" />',
+      'robots',
+    )
+  }
   if (seo.canonical) {
     html = replaceOnce(
       html,

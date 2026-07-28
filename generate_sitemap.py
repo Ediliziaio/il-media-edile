@@ -63,10 +63,7 @@ for s in SECTION_SLUGS:
 for a in articles:
     urls.append((f"/{a['sectionSlug']}/{a['slug']}", art_date(a), "0.8", "monthly"))
 
-# solo tag con >= 2 articoli
-kept_tags = sorted(t for t, n in tag_count.items() if n >= 2)
-for t in kept_tags:
-    urls.append((f"/tag/{tag_slug(t)}", max(tag_dates[t]), "0.5", "weekly"))
+# NB: le pagine /tag sono noindex (archivi sottili) -> escluse dalla sitemap.
 
 # pagine di servizio (bassa priorita, freschezza rara)
 urls += [("/newsletter", latest_all, "0.5", "monthly"),
@@ -92,5 +89,5 @@ with open(out, "w", encoding="utf-8") as f:
     f.write("\n".join(xml) + "\n")
 
 print(f"sitemap.xml generata: {len(urls)} URL "
-      f"({len(articles)} articoli, {len(kept_tags)} tag >=2 art., "
-      f"{len(tag_count) - len(kept_tags)} tag mono-articolo esclusi)")
+      f"({len(articles)} articoli + sezioni/servizio; "
+      f"tutte le {len(tag_count)} pagine /tag escluse perche noindex)")

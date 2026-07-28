@@ -12,8 +12,13 @@ export interface SeoOptions {
   modified?: string
   section?: string
   tags?: string[]
+  /** true = noindex,follow (pagine sottili: tag, archivi) */
+  noindex?: boolean
   jsonLd?: object | object[]
 }
+
+const ROBOTS_INDEX = 'index, follow, max-image-preview:large, max-snippet:-1'
+const ROBOTS_NOINDEX = 'noindex, follow'
 
 function upsertMeta(attr: 'name' | 'property', key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(`meta[${attr}="${key}"]`)
@@ -32,6 +37,8 @@ export function useSeo(opts: SeoOptions) {
     if (typeof document === 'undefined') return
     document.title = opts.title
     upsertMeta('name', 'description', opts.description)
+    // robots: aggiornato a ogni navigazione client (index <-> noindex)
+    upsertMeta('name', 'robots', opts.noindex ? ROBOTS_NOINDEX : ROBOTS_INDEX)
     upsertMeta('property', 'og:title', opts.title)
     upsertMeta('property', 'og:description', opts.description)
     upsertMeta('property', 'og:type', opts.type ?? 'website')
