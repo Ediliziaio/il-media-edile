@@ -6,14 +6,11 @@ import {
   articles,
   sections,
   getArticle,
-  getAllTags,
   getBySection,
   getRankings,
   articleUrl,
   ogImage,
   inlineImage,
-  tagSlug,
-  tagFromSlug,
   SITE_URL,
   SITE_NAME,
   type Article,
@@ -123,26 +120,6 @@ export function classificheSeo(): SeoOptions {
   }
 }
 
-export function tagSeo(tag: string): SeoOptions {
-  const url = `${SITE_URL}/tag/${tagSlug(tag)}`
-  return {
-    title: `#${tag} — articoli e guide | ${SITE_NAME}`,
-    description: `Tutti gli articoli de Il Media Edile su "${tag}": news, guide e classifiche del settore edile aggiornate dalla redazione.`,
-    canonical: url,
-    // Pagine di archivio sottili: navigabili e crawlabili (follow) ma fuori
-    // dall'indice, per non diluire la valutazione di qualita del sito.
-    noindex: true,
-    jsonLd: {
-      '@context': 'https://schema.org',
-      '@type': 'CollectionPage',
-      name: `#${tag} — ${SITE_NAME}`,
-      url,
-      inLanguage: 'it-IT',
-      isPartOf: { '@id': `${SITE_URL}/#website` },
-    },
-  }
-}
-
 export function newsletterSeo(): SeoOptions {
   return {
     title: `Newsletter — La newsletter del cantiere | ${SITE_NAME}`,
@@ -157,6 +134,8 @@ export function searchSeo(): SeoOptions {
     title: `Cerca — ${SITE_NAME}`,
     description: `Cerca tra notizie, classifiche e guide sull'edilizia de Il Media Edile.`,
     canonical: `${SITE_URL}/cerca`,
+    // Shell di ricerca senza contenuto proprio: mai in indice (thin/duplicato).
+    noindex: true,
   }
 }
 
@@ -278,11 +257,6 @@ export function getSeoForPath(path: string): SeoOptions | null {
   if (p === '/cerca') return searchSeo()
   const staticId = p.slice(1) as StaticPageId
   if (staticId in STATIC_PAGES) return staticPageSeo(staticId)
-  const tagMatch = p.match(/^\/tag\/(.+)$/)
-  if (tagMatch) {
-    const tag = tagFromSlug(tagMatch[1])
-    return tag ? tagSeo(tag) : null
-  }
   const segs = p.slice(1).split('/')
   if (segs.length === 1) {
     const section = sections.find((s) => s.slug === segs[0])
@@ -309,6 +283,8 @@ export function getAllPrerenderPaths(): string[] {
   ]
   for (const s of sections) paths.push(`/${s.slug}`)
   for (const a of articles) paths.push(articleUrl(a))
-  for (const { tag } of getAllTags()) paths.push(`/tag/${tagSlug(tag)}`)
+  // NB: nessuna rotta /tag/. Erano 113 pagine noindex che formavano un grafo
+  // chiuso (~12.900 link interni) e bruciavano il crawl budget di un dominio
+  // nuovo, lasciando articoli e sezioni "rilevati ma non scansionati".
   return paths
 }

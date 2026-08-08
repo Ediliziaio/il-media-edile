@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router'
-import { getArticle, getRelated, formatDate, renderInline, heroImage, inlineImage, sectionColors, tagSlug, SITE_NAME, type ArticleBlock } from '@/lib/articles'
+import { getArticle, getRelated, formatDate, renderInline, heroImage, inlineImage, sectionColors, SITE_NAME, type ArticleBlock } from '@/lib/articles'
 import { useSeo } from '@/lib/seo'
 import { articleSeo } from '@/lib/seoData'
 import { ArticleCard } from '@/components/ArticleCard'
@@ -153,19 +153,26 @@ export default function ArticlePage() {
               ))}
             </div>
 
-            {/* Tag */}
+            {/* Argomenti: metadata non cliccabili (le pagine /tag sono state
+                rimosse: erano archivi sottili che bruciavano il crawl budget).
+                Il valore semantico resta nel testo e in JSON-LD "keywords". */}
             <div className="mt-10 flex flex-wrap items-center gap-2 border-t border-neutral-200 pt-5">
               <Tag size={14} className="text-neutral-500" />
               {article.tags.map((t) => (
-                <Link
+                <span
                   key={t}
-                  to={`/tag/${tagSlug(t)}`}
-                  className="text-xs bg-neutral-100 hover:bg-[#0e9447] hover:text-white text-neutral-700 px-3 py-1 rounded-full transition-colors"
+                  className="text-xs bg-neutral-100 text-neutral-700 px-3 py-1 rounded-full"
                   itemProp="keywords"
                 >
                   #{t}
-                </Link>
+                </span>
               ))}
+              <Link
+                to={`/${article.sectionSlug}`}
+                className="text-xs font-semibold text-[#0e9447] hover:underline px-1"
+              >
+                Tutti gli articoli di {article.section} →
+              </Link>
             </div>
 
             {/* FAQ — AEO */}

@@ -115,38 +115,6 @@ export function inlineImage(a: Article): string {
   return `/images/${a.slug}-inline.png`
 }
 
-/** Tutti i tag presenti negli articoli, con conteggio */
-export function getAllTags(): { tag: string; count: number }[] {
-  const map = new Map<string, number>()
-  for (const a of articles) for (const t of a.tags) map.set(t, (map.get(t) ?? 0) + 1)
-  return [...map.entries()].map(([tag, count]) => ({ tag, count })).sort((x, y) => y.count - x.count)
-}
-
-export function getByTag(tag: string): Article[] {
-  return articles.filter((a) => a.tags.includes(tag))
-}
-
-/** Slug URL-safe di un tag (niente %20): "Bonus edilizi" -> "bonus-edilizi". */
-export function tagSlug(tag: string): string {
-  return tag
-    .normalize('NFKD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-}
-
-// Mappa slug -> tag originale (primo tag che genera quello slug).
-const tagBySlug: Record<string, string> = (() => {
-  const m: Record<string, string> = {}
-  for (const a of articles) for (const t of a.tags) {
-    const s = tagSlug(t)
-    if (!(s in m)) m[s] = t
-  }
-  return m
-})()
-
-/** Ricava il tag originale dal suo slug URL (undefined se sconosciuto). */
-export function tagFromSlug(slug: string): string | undefined {
-  return tagBySlug[slug]
-}
+// NB: le pagine /tag sono state rimosse (archivi sottili, 113 URL noindex che
+// consumavano il crawl budget). I tag restano metadata dell'articolo: mostrati
+// come testo e usati in JSON-LD "keywords".

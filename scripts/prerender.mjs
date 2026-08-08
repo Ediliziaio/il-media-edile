@@ -84,6 +84,28 @@ function applySeo(html, seo) {
   return html
 }
 
+/**
+ * React 19 emette <link rel="preload" as="image"> per le immagini non-lazy
+ * DENTRO l'HTML dell'app: con renderToString non ha un <head> in cui issarli.
+ * Se restassero dentro #root il client, che non li rende in quella posizione,
+ * fallirebbe l'idratazione (React error #418) e butterebbe via l'intero HTML
+ * pre-renderizzato, ri-renderizzandolo da zero (danno su LCP/CLS).
+ * Li estraiamo e li rimettiamo in <head>: idratazione pulita + preload utile.
+ */
+function extractResourceHints(appHtml) {
+  const hints = []
+  const cleaned = appHtml.replace(/<link\b[^>]*?\/?>/g, (m) => {
+    hints.push(m)
+    return ''
+  })
+  return { cleaned, hints }
+}
+
+function injectHead(html, tags) {
+  if (!tags.length) return html
+  return html.replace('</head>', `    ${tags.join('\n    ')}\n  </head>`)
+}
+
 // --- rendering di tutte le rotte ------------------------------------------
 const paths = getAllPrerenderPaths()
 let written = 0
@@ -96,8 +118,10 @@ for (const path of paths) {
     const appHtml = render(path)
     if (!appHtml || appHtml.length < 200) throw new Error('render sospettosamente corto')
 
+    const { cleaned, hints } = extractResourceHints(appHtml)
     let html = applySeo(template, seo)
-    html = replaceOnce(html, '<div id="root"></div>', `<div id="root">${appHtml}</div>`, '#root')
+    html = injectHead(html, hints)
+    html = replaceOnce(html, '<div id="root"></div>', `<div id="root">${cleaned}</div>`, '#root')
 
     const outFile = path === '/' ? join(dist, 'index.html') : join(dist, path.slice(1), 'index.html')
     mkdirSync(dirname(outFile), { recursive: true })
@@ -115,14 +139,15 @@ try {
   const seo404 = { title: `Pagina non trovata (404) — Il Media Edile`, description: 'La pagina richiesta non esiste o è stata spostata.' }
   // path a 3 segmenti: nessuna rotta lo matcha tranne il catch-all "*" → NotFound
   const appHtml = render('/__not-found__/_/_')
-  let html = applySeo(template, seo404)
+  const { cleaned: cleaned404, hints: hints404 } = extractResourceHints(appHtml)
+  let html = injectHead(applySeo(template, seo404), hints404)
   html = html.replace(
     /<meta name="robots" content="[^"]*" \/>/,
     '<meta name="robots" content="noindex, follow" />',
   )
   // rimuove il canonical: una 404 non deve dichiararne uno
   html = html.replace(/\s*<link rel="canonical" href="[^"]*" \/>/, '')
-  html = replaceOnce(html, '<div id="root"></div>', `<div id="root">${appHtml}</div>`, '#root')
+  html = replaceOnce(html, '<div id="root"></div>', `<div id="root">${cleaned404}</div>`, '#root')
   writeFileSync(join(dist, '404.html'), html)
   console.log('[prerender] 404.html generato (noindex)')
 } catch (err) {

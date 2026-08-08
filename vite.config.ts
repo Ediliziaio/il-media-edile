@@ -20,4 +20,17 @@ export default defineConfig(({ command }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        // Split per vendor (non per rotta): le rotte devono restare nello
+        // stesso albero di server e client per un'idratazione corretta.
+        manualChunks(id) {
+          if (!id.includes('node_modules')) return
+          if (/[\\/]node_modules[\\/](react|react-dom|scheduler|react-router)[\\/]/.test(id)) return 'react'
+          return 'vendor'
+        },
+      },
+    },
+  },
 }));

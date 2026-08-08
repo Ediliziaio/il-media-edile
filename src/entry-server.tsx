@@ -1,14 +1,15 @@
 // Entry point SSR: renderizza una rotta in HTML statico (renderToString).
-// Usa AppStatic (import diretti, niente React.lazy) perché renderToString
-// non risolve i componenti lazy.
+// Usa lo STESSO componente App del client: un solo albero di rotte, quindi
+// l'idratazione combacia sempre (niente React error #418 e niente
+// ri-rendering dell'HTML pre-renderizzato).
 import { renderToString } from 'react-dom/server'
 import { StaticRouter } from 'react-router'
-import AppStatic from './AppStatic'
+import App from './App'
 
 export function render(url: string): string {
   return renderToString(
     <StaticRouter location={url}>
-      <AppStatic />
+      <App />
     </StaticRouter>,
   )
 }
