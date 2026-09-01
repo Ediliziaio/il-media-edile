@@ -43,7 +43,9 @@ const CREATIVES: Record<AdSlotProps['format'], Creative> = {
   billboard: { src: '/ads/eic-billboard.webp', width: 1600, height: 664, maxW: 'max-w-[970px]' },
   // MPU classico in colonna laterale
   rectangle: { src: '/ads/eic-rectangle.webp', width: 900, height: 750, maxW: 'max-w-[360px]' },
-  halfpage: { src: '/ads/eic-square.webp', width: 900, height: 654, maxW: 'max-w-[360px]' },
+  // half page verticale 300x600: creatività nativa a quella misura, quindi il
+  // tetto è 300px — ingrandirla la renderebbe sfocata.
+  halfpage: { src: '/ads/eic-halfpage.webp', width: 300, height: 600, maxW: 'max-w-[300px]' },
   // dentro il flusso degli articoli: creatività compatta, testo leggibile
   infeed: { src: '/ads/eic-square.webp', width: 900, height: 654, maxW: 'max-w-[440px]' },
 }
