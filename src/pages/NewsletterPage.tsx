@@ -44,7 +44,7 @@ export default function NewsletterPage() {
       </section>
 
       <div className="mt-10">
-        <AdSlot slot="leaderboard-newsletter" format="leaderboard" />
+        <AdSlot slot="leaderboard-newsletter" format="infeed" />
       </div>
     </main>
   )

@@ -202,7 +202,7 @@ export default function ArticlePage() {
             </section>
 
             <div className="mt-10">
-              <AdSlot slot="in-article-bottom" format="leaderboard" />
+              <AdSlot slot="in-article-bottom" format="infeed" />
             </div>
           </div>
 

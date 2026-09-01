@@ -1,6 +1,3 @@
-import { useEffect, useState } from 'react'
-import { getConsent } from '@/components/CookieBanner'
-
 interface AdSlotProps {
   /** Nome posizione, es. "leaderboard-top", "mpu-1", "in-article-2" */
   slot: string
@@ -10,62 +7,119 @@ interface AdSlotProps {
 
 /**
  * Interruttore generale della pubblicità.
- *
- * Finché non è collegato un ad server reale (Google Ad Manager / AdSense) gli
- * slot NON devono essere renderizzati: dei riquadri vuoti con scritto
- * "Slot rectangle · mpu-1" fanno sembrare il sito una demo incompleta, e per
- * un dominio nuovo è un segnale di bassa qualità che ostacola l'indicizzazione.
- * Passare a true SOLO dopo aver inserito i tag GPT/AdSense.
+ * Con creatività statiche interne (nessun cookie, nessuno script di terze parti)
+ * resta true. Va rivalutato quando verranno collegati tag GPT/AdSense, che
+ * invece richiedono il consenso pubblicitario dell'utente.
  */
-const ADS_ENABLED = false
+const ADS_ENABLED = true
 
-const dims: Record<AdSlotProps['format'], string> = {
-  billboard: 'min-h-[250px]',
-  leaderboard: 'min-h-[90px]',
-  rectangle: 'min-h-[250px]',
-  halfpage: 'min-h-[600px]',
-  infeed: 'min-h-[120px]',
+/** Destinazione della campagna. */
+const AD_HREF = 'https://www.ediliziaincloud.com/'
+
+interface Creative {
+  src: string
+  width: number
+  height: number
+  /** Larghezza massima resa: evita banner sproporzionati o testo illeggibile. */
+  maxW: string
 }
 
 /**
- * Slot pubblicitario pronto per Google Ad Manager / AdSense.
- * Rispetta il consenso GDPR: se l'utente ha rifiutato i cookie pubblicitari
- * lo slot non viene proprio renderizzato. Se il consenso non è ancora stato
- * espresso, mostra il placeholder senza caricare nulla (nessuna chiamata di rete).
- * Per attivare gli annunci: inserire il tag GPT/AdSense dentro il div data-ad-slot
- * e caricarlo solo dopo `cookie-consent-changed` con advertising === true.
+ * Una creatività per ogni formato, scelta in base alle proporzioni reali del
+ * file: così l'immagine non viene mai deformata né tagliata.
+ *
+ * Il tetto di larghezza conta quanto la proporzione: la creatività
+ * "leaderboard" (10.8:1) in una colonna da 400px si ridurrebbe a 39px di
+ * altezza, rendendo il testo illeggibile. Per gli spazi stretti (in-feed,
+ * sidebar) si usano quindi le creatività più compatte.
+ *
+ * Le dimensioni esplicite riservano lo spazio in anticipo ed evitano il
+ * layout shift (CLS) quando il banner si carica.
+ */
+const CREATIVES: Record<AdSlotProps['format'], Creative> = {
+  // striscia larga: solo a piena larghezza, dove resta leggibile
+  leaderboard: { src: '/ads/eic-leaderboard.webp', width: 1600, height: 148, maxW: 'max-w-full' },
+  // formato billboard standard: non deve invadere la pagina
+  billboard: { src: '/ads/eic-billboard.webp', width: 1600, height: 664, maxW: 'max-w-[970px]' },
+  // MPU classico in colonna laterale
+  rectangle: { src: '/ads/eic-rectangle.webp', width: 900, height: 750, maxW: 'max-w-[360px]' },
+  halfpage: { src: '/ads/eic-square.webp', width: 900, height: 654, maxW: 'max-w-[360px]' },
+  // dentro il flusso degli articoli: creatività compatta, testo leggibile
+  infeed: { src: '/ads/eic-square.webp', width: 900, height: 654, maxW: 'max-w-[440px]' },
+}
+
+/** Creatività compatta usata al posto della striscia larga sugli schermi piccoli. */
+const COMPACT: Creative = { src: '/ads/eic-square.webp', width: 900, height: 654, maxW: 'max-w-full' }
+
+const AD_ALT =
+  'EdiliziaInCloud — il gestionale con AI per l’edilizia: controlla cantieri, margini e fatturazione. Prova gratuita di 31 giorni.'
+
+/**
+ * Spazio pubblicitario.
+ *
+ * Mostra una creatività interna della campagna EdiliziaInCloud. Il link è
+ * marcato rel="sponsored nofollow": è il requisito di Google per i link
+ * promozionali e protegge il sito da segnalazioni di link scheme.
+ * L'etichetta "Pubblicità" resta visibile per trasparenza, coerentemente con
+ * quanto dichiarato nella pagina "Chi siamo".
  */
 export function AdSlot({ slot, format, className = '' }: AdSlotProps) {
-  const [allowed, setAllowed] = useState<boolean | null>(null)
-
-  useEffect(() => {
-    if (!ADS_ENABLED) return
-    const check = () => {
-      const c = getConsent()
-      setAllowed(c ? c.advertising : null)
-    }
-    check()
-    window.addEventListener('cookie-consent-changed', check)
-    return () => window.removeEventListener('cookie-consent-changed', check)
-  }, [])
-
-  // Pubblicità non ancora attiva: nessun placeholder in pagina
   if (!ADS_ENABLED) return null
 
-  // Consenso pubblicitario esplicitamente negato: niente slot
-  if (allowed === false) return null
+  const c = CREATIVES[format]
 
   return (
-    <div className={`flex flex-col items-center ${className}`} role="complementary" aria-label="Spazio pubblicitario">
-      <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-400">Pubblicità</span>
-      <div
+    <div
+      className={`flex flex-col items-center ${className}`}
+      role="complementary"
+      aria-label="Spazio pubblicitario"
+    >
+      <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-400 mb-1">Pubblicità</span>
+      <a
+        href={AD_HREF}
+        target="_blank"
+        rel="sponsored nofollow noopener noreferrer"
         id={`ad-${slot}`}
         data-ad-slot={slot}
         data-ad-format={format}
-        className={`w-full border border-dashed border-neutral-300 bg-neutral-50 flex items-center justify-center text-neutral-400 text-xs ${dims[format]}`}
+        className={`block w-full ${c.maxW} overflow-hidden rounded-lg border border-neutral-200 hover:border-neutral-300 transition-colors`}
       >
-        Slot {format} · {slot}
-      </div>
+        {format === 'leaderboard' ? (
+          <>
+            {/* La striscia 10.8:1 è leggibile solo su schermi larghi: sotto md
+                si passa alla creatività compatta, altrimenti su telefono
+                resterebbe alta ~35px e illeggibile. */}
+            <img
+              src={c.src}
+              alt={AD_ALT}
+              width={c.width}
+              height={c.height}
+              loading="lazy"
+              decoding="async"
+              className="hidden md:block w-full h-auto"
+            />
+            <img
+              src={COMPACT.src}
+              alt={AD_ALT}
+              width={COMPACT.width}
+              height={COMPACT.height}
+              loading="lazy"
+              decoding="async"
+              className="block md:hidden w-full h-auto"
+            />
+          </>
+        ) : (
+          <img
+            src={c.src}
+            alt={AD_ALT}
+            width={c.width}
+            height={c.height}
+            loading="lazy"
+            decoding="async"
+            className="w-full h-auto block"
+          />
+        )}
+      </a>
     </div>
   )
 }
