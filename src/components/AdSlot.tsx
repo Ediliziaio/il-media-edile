@@ -8,6 +8,17 @@ interface AdSlotProps {
   className?: string
 }
 
+/**
+ * Interruttore generale della pubblicità.
+ *
+ * Finché non è collegato un ad server reale (Google Ad Manager / AdSense) gli
+ * slot NON devono essere renderizzati: dei riquadri vuoti con scritto
+ * "Slot rectangle · mpu-1" fanno sembrare il sito una demo incompleta, e per
+ * un dominio nuovo è un segnale di bassa qualità che ostacola l'indicizzazione.
+ * Passare a true SOLO dopo aver inserito i tag GPT/AdSense.
+ */
+const ADS_ENABLED = false
+
 const dims: Record<AdSlotProps['format'], string> = {
   billboard: 'min-h-[250px]',
   leaderboard: 'min-h-[90px]',
@@ -28,6 +39,7 @@ export function AdSlot({ slot, format, className = '' }: AdSlotProps) {
   const [allowed, setAllowed] = useState<boolean | null>(null)
 
   useEffect(() => {
+    if (!ADS_ENABLED) return
     const check = () => {
       const c = getConsent()
       setAllowed(c ? c.advertising : null)
@@ -36,6 +48,9 @@ export function AdSlot({ slot, format, className = '' }: AdSlotProps) {
     window.addEventListener('cookie-consent-changed', check)
     return () => window.removeEventListener('cookie-consent-changed', check)
   }, [])
+
+  // Pubblicità non ancora attiva: nessun placeholder in pagina
+  if (!ADS_ENABLED) return null
 
   // Consenso pubblicitario esplicitamente negato: niente slot
   if (allowed === false) return null

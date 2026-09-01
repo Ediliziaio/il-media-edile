@@ -142,11 +142,11 @@ export function searchSeo(): SeoOptions {
 const STATIC_PAGES: Record<StaticPageId, { title: string; description: string }> = {
   'chi-siamo': {
     title: `Chi siamo — ${SITE_NAME}`,
-    description: 'Il Media Edile è il quotidiano online dell’edilizia italiana: redazione, missione e linea editoriale della testata.',
+    description: 'Chi c’è dietro Il Media Edile: redazione, linea editoriale, metodo con cui costruiamo le classifiche e dati dell’editore Domus Group S.r.l.',
   },
   contatti: {
     title: `Contatti e pubblicità — ${SITE_NAME}`,
-    description: 'Come contattare la redazione de Il Media Edile e richiedere informazioni sugli spazi pubblicitari della testata.',
+    description: 'Come contattare la redazione de Il Media Edile: segnalazioni, comunicati stampa, partnership editoriali e informazioni sugli spazi pubblicitari.',
   },
   privacy: {
     title: `Privacy policy — ${SITE_NAME}`,
@@ -158,9 +158,50 @@ const STATIC_PAGES: Record<StaticPageId, { title: string; description: string }>
   },
 }
 
+const STATIC_PAGE_TYPE: Record<StaticPageId, string> = {
+  'chi-siamo': 'AboutPage',
+  contatti: 'ContactPage',
+  privacy: 'WebPage',
+  'cookie-policy': 'WebPage',
+}
+
+const STATIC_PAGE_LABEL: Record<StaticPageId, string> = {
+  'chi-siamo': 'Chi siamo',
+  contatti: 'Contatti',
+  privacy: 'Privacy policy',
+  'cookie-policy': 'Cookie policy',
+}
+
 export function staticPageSeo(page: StaticPageId): SeoOptions {
   const c = STATIC_PAGES[page]
-  return { title: c.title, description: c.description, canonical: `${SITE_URL}/${page}` }
+  const url = `${SITE_URL}/${page}`
+  return {
+    title: c.title,
+    description: c.description,
+    canonical: url,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': STATIC_PAGE_TYPE[page],
+        name: c.title,
+        description: c.description,
+        url,
+        inLanguage: 'it-IT',
+        isPartOf: { '@id': `${SITE_URL}/#website` },
+        // /chi-siamo descrive l'organizzazione: aggancia l'entità editoriale.
+        ...(page === 'chi-siamo' ? { mainEntity: { '@id': `${SITE_URL}/#organization` } } : {}),
+        ...(page === 'contatti' ? { about: { '@id': `${SITE_URL}/#organization` } } : {}),
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: STATIC_PAGE_LABEL[page], item: url },
+        ],
+      },
+    ],
+  }
 }
 
 export function notFoundSeo(): SeoOptions {
@@ -168,6 +209,17 @@ export function notFoundSeo(): SeoOptions {
     title: `Pagina non trovata (404) — ${SITE_NAME}`,
     description: 'La pagina richiesta non esiste o è stata spostata.',
   }
+}
+
+/** Conteggio parole del corpo dell'articolo (per wordCount in JSON-LD). */
+function countWords(article: Article): number {
+  let n = 0
+  for (const b of article.blocks) {
+    if ('text' in b && typeof b.text === 'string') n += b.text.split(/\s+/).filter(Boolean).length
+    if (b.type === 'list') n += b.items.join(' ').split(/\s+/).filter(Boolean).length
+    if (b.type === 'ranking') n += b.items.map((i) => i.text).join(' ').split(/\s+/).filter(Boolean).length
+  }
+  return n
 }
 
 export function articleSeo(article: Article): SeoOptions {
@@ -206,10 +258,25 @@ export function articleSeo(article: Article): SeoOptions {
         inLanguage: 'it-IT',
         articleSection: article.section,
         keywords: article.tags.join(', '),
-        author: { '@type': 'Organization', name: article.author, url: SITE_URL },
+        // Autore agganciato all'entità editoriale (stesso @id dell'Organization):
+        // rafforza il legame articolo -> editore per la valutazione E-E-A-T.
+        author: {
+          '@type': 'Organization',
+          '@id': `${SITE_URL}/#organization`,
+          name: article.author,
+          url: `${SITE_URL}/chi-siamo`,
+        },
         publisher: { '@id': `${SITE_URL}/#organization` },
         mainEntityOfPage: { '@type': 'WebPage', '@id': url },
         isPartOf: { '@id': `${SITE_URL}/#website` },
+        isAccessibleForFree: true,
+        wordCount: countWords(article),
+        abstract: article.answerBox,
+        // AEO/voce: indica il blocco "In sintesi" come parte leggibile ad alta voce.
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['h1', '[data-answer]'],
+        },
       },
       {
         '@context': 'https://schema.org',
