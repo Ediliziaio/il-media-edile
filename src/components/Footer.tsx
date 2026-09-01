@@ -40,6 +40,7 @@ export function Footer() {
             <li><Link to="/chi-siamo" className="hover:text-white">Chi siamo</Link></li>
             <li><Link to="/classifiche" className="hover:text-white">Le Classifiche</Link></li>
             <li><Link to="/produttori" className="hover:text-white">Indice produttori</Link></li>
+            <li><Link to="/dati" className="hover:text-white">Dati aperti (CSV)</Link></li>
             <li><Link to="/newsletter" className="hover:text-white">Newsletter</Link></li>
             <li><Link to="/contatti" className="hover:text-white">Contatti e pubblicità</Link></li>
             <li><Link to="/privacy" className="hover:text-white">Privacy policy</Link></li>

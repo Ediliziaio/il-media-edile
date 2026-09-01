@@ -355,6 +355,7 @@ export function getSeoForPath(path: string): SeoOptions | null {
   if (p === '/') return homeSeo()
   if (p === '/classifiche') return classificheSeo()
   if (p === '/produttori') return produttoriSeo()
+  if (p === '/dati') return datiSeo()
   if (p === '/newsletter') return newsletterSeo()
   if (p === '/cerca') return searchSeo()
   const staticId = p.slice(1) as StaticPageId
@@ -372,6 +373,63 @@ export function getSeoForPath(path: string): SeoOptions | null {
 }
 
 /** Tutte le rotte pubbliche da pre-renderizzare in fase di build. */
+/**
+ * Catalogo dei dati aperti: un DataCatalog che raccoglie tutti i dataset CSV
+ * delle classifiche. Nessun altro portale edile pubblica dati riutilizzabili,
+ * quindi e' l'asset che distingue la testata; il tipo DataCatalog la rende
+ * inoltre ammissibile a Google Dataset Search.
+ */
+export function datiSeo(): SeoOptions {
+  const rankings = getRankings()
+  const voci = rankings.reduce((n, a) => {
+    const r = a.blocks.find((b): b is Extract<ArticleBlock, { type: 'ranking' }> => b.type === 'ranking')
+    return n + (r ? r.items.length : 0)
+  }, 0)
+  const url = `${SITE_URL}/dati`
+  return {
+    title: `Dati aperti dell'edilizia: ${rankings.length} dataset CSV scaricabili | ${SITE_NAME}`,
+    description: `${rankings.length} dataset in formato CSV con ${voci} tra produttori e prodotti edili valutati: posizione, marchio e giudizio redazionale. Licenza CC BY 4.0, riutilizzabili citando la fonte.`,
+    canonical: url,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'DataCatalog',
+        '@id': `${url}#catalog`,
+        name: `Dati aperti — ${SITE_NAME}`,
+        description: `Catalogo dei dataset pubblicati da Il Media Edile: ${rankings.length} classifiche dell'edilizia italiana in formato CSV, per un totale di ${voci} voci.`,
+        url,
+        inLanguage: 'it-IT',
+        license: 'https://creativecommons.org/licenses/by/4.0/',
+        isAccessibleForFree: true,
+        publisher: { '@id': `${SITE_URL}/#organization` },
+        creator: { '@id': `${SITE_URL}/#organization` },
+        isPartOf: { '@id': `${SITE_URL}/#website` },
+        dataset: rankings.map((a) => ({
+          '@type': 'Dataset',
+          '@id': `${SITE_URL}${articleUrl(a)}#dataset`,
+          name: a.title,
+          url: `${SITE_URL}${articleUrl(a)}`,
+          license: 'https://creativecommons.org/licenses/by/4.0/',
+          dateModified: a.updated,
+          distribution: {
+            '@type': 'DataDownload',
+            encodingFormat: 'text/csv',
+            contentUrl: `${SITE_URL}/downloads/${a.slug}-classifica.csv`,
+          },
+        })),
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Dati aperti', item: url },
+        ],
+      },
+    ],
+  }
+}
+
 export function produttoriSeo(): SeoOptions {
   const conSito = brands.filter((b) => b.url).length
   return {
@@ -409,6 +467,7 @@ export function getAllPrerenderPaths(): string[] {
   const paths: string[] = [
     '/',
     '/classifiche',
+    '/dati',
     '/produttori',
     '/newsletter',
     '/cerca',

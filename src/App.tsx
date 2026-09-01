@@ -6,6 +6,7 @@ import Home from '@/pages/Home'
 import ArticlePage from '@/pages/ArticlePage'
 import CategoryPage from '@/pages/CategoryPage'
 import ProduttoriPage from '@/pages/ProduttoriPage'
+import DatiPage from '@/pages/DatiPage'
 import ClassifichePage from '@/pages/ClassifichePage'
 import SearchPage from '@/pages/SearchPage'
 import StaticPage from '@/pages/StaticPage'
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/cerca" element={<SearchPage />} />
           <Route path="/classifiche" element={<ClassifichePage />} />
           <Route path="/produttori" element={<ProduttoriPage />} />
+          <Route path="/dati" element={<DatiPage />} />
           <Route path="/newsletter" element={<NewsletterPage />} />
           <Route path="/chi-siamo" element={<StaticPage page="chi-siamo" />} />
           <Route path="/contatti" element={<StaticPage page="contatti" />} />

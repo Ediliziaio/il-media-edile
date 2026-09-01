@@ -33,7 +33,8 @@ latest_by_section = {s: max((art_date(a) for a in articles if a["sectionSlug"] =
 # --- costruzione lista URL (loc, lastmod, priority, changefreq) --------------
 urls = [("/", latest_all, "1.0", "daily"),
         ("/classifiche", latest_all, "0.9", "weekly"),
-        ("/produttori", latest_all, "0.9", "weekly")]
+        ("/produttori", latest_all, "0.9", "weekly"),
+        ("/dati", latest_all, "0.8", "weekly")]
 
 for s in SECTION_SLUGS:
     urls.append((f"/{s}", latest_by_section.get(s, latest_all), "0.9",
