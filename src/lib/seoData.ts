@@ -22,9 +22,13 @@ export type Section = (typeof sections)[number]
 export type StaticPageId = 'chi-siamo' | 'contatti' | 'privacy' | 'cookie-policy'
 
 export function homeSeo(): SeoOptions {
+  const rankings = getRankings()
   return {
-    title: 'Il Media Edile — Notizie, guide e classifiche sull’edilizia italiana',
-    description: 'Il blog dell’edilizia italiana: news di settore, norme e bonus, mercato, materiali, impianti, innovazione BIM e classifiche dei migliori produttori di serramenti, impianti e finiture.',
+    // Posizionamento distintivo: non l'ennesimo sito di news di settore, ma il
+    // sito delle classifiche comparative con dati aperti (l'asset che nessun
+    // altro portale edile pubblica).
+    title: 'Il Media Edile — Classifiche e confronti dei migliori produttori edili',
+    description: `${rankings.length} classifiche indipendenti dell’edilizia italiana: serramenti, impianti, materiali, software BIM e macchine da cantiere. Criteri di valutazione dichiarati, tabelle comparative e dati scaricabili in CSV.`,
     canonical: `${SITE_URL}/`,
     jsonLd: [
       {
@@ -84,8 +88,8 @@ export function sectionSeo(section: Section): SeoOptions {
 export function classificheSeo(): SeoOptions {
   const rankings = getRankings()
   return {
-    title: `Le Classifiche — Top 10 e Top 5 dell'edilizia | ${SITE_NAME}`,
-    description: 'Tutte le classifiche de Il Media Edile: le Top 10 e le Top 5 dei migliori produttori di serramenti, impianti, materiali, software BIM e macchine da cantiere, selezionate dalla redazione.',
+    title: `Classifiche dell'edilizia: ${rankings.length} confronti con dati aperti | ${SITE_NAME}`,
+    description: `${rankings.length} classifiche indipendenti di produttori e prodotti edili: serramenti, impianti, materiali, software BIM e macchine da cantiere. Criteri di valutazione dichiarati, tabelle comparative e dataset CSV riutilizzabili.`,
     canonical: `${SITE_URL}/classifiche`,
     jsonLd: [
       {
@@ -296,6 +300,35 @@ export function articleSeo(article: Article): SeoOptions {
           acceptedAnswer: { '@type': 'Answer', text: f.a },
         })),
       },
+      // Dataset: ogni classifica ha un CSV riutilizzabile. È l'asset che
+      // distingue questo sito dagli altri portali di settore (che pubblicano
+      // solo testo) e lo rende citabile come FONTE DI DATI dai motori
+      // generativi e da Google Dataset Search.
+      ...(ranking
+        ? [{
+            '@context': 'https://schema.org',
+            '@type': 'Dataset',
+            '@id': `${url}#dataset`,
+            name: `${ranking.title} — dati in formato aperto`,
+            description: `Dataset della classifica "${ranking.title}" pubblicata da Il Media Edile: ${ranking.items.length} voci con posizione, nome e valutazione redazionale. Riutilizzabile citando la fonte.`,
+            url,
+            license: 'https://creativecommons.org/licenses/by/4.0/',
+            creator: { '@id': `${SITE_URL}/#organization` },
+            publisher: { '@id': `${SITE_URL}/#organization` },
+            inLanguage: 'it-IT',
+            datePublished: article.date,
+            dateModified: article.updated,
+            keywords: article.tags,
+            isAccessibleForFree: true,
+            measurementTechnique: 'Valutazione redazionale su qualità, assistenza in Italia, innovazione, sostenibilità e rapporto qualità-prezzo',
+            variableMeasured: ['Posizione in classifica', 'Produttore o prodotto', 'Valutazione redazionale'],
+            distribution: {
+              '@type': 'DataDownload',
+              encodingFormat: 'text/csv',
+              contentUrl: `${SITE_URL}/downloads/${article.slug}-classifica.csv`,
+            },
+          }]
+        : []),
       ...(ranking
         ? [{
             '@context': 'https://schema.org',

@@ -1,11 +1,11 @@
 # Il Media Edile — llms-full.txt
 
-> Blog di informazione sull'edilizia italiana: news di settore, norme e bonus, mercato,
-> materiali, impianti, innovazione BIM, sostenibilità e classifiche redazionali indipendenti
-> dei migliori produttori. Lingua: italiano (it-IT). Contenuti verificati e aggiornati.
+> Classifiche redazionali indipendenti di produttori e prodotti dell'edilizia italiana,
+> con criteri di valutazione dichiarati, tabelle comparative e dataset scaricabili in CSV
+> (licenza CC BY 4.0). 20 classifiche, 150 produttori e prodotti valutati.
 
-Le classifiche Top 10 e Top 5 sono redazionali e indipendenti: nessuna posizione è in vendita.
-Editore: Domus Group S.r.l. — P.IVA 13132010961. Contatti: redazione@mediaedile.it
+Nessuna posizione in classifica e' acquistabile. Metodo pubblicato in /chi-siamo.
+Editore: Domus Group S.r.l. - P.IVA 13132010961. Contatti: redazione@mediaedile.it
 
 ## News
 https://www.mediaedile.it/news

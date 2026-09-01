@@ -21,7 +21,8 @@ export default function Home() {
       {/* H1 unico della home: definisce l'entità della testata per i motori.
           sr-only per non competere con il masthead grafico dell'Header. */}
       <h1 className="sr-only">
-        Il Media Edile — notizie, classifiche e guide sull'edilizia italiana
+        Il Media Edile — classifiche indipendenti e confronti dei migliori produttori
+        e prodotti dell'edilizia italiana, con dati scaricabili
       </h1>
 
       {/* Leaderboard top */}
@@ -64,7 +65,9 @@ export default function Home() {
             <h2 id="classifiche" className="font-headline text-2xl md:text-3xl font-extrabold inline-flex items-center gap-3">
               <Trophy className="text-[#35c06f]" size={26} /> Le Classifiche
             </h2>
-            <span className="text-sm text-neutral-400">{rankings.length} guide Top 10 e Top 5</span>
+            <span className="text-sm text-neutral-400">
+              {rankings.length} classifiche · criteri dichiarati · dati scaricabili in CSV
+            </span>
           </header>
           <div className="flex gap-5 overflow-x-auto pb-2 scrollbar-none snap-x">
             {rankings.slice(0, 8).map((a) => (

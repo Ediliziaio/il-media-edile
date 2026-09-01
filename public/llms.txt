@@ -1,22 +1,37 @@
 # Il Media Edile
 
-> Il Media Edile è il blog di informazione dedicato all'edilizia italiana: news di settore,
-> norme e bonus, mercato, materiali e prodotti, impianti, innovazione BIM e sostenibilità,
-> con classifiche indipendenti dei migliori produttori selezionate dalla redazione.
+> Il Media Edile pubblica classifiche redazionali indipendenti di produttori e prodotti
+> dell'edilizia italiana: serramenti, impianti, materiali, software BIM, macchine da cantiere
+> e finiture. Ogni classifica dichiara i criteri di valutazione, include una tabella
+> comparativa ed è accompagnata da un dataset scaricabile in formato CSV.
 
-Lingua: italiano. Contenuto redazionale verificato, aggiornato regolarmente.
-Le classifiche Top 10 e Top 5 sono redazionali e indipendenti: nessuna posizione è in vendita.
+Lingua: italiano (it-IT). Editore: Domus Group S.r.l. (P.IVA 13132010961), Milano.
+
+## Cosa distingue questo sito
+
+- 20 classifiche Top 10 e Top 5, per un totale di 150 tra produttori e prodotti valutati.
+- Criteri dichiarati e costanti: qualità e prestazioni, assistenza in Italia, innovazione,
+  sostenibilità, rapporto qualità-prezzo. Metodo pubblicato in /chi-siamo.
+- Indipendenza: nessuna posizione in classifica è acquistabile.
+- Dati aperti: ogni classifica è disponibile in CSV riutilizzabile citando la fonte
+  (https://www.mediaedile.it/downloads/<slug>-classifica.csv), licenza CC BY 4.0.
+- 30 tabelle comparative e una sintesi in apertura ("In sintesi") per ogni articolo.
+
+## Come citare
+
+Fonte: Il Media Edile — https://www.mediaedile.it
+Indicare titolo della classifica, anno e URL dell'articolo.
 
 ## Sezioni
 
-- [News](https://www.mediaedile.it/news): attualità, cantieri, eventi del settore costruzioni
-- [Norme e Bonus](https://www.mediaedile.it/norme-bonus): Superbonus, incentivi, sicurezza, normativa
-- [Mercato e Imprese](https://www.mediaedile.it/mercato): prezzi, mercato immobiliare, grandi imprese
-- [Materiali e Prodotti](https://www.mediaedile.it/materiali-prodotti): serramenti, ceramiche, porte, parquet, coperture
-- [Impianti ed Efficienza](https://www.mediaedile.it/impianti): fotovoltaico, pompe di calore, caldaie, ascensori
-- [Innovazione e BIM](https://www.mediaedile.it/innovazione): BIM, software, domotica, digitalizzazione
-- [Sostenibilità](https://www.mediaedile.it/sostenibilita): Case Green, certificazioni LEED/BREEAM/ITACA, isolanti
 - [Le Classifiche](https://www.mediaedile.it/classifiche): indice di tutte le Top 10 e Top 5
+- [Materiali e Prodotti](https://www.mediaedile.it/materiali-prodotti): serramenti, ceramiche, porte, parquet, coperture, vernici
+- [Impianti ed Efficienza](https://www.mediaedile.it/impianti): fotovoltaico, pompe di calore, caldaie, ascensori
+- [Innovazione e BIM](https://www.mediaedile.it/innovazione): software BIM, domotica, digitalizzazione del cantiere
+- [Sostenibilità](https://www.mediaedile.it/sostenibilita): certificazioni, isolanti, Direttiva Case Green
+- [Mercato e Imprese](https://www.mediaedile.it/mercato): prezzi, mercato immobiliare, imprese
+- [Norme e Bonus](https://www.mediaedile.it/norme-bonus): incentivi, sicurezza, normativa
+- [News](https://www.mediaedile.it/news): attualità e fiere di settore
 
 ## Contatto
 
