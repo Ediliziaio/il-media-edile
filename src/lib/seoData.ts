@@ -17,6 +17,7 @@ import {
   type ArticleBlock,
 } from './articles'
 import type { SeoOptions } from './seo'
+import { brands } from '@/data/brands.generated'
 
 export type Section = (typeof sections)[number]
 export type StaticPageId = 'chi-siamo' | 'contatti' | 'privacy' | 'cookie-policy'
@@ -353,6 +354,7 @@ export function getSeoForPath(path: string): SeoOptions | null {
   const p = path !== '/' && path.endsWith('/') ? path.slice(0, -1) : path
   if (p === '/') return homeSeo()
   if (p === '/classifiche') return classificheSeo()
+  if (p === '/produttori') return produttoriSeo()
   if (p === '/newsletter') return newsletterSeo()
   if (p === '/cerca') return searchSeo()
   const staticId = p.slice(1) as StaticPageId
@@ -370,10 +372,44 @@ export function getSeoForPath(path: string): SeoOptions | null {
 }
 
 /** Tutte le rotte pubbliche da pre-renderizzare in fase di build. */
+export function produttoriSeo(): SeoOptions {
+  const conSito = brands.filter((b) => b.url).length
+  return {
+    title: `Indice dei produttori edili: ${brands.length} marchi valutati | ${SITE_NAME}`,
+    description: `I ${brands.length} produttori dell'edilizia italiana valutati nelle nostre classifiche, in un unico indice: settore, posizione ottenuta e classifica di riferimento per ciascun marchio.`,
+    canonical: `${SITE_URL}/produttori`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: `Indice dei produttori — ${SITE_NAME}`,
+        description: `Indice dei ${brands.length} marchi dell'edilizia valutati nelle classifiche de Il Media Edile, con settore, posizione e fonte. ${conSito} schede riportano il sito ufficiale.`,
+        url: `${SITE_URL}/produttori`,
+        inLanguage: 'it-IT',
+        isPartOf: { '@id': `${SITE_URL}/#website` },
+        mainEntity: {
+          '@type': 'ItemList',
+          numberOfItems: brands.length,
+          itemListElement: brands.map((b, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+              '@type': 'Organization',
+              name: b.nome,
+              ...(b.url ? { url: b.url } : {}),
+            },
+          })),
+        },
+      },
+    ],
+  }
+}
+
 export function getAllPrerenderPaths(): string[] {
   const paths: string[] = [
     '/',
     '/classifiche',
+    '/produttori',
     '/newsletter',
     '/cerca',
     '/chi-siamo',

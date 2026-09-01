@@ -5,6 +5,7 @@ import { CookieBanner } from '@/components/CookieBanner'
 import Home from '@/pages/Home'
 import ArticlePage from '@/pages/ArticlePage'
 import CategoryPage from '@/pages/CategoryPage'
+import ProduttoriPage from '@/pages/ProduttoriPage'
 import ClassifichePage from '@/pages/ClassifichePage'
 import SearchPage from '@/pages/SearchPage'
 import StaticPage from '@/pages/StaticPage'
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/cerca" element={<SearchPage />} />
           <Route path="/classifiche" element={<ClassifichePage />} />
+          <Route path="/produttori" element={<ProduttoriPage />} />
           <Route path="/newsletter" element={<NewsletterPage />} />
           <Route path="/chi-siamo" element={<StaticPage page="chi-siamo" />} />
           <Route path="/contatti" element={<StaticPage page="contatti" />} />

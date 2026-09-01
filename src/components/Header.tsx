@@ -93,6 +93,16 @@ export function Header() {
             ))}
             <li>
               <NavLink
+                to="/produttori"
+                className={({isActive}) => `block py-2.5 px-1 text-[13px] font-bold tracking-tight transition-colors border-b-2 ${
+                  isActive ? 'text-[#0e9447] border-[#0e9447]' : 'text-neutral-700 border-transparent hover:border-[#0e9447]'
+                }`}
+              >
+                Produttori
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to="/classifiche"
                 className={({isActive}) => `block py-2.5 px-1 text-[13px] font-bold tracking-tight transition-colors border-b-2 ${
                   isActive ? 'text-[#0e9447] border-[#0e9447]' : 'text-[#0e9447] border-transparent hover:border-[#0e9447]'
