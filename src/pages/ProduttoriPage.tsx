@@ -1,9 +1,10 @@
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router'
 import { brands } from '@/data/brands.generated'
 import { useSeo } from '@/lib/seo'
 import { produttoriSeo } from '@/lib/seoData'
 import { AdSlot } from '@/components/AdSlot'
-import { ChevronRight, Factory, ExternalLink } from 'lucide-react'
+import { ChevronRight, Factory, ExternalLink, Search } from 'lucide-react'
 
 /** Iniziale usata per raggruppare l'indice (le cifre finiscono in "#"). */
 const initial = (n: string) => {
@@ -14,9 +15,31 @@ const initial = (n: string) => {
 export default function ProduttoriPage() {
   useSeo(produttoriSeo())
 
-  const letters = [...new Set(brands.map((b) => initial(b.nome)))].sort()
+  const [query, setQuery] = useState('')
+  const [filtroSezione, setFiltroSezione] = useState('')
+
   const sezioni = [...new Set(brands.flatMap((b) => b.sezioni))].sort()
   const conSito = brands.filter((b) => b.url).length
+
+  /* Il filtro e' puramente client-side: il render iniziale (e quindi l'HTML
+     prerenderizzato dato ai crawler) contiene sempre tutti i marchi. */
+  const norm = (s: string) =>
+    s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+
+  const visibili = useMemo(() => {
+    const q = norm(query.trim())
+    return brands.filter((b) => {
+      if (filtroSezione && !b.sezioni.includes(filtroSezione)) return false
+      if (!q) return true
+      return (
+        norm(b.nome).includes(q) ||
+        b.voci.some((v) => norm(v.classifica).includes(q) || norm(v.descrizione || '').includes(q))
+      )
+    })
+  }, [query, filtroSezione])
+
+  const letters = [...new Set(visibili.map((b) => initial(b.nome)))].sort()
+  const filtroAttivo = query.trim() !== '' || filtroSezione !== ''
 
   return (
     <main className="mx-auto max-w-7xl px-4 pt-6">
@@ -51,6 +74,63 @@ export default function ProduttoriPage() {
         </p>
       </section>
 
+      <section className="mb-6 rounded-lg border border-neutral-200 bg-neutral-50 p-4">
+        <div className="flex flex-col gap-3 sm:flex-row">
+          <label className="flex-1">
+            <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-neutral-600">
+              Cerca un produttore o una classifica
+            </span>
+            <span className="relative block">
+              <Search
+                size={16}
+                className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400"
+                aria-hidden="true"
+              />
+              <input
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Es. Internorm, calcestruzzo, pompe di calore…"
+                className="w-full rounded border border-neutral-300 bg-white py-2.5 pl-9 pr-3 text-sm"
+              />
+            </span>
+          </label>
+          <label className="sm:w-64">
+            <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-neutral-600">
+              Settore
+            </span>
+            <select
+              value={filtroSezione}
+              onChange={(e) => setFiltroSezione(e.target.value)}
+              className="w-full rounded border border-neutral-300 bg-white py-2.5 px-3 text-sm"
+            >
+              <option value="">Tutti i settori</option>
+              {sezioni.map((s) => (
+                <option key={s} value={s}>{s}</option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <p className="mt-3 text-sm text-neutral-600" aria-live="polite">
+          {filtroAttivo ? (
+            <>
+              <strong>{visibili.length}</strong>{' '}
+              {visibili.length === 1 ? 'produttore trovato' : 'produttori trovati'} su {brands.length}
+              {' · '}
+              <button
+                type="button"
+                onClick={() => { setQuery(''); setFiltroSezione('') }}
+                className="underline hover:text-[#0e9447]"
+              >
+                azzera i filtri
+              </button>
+            </>
+          ) : (
+            <>Tutti i <strong>{brands.length}</strong> produttori. Digita per restringere l'elenco.</>
+          )}
+        </p>
+      </section>
+
       <nav aria-label="Indice alfabetico" className="mb-8">
         <ul className="flex flex-wrap gap-1.5">
           {letters.map((l) => (
@@ -73,13 +153,20 @@ export default function ProduttoriPage() {
         <AdSlot slot="leaderboard-produttori" format="leaderboard" />
       </div>
 
+      {filtroAttivo && visibili.length === 0 && (
+        <p className="rounded border border-neutral-200 bg-white p-6 text-neutral-600">
+          Nessun produttore corrisponde alla ricerca. Prova con il nome del marchio o con la
+          categoria di prodotto, per esempio &laquo;serramenti&raquo; o &laquo;isolanti&raquo;.
+        </p>
+      )}
+
       {letters.map((l, li) => (
         <section key={l} id={`lettera-${l}`} className="scroll-mt-24 mb-10">
           <h2 className="font-headline text-2xl font-extrabold border-b-2 border-[#0e9447] pb-1.5 mb-4">
             {l}
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
-            {brands
+            {visibili
               .filter((b) => initial(b.nome) === l)
               .map((b) => (
                 <article
