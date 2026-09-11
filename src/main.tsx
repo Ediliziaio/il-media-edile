@@ -3,6 +3,10 @@ import { createRoot, hydrateRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router'
 import './index.css'
 import App from './App.tsx'
+import { salvaParametriCampagna } from './lib/eicLead'
+
+// Salva UTM/gclid/fbclid all'atterraggio: l'iscrizione può avvenire su un'altra pagina.
+salvaParametriCampagna()
 
 const container = document.getElementById('root')!
 const app = (

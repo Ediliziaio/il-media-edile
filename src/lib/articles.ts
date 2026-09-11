@@ -48,6 +48,8 @@ export const articles: Article[] = Object.values(modules)
 
 export const SITE_URL = 'https://www.mediaedile.it'
 export const SITE_NAME = 'Il Media Edile'
+/** Form del CRM Edilizia in Cloud che riceve le iscrizioni alla newsletter */
+export const CRM_FORM_ID = 'f0413557-f9e7-4e1a-9f06-d7f9fb7a0351'
 
 /** Sezioni tematiche del blog (menu principale) */
 export const sections = [
