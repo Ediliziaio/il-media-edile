@@ -38,6 +38,10 @@ export interface Article {
   answerBox: string
   blocks: ArticleBlock[]
   faq: Faq[]
+  /** true = nessuna infografica in-article (file -inline.png assente) */
+  noInfographic?: boolean
+  /** didascalia della copertina; stringa vuota = nessuna didascalia */
+  coverCaption?: string
 }
 
 const modules = import.meta.glob<{ default: Article }>('../articles/*.json', { eager: true })
@@ -95,8 +99,9 @@ export function renderInline(text: string): string {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
-      '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-[#0e9447] font-semibold underline decoration-[#0e9447]/40 underline-offset-2 hover:decoration-[#0e9447]">$1</a>')
+    // [testo](https://…) oppure [testo](https://… "sponsored") per i link a pagamento
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)(?:\s+"([^"]*)")?\)/g, (_m, label: string, href: string, title?: string) =>
+      `<a href="${href}" target="_blank" rel="${title === 'sponsored' ? 'sponsored noopener' : 'noopener noreferrer'}" class="text-[#0e9447] font-semibold underline decoration-[#0e9447]/40 underline-offset-2 hover:decoration-[#0e9447]">${label}</a>`)
 }
 
 export function articleUrl(a: Article): string {

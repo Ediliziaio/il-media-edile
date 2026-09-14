@@ -90,9 +90,11 @@ export default function ArticlePage() {
                 itemProp="image"
                 className="w-full aspect-video object-cover rounded-xl"
               />
-              <figcaption className="mt-2 text-xs text-neutral-400">
-                {article.title} — immagine de Il Media Edile
-              </figcaption>
+              {article.coverCaption !== '' && (
+                <figcaption className="mt-2 text-xs text-neutral-400">
+                  {article.coverCaption ?? `${article.title} — immagine de Il Media Edile`}
+                </figcaption>
+              )}
             </figure>
 
             {/* Indice — anchor links (sitelinks) */}
@@ -134,7 +136,7 @@ export default function ArticlePage() {
               {article.blocks.map((b, i) => (
                 <div key={i}>
                   <BlockRenderer block={b} index={i} />
-                  {i === 1 && (
+                  {i === 1 && !article.noInfographic && (
                     <figure className="my-2">
                       <img
                         src={inlineImage(article)}

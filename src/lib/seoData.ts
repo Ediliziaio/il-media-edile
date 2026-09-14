@@ -256,7 +256,7 @@ export function articleSeo(article: Article): SeoOptions {
             height: 630,
             caption: article.title,
           },
-          `${SITE_URL}${inlineImage(article)}`,
+          ...(article.noInfographic ? [] : [`${SITE_URL}${inlineImage(article)}`]),
         ],
         datePublished: article.date,
         dateModified: article.updated,
