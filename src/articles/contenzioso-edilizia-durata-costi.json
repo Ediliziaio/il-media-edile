@@ -1,0 +1,189 @@
+{
+  "slug": "contenzioso-edilizia-durata-costi",
+  "title": "Il contenzioso nell’edilizia: quanto dura, quanto costa e da cosa nasce",
+  "seoTitle": "Contenzioso edilizia: durata, costi e cause reali | Media Edile",
+  "metaDescription": "Da cosa nasce davvero una causa in edilizia, quanto dura un giudizio civile e quanto pesa il credito non riscosso sui bilanci delle imprese.",
+  "category": "News",
+  "categorySlug": "news",
+  "tags": [
+    "contenzioso edilizia durata e costi",
+    "recupero crediti in edilizia",
+    "contenzioso",
+    "recupero crediti"
+  ],
+  "author": "Avv. Armando Rossi",
+  "date": "2026-09-15",
+  "updated": "2026-09-15",
+  "readTime": 6,
+  "answerBox": "Contenuto sponsorizzato. Articolo pubblicato in collaborazione con un inserzionista.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Il contenzioso in edilizia è la controversia tra committente e appaltatore sul corrispettivo, sui tempi o sulla conformità dell’opera. Nasce da un documento che manca, non da una lite di principio. Questa mappa tiene insieme i tre elementi che contano — contenzioso edilizia, durata e costi — da dove nasce, quanto dura, quanto pesa a bilancio."
+    },
+    {
+      "type": "h2",
+      "id": "contenzioso-in-edilizia-durata-e-costi-i-criteri-e-le-fonti",
+      "text": "Contenzioso in edilizia, durata e costi: i criteri e le fonti di questa mappa"
+    },
+    {
+      "type": "p",
+      "text": "**Che cosa non è misurato.** L’elenco delle sei cause che segue non è una rilevazione su un campione di sentenze: è una classificazione editoriale delle fattispecie più ricorrenti nell’appalto privato, ordinata per frequenza apparente e non per valore economico. Una valutazione redazionale, non un dato."
+    },
+    {
+      "type": "p",
+      "text": "**Che cosa è un dato.** I numeri su durata dei procedimenti e puntualità dei pagamenti: Istat, Ministero della Giustizia, Osservatorio sui conti pubblici italiani, Cribis, con anno indicato."
+    },
+    {
+      "type": "p",
+      "text": "**Perimetro.** Solo appalto privato: i lavori pubblici hanno regole proprie."
+    },
+    {
+      "type": "h2",
+      "id": "le-sei-cause-di-contenzioso-piu-frequenti-nellappalto-privat",
+      "text": "Le sei cause di contenzioso più frequenti nell’appalto privato"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Causa",
+        "Da cosa nasce",
+        "Come si previene"
+      ],
+      "rows": [
+        [
+          "**SAL contestato o non pagato**",
+          "Il SAL — stato di avanzamento lavori, la quota di opera eseguita e verificata — è emesso senza criteri concordati",
+          "Computo metrico allegato e termine certo per approvare o contestare"
+        ],
+        [
+          "**Varianti senza ordine scritto**",
+          "Lavorazioni aggiuntive chieste a voce in cantiere e negate a consuntivo",
+          "L’articolo 1659 del codice civile vuole l’autorizzazione provata per iscritto: ordine firmato, con prezzo e tempi"
+        ],
+        [
+          "**Vizi contestati al saldo**",
+          "La contestazione arriva con l’ultima fattura, non quando il difetto si vede",
+          "Verifiche per partite verbalizzate, foto datate, verbale di consegna"
+        ],
+        [
+          "**Ritardi e penali**",
+          "Sospensioni non documentate: ogni fermo diventa colpa dell’impresa",
+          "Giornale dei lavori, verbali di sospensione controfirmati, proroghe scritte"
+        ],
+        [
+          "**Ritenute a garanzia non svincolate**",
+          "Il contratto prevede la trattenuta sul SAL ma non dice quando si restituisce",
+          "Fissare evento e termine di svincolo, o una garanzia bancaria"
+        ],
+        [
+          "**Insolvenza della controparte**",
+          "Il credito matura mentre il committente è già in difficoltà",
+          "Verifica della solvibilità, fatture ravvicinate, sospensione tempestiva"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "quanto-dura-davvero-un-giudizio-civile-i-dati-del-ministero",
+      "text": "Quanto dura davvero un giudizio civile: i dati del Ministero della Giustizia"
+    },
+    {
+      "type": "p",
+      "text": "L’indicatore più diffuso è il disposition time: stima il ritmo di smaltimento dal rapporto fra pendenti e definiti, non la durata del processo in corso. Secondo il comunicato [Istat del 22 giugno 2026 sull’efficienza del sistema giustizia](https://www.istat.it/comunicato-stampa/efficienza-del-sistema-giustizia-analisi-dei-flussi-dei-procedimenti/), nel contenzioso civile il disposition time dei tribunali è di 435 giorni nel 2025, in calo del 21,8% rispetto al 2019; nelle corti d’appello è di 492 giorni. Le serie complete stanno nelle [statistiche del Ministero della Giustizia](https://datiestatistiche.giustizia.it/it/durata_dei_procedimenti_civile.page). La durata effettiva è un’altra cosa: l’[Osservatorio sui conti pubblici italiani](https://osservatoriocpi.unicatt.it/ocpi-pubblicazioni-i-tempi-della-giustizia-civile-sono-davvero-migliorati), su dati ministeriali, indica per le materie rilevanti per le imprese 1.040 giorni di disposition time nel 2024 e oltre 1.160 giorni di durata effettiva nei primi due gradi."
+    },
+    {
+      "type": "p",
+      "text": "In termini direzionali, perché le statistiche non isolano l’appalto: una causa con consulenza tecnica d’ufficio si misura in anni già in primo grado, e l’appello aggiunge tempo. Chi conta su una sentenza entro l’esercizio successivo pianifica male."
+    },
+    {
+      "type": "h2",
+      "id": "il-costo-che-non-si-vede-credito-immobilizzato-ed-effetto-su",
+      "text": "Il costo che non si vede: credito immobilizzato ed effetto sul circolante"
+    },
+    {
+      "type": "p",
+      "text": "Il costo del contenzioso non è la parcella: è il credito che resta fermo. Secondo lo Studio Pagamenti Cribis del secondo trimestre 2026 paga alla scadenza il 42,0% delle imprese italiane; nelle costruzioni i ritardi oltre 90 giorni arrivano al 6,1% contro una media del 4,4%."
+    },
+    {
+      "type": "p",
+      "text": "Il decreto legislativo 231/2002 sui ritardi di pagamento nelle transazioni commerciali fissa un termine ordinario di 30 giorni dal ricevimento della fattura, elevabile a 60 fra imprese se pattuito per iscritto e non gravemente iniquo. Gli interessi di mora decorrono dal giorno dopo la scadenza, senza costituzione in mora, a un tasso pari a quello di riferimento della BCE maggiorato di otto punti percentuali, più 40 euro forfettari di spese di recupero. Vale però solo fra imprese e con la pubblica amministrazione: se il committente è un consumatore, non si applica."
+    },
+    {
+      "type": "p",
+      "text": "Restano i costi che nessuno fattura: l’IVA versata su una fattura non incassata e l’affidamento occupato."
+    },
+    {
+      "type": "h2",
+      "id": "recupero-crediti-in-edilizia-le-tre-vie-e-quando-si-usa-cias",
+      "text": "Recupero crediti in edilizia: le tre vie e quando si usa ciascuna"
+    },
+    {
+      "type": "p",
+      "text": "**Stragiudiziale.** Si contesta l’inadempimento per iscritto e si mette in mora. Lo strumento è la diffida ad adempiere dell’articolo 1454 del codice civile: intimazione scritta ad adempiere entro un termine non inferiore a quindici giorni, con l’avvertimento che allo scadere il contratto si intende risolto di diritto. Per le domande di pagamento fino a 50.000 euro l’articolo 3 del decreto legge 132/2014 impone la negoziazione assistita, obbligo che non vale per i procedimenti per ingiunzione."
+    },
+    {
+      "type": "p",
+      "text": "**Decreto ingiuntivo.** Gli articoli 633 e seguenti del codice di procedura civile danno un’ingiunzione di pagamento senza contraddittorio iniziale, purché il credito sia certo, liquido ed esigibile e risulti da prova scritta: l’articolo 634 ammette per l’imprenditore gli estratti autentici delle scritture contabili regolarmente tenute e le fatture. Il giudice ingiunge di pagare entro 40 giorni, termine entro cui il debitore può opporsi. L’articolo 642 consente di chiederlo provvisoriamente esecutivo: di diritto se il credito si fonda su cambiale, assegno o atto notarile; su istanza, con eventuale cauzione, in caso di pericolo di grave pregiudizio nel ritardo o di documenti sottoscritti dal debitore. Il punto debole è noto: con l’opposizione si apre un giudizio ordinario."
+    },
+    {
+      "type": "p",
+      "text": "**Giudizio ordinario.** Strada obbligata quando manca la prova scritta o il credito è contestato nel merito. Va valutata anche la consulenza tecnica preventiva dell’articolo 696-bis del codice di procedura civile: accerta lo stato dei luoghi senza presupposto d’urgenza e impone al consulente di tentare la conciliazione."
+    },
+    {
+      "type": "p",
+      "text": "Nel recupero crediti edilizia la scelta dipende da due variabili: qualità della prova scritta e solvibilità della controparte. Con SAL controfirmati — gli stati di avanzamento accettati dal committente — e fatture registrate, il decreto ingiuntivo è la via più rapida; con un saldo contestato per difetti, la diffida ad adempiere, scritta e con termine di almeno quindici giorni, fissa le posizioni prima che il contraddittorio si allarghi. Una ricognizione delle tre vie dal lato dell’impresa è in [l’analisi di Edilizia Legale sul recupero crediti in edilizia](https://www.edilizialegale.it/guide/recupero-crediti-edilizia \"sponsored\"). Se la controparte è insolvente resta l’insinuazione al passivo: la domanda per essere ammessi fra i creditori della procedura, da trasmettere via PEC al curatore almeno trenta giorni prima dell’udienza di verifica dello stato passivo, secondo l’articolo 201 del codice della crisi d’impresa."
+    },
+    {
+      "type": "h2",
+      "id": "che-cosa-riduce-il-rischio-a-monte",
+      "text": "Che cosa riduce il rischio a monte"
+    },
+    {
+      "type": "p",
+      "text": "Tre clausole valgono più di ogni strategia processuale."
+    },
+    {
+      "type": "p",
+      "text": "La procedura di approvazione del SAL: chi misura, in quanti giorni il committente contesta, che cosa accade se tace. L’articolo 1666 del codice civile stabilisce che il pagamento della singola partita fa presumere l’accettazione dell’opera pagata, mentre i semplici acconti non producono questo effetto."
+    },
+    {
+      "type": "p",
+      "text": "La disciplina delle varianti: nessuna lavorazione aggiuntiva senza ordine scritto."
+    },
+    {
+      "type": "p",
+      "text": "I termini di contestazione: l’articolo 1667 del codice civile vuole difformità e vizi denunciati entro sessanta giorni dalla scoperta, a pena di decadenza, e prescrive l’azione in due anni dalla consegna; per rovina e gravi difetti di un immobile l’articolo 1669 porta la responsabilità del costruttore a dieci anni dal compimento, con denuncia entro un anno dalla scoperta."
+    },
+    {
+      "type": "p",
+      "text": "Una nota di onestà: con credito modesto, prova debole e controparte litigiosa, la transazione a stralcio è spesso la scelta migliore. Non tutte le ragioni valgono il tempo che costano."
+    },
+    {
+      "type": "p",
+      "text": "**Avv. Armando Rossi** — Avvocato del Foro di Napoli, si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su edilizialegale.it."
+    },
+    {
+      "type": "p",
+      "text": "Il contenuto di questo articolo ha carattere informativo generale, non costituisce parere legale e non sostituisce l’esame del caso concreto."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto tempo serve per ottenere un decreto ingiuntivo?",
+      "a": "In termini generali: dipende dall’ufficio giudiziario e dalla completezza del ricorso, perché il codice non fissa un termine per il giudice. Emesso il decreto, va notificato al debitore, che ha 40 giorni per pagare o opporsi. Con l’opposizione i tempi cambiano scala."
+    },
+    {
+      "q": "Il recupero crediti in edilizia passa sempre dalla mediazione obbligatoria?",
+      "a": "No. L’articolo 5 del decreto legislativo 28/2010 elenca le materie in cui la mediazione è condizione di procedibilità: l’appalto non vi rientra, il contratto d’opera sì. Resta la mediazione disposta dal giudice; nell’opposizione a decreto ingiuntivo l’onere grava su chi lo ha chiesto."
+    },
+    {
+      "q": "Conviene sempre agire in giudizio per un saldo non pagato?",
+      "a": "No, e dirlo fa parte della valutazione. Vanno pesati importo, qualità dei documenti, solvibilità della controparte e tempi. Con credito contestato e prova incerta, un accordo transattivo vale spesso più di una sentenza attesa per anni, al netto degli interessi maturati."
+    }
+  ],
+  "section": "Mercato e Imprese",
+  "sectionSlug": "mercato",
+  "noInfographic": true,
+  "coverCaption": ""
+}
