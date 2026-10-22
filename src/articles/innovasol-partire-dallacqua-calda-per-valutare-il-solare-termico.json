@@ -1,8 +1,8 @@
 {
   "slug": "innovasol-partire-dallacqua-calda-per-valutare-il-solare-termico",
   "title": "Innovasol: partire dall’acqua calda per valutare il solare termico",
-  "seoTitle": "Innovasol: partire dall’acqua calda per valutare il solare termico",
-  "metaDescription": "Una richiesta centrata sulle abitudini della famiglia aiuta a valutare il solare termico. Il servizio di Innovasol raccontato attraverso i dati da raccogliere.",
+  "seoTitle": "Innovasol: valutare il solare termico per casa",
+  "metaDescription": "Una richiesta centrata sulle abitudini della famiglia aiuta a valutare il solare termico. Il servizio di Innovasol raccontato attraverso i dati da.",
   "category": "News",
   "categorySlug": "news",
   "section": "Impianti ed Efficienza",
@@ -13,7 +13,7 @@
   "author": "Redazione Il Media Edile",
   "date": "2026-10-22",
   "updated": "2026-10-22",
-  "readTime": 2,
+  "readTime": 5,
   "answerBox": "Prima del modello di pannello viene una domanda semplice: quando e come viene utilizzata l’acqua calda in casa? È la base per avviare un confronto sulla soluzione.",
   "blocks": [
     {
@@ -69,15 +69,97 @@
     },
     {
       "type": "h2",
+      "id": "approfondimento-0",
+      "text": "Una giornata tipo è più utile di una richiesta generica"
+    },
+    {
+      "type": "p",
+      "text": "Per discutere l'acqua calda, annota quante persone utilizzano l'abitazione e in quali momenti si concentrano gli usi. Segnala anche periodi in cui la casa resta vuota o viene occupata da più persone. Non è un metodo per dimensionare da soli un impianto: è una descrizione delle esigenze che il tecnico dovrà valutare. Innovasol presenta il solare termico tra i servizi offerti in Sicilia; una richiesta concreta aiuta a porre domande pertinenti al primo confronto."
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-2",
+      "text": "Identificare ciò che produce oggi l'acqua calda"
+    },
+    {
+      "type": "p",
+      "text": "Raccogli marca e identificativo del sistema esistente, documenti disponibili e fotografie leggibili, senza aprire componenti. Se riscaldamento e acqua sanitaria dipendono dallo stesso apparecchio, segnalalo. Chiedi come la soluzione proposta si rapporterebbe all'impianto attuale e quali parti sarebbero mantenute. Dire «voglio il solare» lascia aperta una questione essenziale: quale bisogno deve coprire e con quali collegamenti? La descrizione iniziale deve aiutare a rispondere, non nascondere le informazioni mancanti."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Informazione",
+        "Domanda da formulare"
+      ],
+      "rows": [
+        [
+          "Usi dell'acqua calda",
+          "Quali momenti e variazioni vanno considerati?"
+        ],
+        [
+          "Sistema attuale",
+          "Cosa viene mantenuto e cosa cambia?"
+        ],
+        [
+          "Spazi disponibili",
+          "Quali verifiche servono per i componenti proposti?"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-5",
+      "text": "Termico e fotovoltaico rispondono a richieste differenti"
+    },
+    {
+      "type": "p",
+      "text": "Il solare termico utilizza l'energia solare per produrre calore, mentre il fotovoltaico genera elettricità. Per il funzionamento della tecnologia, si veda il [riferimento tecnico ENEA sul solare termico](https://iris.enea.it/retrieve/dd11e37c-d63d-5d97-e053-d805fe0a6f04/V2017_Catalogo-tecnologie-energetiche.pdf). La distinzione evita di confrontare proposte che non rispondono allo stesso obiettivo. Se l'esigenza iniziale è l'acqua calda, chiedi che la proposta spieghi come verrà affrontata, quali integrazioni sono previste e quali condizioni devono essere verificate. Non dedurre da una parola generica come «solare» che tutti i servizi, i componenti e le modalità d'uso siano equivalenti."
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-7",
+      "text": "Il sopralluogo deve chiudere domande riconoscibili"
+    },
+    {
+      "type": "p",
+      "text": "Prima dell'incontro, prepara una lista delle informazioni mancanti: posizione dei componenti, collegamenti, accessibilità e rapporto con il sistema esistente. Dopo il confronto, chiedi quali punti siano stati verificati e quali restino da definire. Conserva il riepilogo insieme alla proposta ricevuta. La possibilità di leggere il percorso delle decisioni è più utile di una scheda apparentemente completa che mescola dati osservati, ipotesi e scelte non ancora approvate."
+    },
+    {
+      "type": "h2",
       "id": "informazioni-azienda",
       "text": "Informazioni e contatti"
     },
     {
       "type": "p",
       "text": "[Approfondisci il solare termico con Innovasol](https://innovasol.it/solare-termico-sicilia/ \"sponsored\")"
+    },
+    {
+      "type": "h2",
+      "id": "letture-correlate",
+      "text": "Approfondimenti nella testata"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[Migliori pompe di calore 2026: la top 10 per riscaldare casa in modo efficiente](https://www.mediaedile.it/impianti/top-10-pompe-di-calore-2026)",
+        "[Le 5 migliori caldaie a condensazione del 2026: classifica, prezzi e consumi](https://www.mediaedile.it/impianti/top-5-caldaie-condensazione-2026)"
+      ]
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "q": "Devo scegliere subito una taglia di impianto?",
+      "a": "No. Descrivi usi, sistema attuale e condizioni note. Il dimensionamento richiede una valutazione del caso; non deriva da un singolo dato raccolto dal proprietario."
+    },
+    {
+      "q": "Solare termico significa fotovoltaico?",
+      "a": "No. Il primo riguarda la produzione di calore, il secondo quella di elettricità. Specifica quale esigenza domestica vuoi affrontare per ricevere proposte confrontabili."
+    },
+    {
+      "q": "Quali documenti preparo per il primo contatto?",
+      "a": "Raccogli informazioni dell'immobile, documenti del sistema esistente e descrizione delle abitudini. Se un dato non è disponibile, segnalalo invece di sostituirlo con una stima non verificata."
+    }
+  ],
   "noInfographic": true,
   "coverCaption": "Illustrazione generata con IA. Non rappresenta un intervento reale dell’azienda.",
   "sponsor": "Innovasol"

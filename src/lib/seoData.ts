@@ -246,7 +246,8 @@ export function articleSeo(article: Article): SeoOptions {
         '@context': 'https://schema.org',
         '@type': 'NewsArticle',
         '@id': `${url}#article`,
-        headline: article.title,
+        ...(article.sponsor ? { sponsor: { "@type": "Organization", name: article.sponsor } } : {}),
+    headline: article.title,
         description: article.metaDescription,
         image: [
           {

@@ -1,7 +1,7 @@
 {
   "slug": "domotica-cablata-wireless-ristrutturazione",
   "title": "Domotica cablata o wireless? La scelta parte dai lavori",
-  "seoTitle": "Domotica cablata o wireless? La scelta parte dai lavori",
+  "seoTitle": "Domotica cablata o wireless: come confrontare le proposte",
   "metaDescription": "Cosa chiedere prima di scegliere la domotica in ristrutturazione: cablaggio, comandi locali, manutenzione e compatibilità, con una checklist pratica.",
   "category": "News",
   "categorySlug": "news",
@@ -13,7 +13,7 @@
   "author": "Redazione Il Media Edile",
   "date": "2026-10-22",
   "updated": "2026-10-22",
-  "readTime": 3,
+  "readTime": 5,
   "answerBox": "Se stai rifacendo gli impianti, valuta anche il cablaggio; se vuoi intervenire su poche funzioni senza aprire le pareti, esamina soluzioni radio. La scelta va confrontata sulle stesse funzioni, includendo comandi locali, configurazione e assistenza.",
   "blocks": [
     {
@@ -108,6 +108,24 @@
     },
     {
       "type": "h2",
+      "id": "approfondimento-0",
+      "text": "Una prova breve con quattro situazioni della tua casa"
+    },
+    {
+      "type": "p",
+      "text": "Prima della scelta, prepara una dimostrazione che ripeta le stesse operazioni sulle alternative: un comando locale, uno scenario con più elementi, una modifica consentita all'utilizzatore e una condizione non abituale. Annota cosa hai effettivamente visto e cosa rimane soltanto dichiarato nella proposta. Non occorre simulare ogni possibile guasto: serve distinguere le funzioni confermate da quelle che dipendono da componenti o servizi ancora da definire. La prova deve riferirsi alla configurazione offerta, non a un sistema più completo mostrato soltanto per la presentazione."
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-2",
+      "text": "Il documento che resta dopo la demo"
+    },
+    {
+      "type": "p",
+      "text": "Chiedi un riepilogo di funzioni, componenti e interfacce confermati. Collega ogni requisito alla risposta ricevuta e segnala i punti aperti, come compatibilità da verificare o condizioni d'accesso a servizi digitali. Se una funzione è importante per una persona che non era presente, prova a spiegarla con le sole istruzioni disponibili: è un modo pratico per capire se la consegna delle informazioni è sufficiente. Il confronto cablato-wireless diventa così una scelta organizzata sulle esigenze della casa, non una preferenza basata sul solo mezzo di comunicazione."
+    },
+    {
+      "type": "h2",
       "id": "fonti",
       "text": "Fonti e riferimenti"
     },
@@ -116,6 +134,17 @@
       "items": [
         "[KNX Association — KNX RF e integrazione cablato/radio](https://knx.org/news/knx-rf-wireless-solutions-and-devices-smart-homeowners)",
         "[Normattiva — D.M. 37/2008](https://www.normattiva.it/eli/stato/DECRETO/2008/01/22/37)"
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "letture-correlate",
+      "text": "Approfondimenti nella testata"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[I 5 migliori sistemi di domotica per la casa: classifica e confronto 2026](https://www.mediaedile.it/innovazione/top-5-sistemi-domotica-casa)"
       ]
     }
   ],
@@ -131,6 +160,14 @@
     {
       "q": "Serve sempre un abbonamento?",
       "a": "Dipende dal servizio. Chiedi quali funzioni e costi periodici sono inclusi nella proposta."
+    },
+    {
+      "q": "Come preparo una prova confrontabile?",
+      "a": "Usa le stesse situazioni per tutte le alternative e annota configurazione e funzioni mostrate. Una demo di prodotti diversi non risponde automaticamente alla richiesta della tua casa."
+    },
+    {
+      "q": "Cosa devo ricevere dopo la presentazione?",
+      "a": "Un riepilogo riferito alla proposta concreta, con requisiti confermati, condizioni e punti da verificare. Le indicazioni generali di un catalogo non sostituiscono quel collegamento."
     }
   ],
   "noInfographic": true,

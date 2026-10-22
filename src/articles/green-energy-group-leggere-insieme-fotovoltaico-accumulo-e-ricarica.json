@@ -1,7 +1,7 @@
 {
   "slug": "green-energy-group-leggere-insieme-fotovoltaico-accumulo-e-ricarica",
   "title": "Green Energy Group: leggere insieme fotovoltaico, accumulo e ricarica",
-  "seoTitle": "Green Energy Group: leggere insieme fotovoltaico, accumulo e ricarica",
+  "seoTitle": "Green Energy Group: fotovoltaico, accumulo e ricarica",
   "metaDescription": "Produzione, energia da utilizzare più tardi e nuovi carichi: tre domande per conoscere le soluzioni presentate da Green Energy Group.",
   "category": "News",
   "categorySlug": "news",
@@ -13,7 +13,7 @@
   "author": "Redazione Il Media Edile",
   "date": "2026-10-22",
   "updated": "2026-10-22",
-  "readTime": 2,
+  "readTime": 5,
   "answerBox": "L’impianto solare, la batteria e la ricarica dell’auto rispondono a esigenze diverse. Valutarli insieme aiuta a costruire una richiesta coerente, senza considerarli un pacchetto obbligatorio.",
   "blocks": [
     {
@@ -69,15 +69,97 @@
     },
     {
       "type": "h2",
+      "id": "approfondimento-0",
+      "text": "Tre richieste diverse nella stessa casa"
+    },
+    {
+      "type": "p",
+      "text": "Produrre elettricità, gestire l'energia in un momento successivo e ricaricare un veicolo sono esigenze collegate ma non identiche. Scrivile come tre domande separate e indica quale viene prima. Green Energy Group presenta queste famiglie di soluzioni sul proprio sito; il progetto concreto deve però chiarire come si rapportino alle condizioni dell'immobile. Non basta sommare componenti presenti in un catalogo per descrivere un insieme coerente con gli usi della famiglia."
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-2",
+      "text": "Il veicolo aggiunge informazioni al profilo domestico"
+    },
+    {
+      "type": "p",
+      "text": "Se stai valutando la ricarica, annota quando il mezzo è normalmente presente e quando deve essere disponibile per il viaggio successivo. Distingui la situazione osservata dalle intenzioni future: un'auto non ancora scelta non è un dato tecnico completo. Condividi inoltre le altre esigenze della casa nelle stesse fasce orarie. Questa scheda non serve a scegliere da soli una potenza, ma a porre al progettista domande sulle condizioni e sulle modalità di gestione."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Domanda",
+        "Dato iniziale da preparare"
+      ],
+      "rows": [
+        [
+          "Fotovoltaico",
+          "Consumi disponibili e caratteristiche note dell'immobile"
+        ],
+        [
+          "Accumulo",
+          "Utilizzi che interessano le ore successive alla produzione"
+        ],
+        [
+          "Ricarica",
+          "Presenza del veicolo e momento in cui deve ripartire"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-5",
+      "text": "Chiedere cosa accade quando le richieste coincidono"
+    },
+    {
+      "type": "p",
+      "text": "Una verifica utile riguarda gli scenari in cui più utilizzi avvengono contemporaneamente. Chiedi quali comportamenti siano previsti dalla soluzione, quali priorità possano essere impostate e quali limiti rimangano. Le funzioni devono appartenere alla configurazione proposta, non essere dedotte dal termine generico «intelligente». Conserva una descrizione degli scenari discussi: ti aiuterà a comprendere i comandi e a distinguere una preferenza della famiglia da una caratteristica già inclusa nel sistema."
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-7",
+      "text": "La proposta va letta anche per interfacce"
+    },
+    {
+      "type": "p",
+      "text": "Identifica chi verifica i collegamenti, quali parti esistenti vengono considerate e quali documenti riceverai alla consegna. Se gli interventi avvengono in tempi diversi, domanda quali predisposizioni sia opportuno discutere già nella prima fase. Non significa impegnarsi subito su ogni acquisto: significa rendere visibili le dipendenze. Prima di approvare, riprendi le tre richieste iniziali e verifica che ciascuna abbia una risposta riconoscibile, con attività comprese e punti ancora aperti."
+    },
+    {
+      "type": "h2",
       "id": "informazioni-azienda",
       "text": "Informazioni e contatti"
     },
     {
       "type": "p",
       "text": "[Esplora le soluzioni di Green Energy Group](https://greenenergygroup.it/ \"sponsored\")"
+    },
+    {
+      "type": "h2",
+      "id": "letture-correlate",
+      "text": "Approfondimenti nella testata"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[Migliori pannelli fotovoltaici 2026: la top 10 per abitazioni e condomini](https://www.mediaedile.it/impianti/top-10-pannelli-fotovoltaici-2026)",
+        "[I 5 migliori sistemi di domotica per la casa: classifica e confronto 2026](https://www.mediaedile.it/innovazione/top-5-sistemi-domotica-casa)"
+      ]
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "q": "Posso valutare fotovoltaico, batteria e ricarica insieme?",
+      "a": "Puoi presentare un progetto coordinato, ma specifica le tre esigenze separatamente. Chiedi che la proposta illustri come interagiscono i componenti e quali condizioni debbano essere verificate."
+    },
+    {
+      "q": "La ricarica usa sempre soltanto energia solare?",
+      "a": "Non va presunto. Chiedi come funziona la configurazione proposta nelle diverse condizioni e quali modalità siano effettivamente disponibili, senza dedurle dal nome del servizio."
+    },
+    {
+      "q": "Che cosa preparo se non ho ancora scelto il veicolo?",
+      "a": "Descrivi l'esigenza e segnala che la scelta è aperta. Le informazioni ipotizzate devono rimanere distinte dai dati del mezzo che verrà effettivamente utilizzato."
+    }
+  ],
   "noInfographic": true,
   "coverCaption": "Illustrazione generata con IA. Non rappresenta un intervento reale dell’azienda.",
   "sponsor": "Green Energy Group"

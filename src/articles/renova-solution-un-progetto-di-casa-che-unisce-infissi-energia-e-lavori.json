@@ -1,7 +1,7 @@
 {
   "slug": "renova-solution-un-progetto-di-casa-che-unisce-infissi-energia-e-lavori",
   "title": "Renova Solution: un progetto di casa che unisce infissi, energia e lavori",
-  "seoTitle": "Renova Solution: un progetto di casa che unisce infissi, energia e lavori",
+  "seoTitle": "Renova Solution: infissi, energia e lavori coordinati",
   "metaDescription": "Dai serramenti al fotovoltaico: come preparare un progetto coordinato per la casa e conoscere i servizi di Renova Solution in Veneto e Friuli.",
   "category": "News",
   "categorySlug": "news",
@@ -13,7 +13,7 @@
   "author": "Redazione Il Media Edile",
   "date": "2026-10-22",
   "updated": "2026-10-22",
-  "readTime": 2,
+  "readTime": 5,
   "answerBox": "Tre acquisti separati possono diventare un unico percorso di miglioramento della casa. Il punto di partenza è una richiesta che metta in relazione comfort, impianti e lavori.",
   "blocks": [
     {
@@ -69,15 +69,97 @@
     },
     {
       "type": "h2",
+      "id": "approfondimento-0",
+      "text": "Un progetto coordinato comincia dalle interferenze"
+    },
+    {
+      "type": "p",
+      "text": "Una finestra, un impianto e una finitura possono appartenere a forniture diverse ma interessare lo stesso ambiente. Prima di fissare le consegne, prepara una pianta con le aperture da sostituire, i passaggi degli impianti e le superfici che verranno rifatte. La domanda utile non è soltanto chi eseguirà ciascun lavoro: è chi deve ricevere una decisione prima di poter cominciare. Questa mappa aiuta a discutere il perimetro con Renova Solution senza affidare il coordinamento a una serie di telefonate scollegate."
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-2",
+      "text": "La scheda delle decisioni da chiudere"
+    },
+    {
+      "type": "p",
+      "text": "Per ciascun ambiente separa tre livelli: esigenza, soluzione proposta e scelta approvata. Volere meno disagio vicino a una finestra è un'esigenza; un determinato serramento è una proposta; il disegno firmato con accessori e finiture è una decisione. Confondere questi livelli può portare a ordinare un prodotto mentre altre caratteristiche sono ancora aperte. Conserva una versione datata della scheda e indica chi deve rispondere alle domande rimaste: proprietario, progettista o fornitore."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Interfaccia tra lavori",
+        "Informazione da scambiare"
+      ],
+      "rows": [
+        [
+          "Infissi e finiture",
+          "Ingombri, ripristini e momento del rilievo definitivo"
+        ],
+        [
+          "Impianti e opere edili",
+          "Percorsi da predisporre prima della chiusura delle superfici"
+        ],
+        [
+          "Consegne e accessi",
+          "Spazi disponibili e referente che riceve i materiali"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-5",
+      "text": "Esempio: una casa utilizzata anche durante i lavori"
+    },
+    {
+      "type": "p",
+      "text": "Se una famiglia rimane nell'immobile, una stanza non è disponibile soltanto quando termina una lavorazione: deve essere nuovamente utilizzabile. Nel programma annota quindi anche protezioni, pulizia e riconsegna dell'ambiente. Verifica quali utenze devono rimanere operative e quali oggetti spostare. È un esempio organizzativo, non un intervento attribuito all'azienda. Serve a trasformare il generico «fare tutto insieme» in una sequenza di consegne comprensibili per chi abita la casa."
+    },
+    {
+      "type": "h2",
+      "id": "approfondimento-7",
+      "text": "Cosa portare al primo confronto"
+    },
+    {
+      "type": "p",
+      "text": "Una richiesta efficace comprende località, fotografie d'insieme, disponibilità dell'immobile e un elenco delle priorità. Le fotografie aiutano a descrivere il contesto ma non sostituiscono misure o verifiche. Renova Solution presenta sul proprio sito servizi per infissi, fotovoltaico e ristrutturazioni in Veneto e Friuli Venezia Giulia: il confronto iniziale serve anche a chiarire quali attività includere nello specifico progetto e quali interlocutori coinvolgere. Non occorre arrivare con una soluzione tecnica già decisa."
+    },
+    {
+      "type": "h2",
       "id": "informazioni-azienda",
       "text": "Informazioni e contatti"
     },
     {
       "type": "p",
       "text": "[Conosci i servizi di Renova Solution](https://www.renovasolution.it/ \"sponsored\")"
+    },
+    {
+      "type": "h2",
+      "id": "letture-correlate",
+      "text": "Approfondimenti nella testata"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[Migliori serramenti in alluminio: la classifica dei 5 produttori top in Italia](https://www.mediaedile.it/materiali-prodotti/top-5-produttori-serramenti-alluminio)",
+        "[Migliori pannelli fotovoltaici 2026: la top 10 per abitazioni e condomini](https://www.mediaedile.it/impianti/top-10-pannelli-fotovoltaici-2026)"
+      ]
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "q": "Posso chiedere un unico progetto per più interventi?",
+      "a": "Puoi presentare una richiesta coordinata. Chiedi che la proposta identifichi perimetro, referenti e interfacce tra le attività, invece di sommare preventivi che descrivono lavori non confrontabili."
+    },
+    {
+      "q": "Serve avere già scelto tutti i prodotti?",
+      "a": "No. È più utile distinguere ciò che hai approvato dalle alternative ancora da valutare. Le decisioni definitive vanno raccolte prima delle attività che dipendono da quelle scelte."
+    },
+    {
+      "q": "Le foto bastano per definire la proposta?",
+      "a": "Servono a spiegare il contesto. Misure, compatibilità e fattibilità richiedono le verifiche pertinenti al lavoro; chiarisci quali informazioni mancano e quando verranno raccolte."
+    }
+  ],
   "noInfographic": true,
   "coverCaption": "Illustrazione generata con IA. Non rappresenta un intervento reale dell’azienda.",
   "sponsor": "Renova Solution"
