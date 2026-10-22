@@ -29,6 +29,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-neutral-200">
+      <nav aria-label="Guide e speciali" style={{display:"flex",justifyContent:"center",flexWrap:"wrap",gap:"20px",padding:"8px 16px",background:"#f5f5f2",color:"#263c42",fontSize:"13px",borderBottom:"1px solid #dce1df"}}><a href="/guide-pratiche">Guide pratiche</a><a href="/speciali-aziende">Speciali aziende · contenuti sponsorizzati</a></nav>
       {/* Breaking news ticker */}
       <div className="bg-neutral-950 text-white text-xs">
         <div className="mx-auto max-w-7xl px-4 flex items-center gap-3 overflow-hidden py-1.5">

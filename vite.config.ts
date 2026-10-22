@@ -4,7 +4,10 @@ import { defineConfig } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
-export default defineConfig(({ command }) => ({
+export default defineConfig(({ command, isSsrBuild }) => ({
+  // The SSR bundle lives inside dist/server. Do not copy public pages there:
+  // they would become duplicate crawlable URLs under /server/.
+  publicDir: isSsrBuild ? false : 'public',
   // Base assoluta: con il pre-rendering le pagine vivono in sottocartelle
   // (es. /news/articolo/index.html) e gli asset devono risolversi da /assets/...
   base: '/',

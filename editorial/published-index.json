@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Domotica cablata o wireless? La scelta parte dai lavori",
+    "description": "Cosa chiedere prima di scegliere la domotica in ristrutturazione: cablaggio, comandi locali, manutenzione e compatibilità, con una checklist pratica.",
+    "path": "/guide-pratiche/domotica-cablata-wireless-ristrutturazione",
+    "section": "guide-pratiche",
+    "slug": "domotica-cablata-wireless-ristrutturazione",
+    "publishedAt": "2026-10-22T07:18:01Z",
+    "image": "/editorial-assets/domotica-cablata-wireless-ristrutturazione.webp",
+    "sponsor": null,
+    "sourceURLs": [
+      "https://knx.org/news/knx-rf-wireless-solutions-and-devices-smart-homeowners",
+      "https://www.normattiva.it/eli/stato/DECRETO/2008/01/22/37"
+    ]
+  },
+  {
+    "title": "Renova Solution: un progetto di casa che unisce infissi, energia e lavori",
+    "description": "Dai serramenti al fotovoltaico: come preparare un progetto coordinato per la casa e conoscere i servizi di Renova Solution in Veneto e Friuli.",
+    "path": "/speciali-aziende/renova-solution-un-progetto-di-casa-che-unisce-infissi-energia-e-lavori",
+    "section": "speciali-aziende",
+    "slug": "renova-solution-un-progetto-di-casa-che-unisce-infissi-energia-e-lavori",
+    "publishedAt": "2026-10-22T07:18:01Z",
+    "image": "/editorial-assets/renova-solution.webp",
+    "sponsor": "Renova Solution",
+    "sourceURLs": [
+      "https://www.renovasolution.it/"
+    ]
+  },
+  {
+    "title": "Innovasol: partire dall’acqua calda per valutare il solare termico",
+    "description": "Una richiesta centrata sulle abitudini della famiglia aiuta a valutare il solare termico. Il servizio di Innovasol raccontato attraverso i dati da raccogliere.",
+    "path": "/speciali-aziende/innovasol-partire-dallacqua-calda-per-valutare-il-solare-termico",
+    "section": "speciali-aziende",
+    "slug": "innovasol-partire-dallacqua-calda-per-valutare-il-solare-termico",
+    "publishedAt": "2026-10-22T07:18:01Z",
+    "image": "/editorial-assets/innovasol.webp",
+    "sponsor": "Innovasol",
+    "sourceURLs": [
+      "https://innovasol.it/",
+      "https://innovasol.it/solare-termico-sicilia/"
+    ]
+  },
+  {
+    "title": "Green Energy Group: leggere insieme fotovoltaico, accumulo e ricarica",
+    "description": "Produzione, energia da utilizzare più tardi e nuovi carichi: tre domande per conoscere le soluzioni presentate da Green Energy Group.",
+    "path": "/speciali-aziende/green-energy-group-leggere-insieme-fotovoltaico-accumulo-e-ricarica",
+    "section": "speciali-aziende",
+    "slug": "green-energy-group-leggere-insieme-fotovoltaico-accumulo-e-ricarica",
+    "publishedAt": "2026-10-22T07:18:01Z",
+    "image": "/editorial-assets/green-energy-group.webp",
+    "sponsor": "Green Energy Group",
+    "sourceURLs": [
+      "https://greenenergygroup.it/"
+    ]
+  }
+]

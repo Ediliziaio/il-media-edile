@@ -37,3 +37,4 @@ User-agent: CCBot
 Allow: /
 
 Sitemap: https://www.mediaedile.it/sitemap.xml
+Sitemap: https://www.mediaedile.it/sitemap-editorial.xml

@@ -51,13 +51,13 @@ export default function ProduttoriPage() {
 
       <header className="border-b-2 border-neutral-900 pb-5 mb-4">
         <h1 className="font-headline text-4xl md:text-5xl font-extrabold tracking-tight inline-flex items-center gap-3">
-          <Factory className="text-[#0e9447]" size={38} /> Indice dei produttori
+          <Factory className="text-[#0e9447]" size={38} /> Indice dei marchi e prodotti
         </h1>
         <p className="mt-3 text-neutral-600 max-w-3xl">
           I <strong>{brands.length} marchi</strong> valutati nelle nostre classifiche, raccolti in
           un unico indice: per ciascuno il settore di appartenenza, le classifiche in cui compare
-          con la posizione ottenuta e il sito ufficiale. Un modo per partire dall'azienda invece
-          che dalla categoria di prodotto.
+          con la posizione ottenuta e il sito ufficiale, quando disponibile. Sono inclusi anche
+          modelli e software citati per nome; bonus e categorie generiche di materiali restano nelle guide.
         </p>
       </header>
 
@@ -66,7 +66,7 @@ export default function ProduttoriPage() {
           L'indice è costruito sulle classifiche già pubblicate: nessun marchio vi compare a
           pagamento e nessuna posizione è in vendita. La valutazione resta quella dell'articolo di
           origine, con i criteri dichiarati caso per caso; qui trovi il rimando diretto all'analisi
-          che l'ha prodotta. {conSito} schede riportano anche il sito ufficiale del produttore.
+          che l'ha prodotta. {conSito} schede riportano anche un sito ufficiale.
         </p>
         <p className="mt-3">
           Un'azienda può comparire in più classifiche quando opera su categorie diverse: in quel
@@ -78,7 +78,7 @@ export default function ProduttoriPage() {
         <div className="flex flex-col gap-3 sm:flex-row">
           <label className="flex-1">
             <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-neutral-600">
-              Cerca un produttore o una classifica
+              Cerca un marchio, un prodotto o una classifica
             </span>
             <span className="relative block">
               <Search
@@ -115,7 +115,7 @@ export default function ProduttoriPage() {
           {filtroAttivo ? (
             <>
               <strong>{visibili.length}</strong>{' '}
-              {visibili.length === 1 ? 'produttore trovato' : 'produttori trovati'} su {brands.length}
+              {visibili.length === 1 ? 'voce trovata' : 'voci trovate'} su {brands.length}
               {' · '}
               <button
                 type="button"
@@ -126,7 +126,7 @@ export default function ProduttoriPage() {
               </button>
             </>
           ) : (
-            <>Tutti i <strong>{brands.length}</strong> produttori. Digita per restringere l'elenco.</>
+            <>Tutte le <strong>{brands.length}</strong> voci. Digita per restringere l'elenco.</>
           )}
         </p>
       </section>
@@ -155,7 +155,7 @@ export default function ProduttoriPage() {
 
       {filtroAttivo && visibili.length === 0 && (
         <p className="rounded border border-neutral-200 bg-white p-6 text-neutral-600">
-          Nessun produttore corrisponde alla ricerca. Prova con il nome del marchio o con la
+          Nessuna voce corrisponde alla ricerca. Prova con il nome del marchio o con la
           categoria di prodotto, per esempio &laquo;serramenti&raquo; o &laquo;isolanti&raquo;.
         </p>
       )}
@@ -196,7 +196,7 @@ export default function ProduttoriPage() {
                           {v.rank ? `#${v.rank}` : '—'}
                         </span>
                         <Link
-                          to={`/${v.categorySlug}/${v.slug}`}
+                          to={`/${v.sectionSlug}/${v.slug}`}
                           className="text-neutral-700 hover:text-[#0e9447] hover:underline"
                         >
                           {v.classifica}

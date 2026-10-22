@@ -433,14 +433,14 @@ export function datiSeo(): SeoOptions {
 export function produttoriSeo(): SeoOptions {
   const conSito = brands.filter((b) => b.url).length
   return {
-    title: `Indice dei produttori edili: ${brands.length} marchi valutati | ${SITE_NAME}`,
-    description: `I ${brands.length} produttori dell'edilizia italiana valutati nelle nostre classifiche, in un unico indice: settore, posizione ottenuta e classifica di riferimento per ciascun marchio.`,
+    title: `Indice marchi e prodotti edili: ${brands.length} voci | ${SITE_NAME}`,
+    description: `${brands.length} marchi, prodotti e software citati nelle nostre classifiche: settore, posizione e articolo di riferimento. Esclusi bonus e materiali generici.`,
     canonical: `${SITE_URL}/produttori`,
     jsonLd: [
       {
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
-        name: `Indice dei produttori — ${SITE_NAME}`,
+        name: `Indice dei marchi e prodotti — ${SITE_NAME}`,
         description: `Indice dei ${brands.length} marchi dell'edilizia valutati nelle classifiche de Il Media Edile, con settore, posizione e fonte. ${conSito} schede riportano il sito ufficiale.`,
         url: `${SITE_URL}/produttori`,
         inLanguage: 'it-IT',
@@ -452,7 +452,7 @@ export function produttoriSeo(): SeoOptions {
             '@type': 'ListItem',
             position: i + 1,
             item: {
-              '@type': 'Organization',
+              '@type': 'Thing',
               name: b.nome,
               ...(b.url ? { url: b.url } : {}),
             },

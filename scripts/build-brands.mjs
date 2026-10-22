@@ -24,7 +24,15 @@ const key = (s) =>
 
 const map = new Map()
 
+// Queste classifiche confrontano categorie di materiali o agevolazioni,
+// non marchi o prodotti identificabili. Non vanno trasformate in produttori.
+const genericRankings = new Set([
+  'top-10-bonus-edilizi-2026',
+  'top-10-materiali-isolanti-edilizia',
+])
+
 for (const a of articles) {
+  if (genericRankings.has(a.slug)) continue
   for (const b of a.blocks || []) {
     if (b.type !== 'ranking') continue
     for (const it of b.items || []) {
@@ -40,7 +48,7 @@ for (const a of articles) {
         rank: it.rank ?? 0,
         titolo: a.title,
         slug: a.slug,
-        categorySlug: a.categorySlug,
+        sectionSlug: a.sectionSlug,
         sezione: a.section || '',
         classifica: b.title || a.title,
         descrizione: (it.text || '').trim(),
@@ -66,7 +74,7 @@ export interface BrandVoce {
   rank: number
   titolo: string
   slug: string
-  categorySlug: string
+  sectionSlug: string
   sezione: string
   classifica: string
   descrizione: string

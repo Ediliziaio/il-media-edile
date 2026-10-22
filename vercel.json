@@ -65,5 +65,42 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/tag/:legacyTag(abbattimento barriere|abbattimento%20barriere|abbattimento-barriere|ascensori|autoconsumo|caldaie|climatizzazione|condensazione|condominio|efficienza|efficienza energetica|efficienza%20energetica|efficienza-energetica|energia rinnovabile|energia%20rinnovabile|energia-rinnovabile|fotovoltaico|impianti|pannelli solari|pannelli%20solari|pannelli-solari|piattaforme elevatrici|piattaforme%20elevatrici|piattaforme-elevatrici|pompe di calore|pompe%20di%20calore|pompe-di-calore|riqualificazione energetica|riqualificazione%20energetica|riqualificazione-energetica|riscaldamento)",
+      "destination": "/impianti",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:legacyTag(BIM|IFC|appalti pubblici|appalti%20pubblici|appalti-pubblici|automazione|bim|codice appalti|codice%20appalti|codice-appalti|digitalizzazione|digitalizzazione cantieri|digitalizzazione%20cantieri|digitalizzazione-cantieri|domotica|ifc|progettazione|risparmio energetico|risparmio%20energetico|risparmio-energetico|smart home|smart%20home|smart-home|software edilizia|software%20edilizia|software-edilizia)",
+      "destination": "/innovazione",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:legacyTag(Sassuolo|alluminio|antieffrazione|calcestruzzo|cemento|ceramica|coperture|facciate|finestre|finiture|gres porcellanato|gres%20porcellanato|gres-porcellanato|infissi|interior design|interior%20design|interior-design|involucro edilizio|involucro%20edilizio|involucro-edilizio|materiali da costruzione|materiali%20da%20costruzione|materiali-da-costruzione|parquet|pavimenti|pavimenti in legno|pavimenti%20in%20legno|pavimenti-in-legno|piastrelle|pitture|porte blindate|porte ingresso|porte%20blindate|porte%20ingresso|porte-blindate|porte-ingresso|produttori|pvc|ristrutturazione|sassuolo|serramenti|sicurezza|taglio termico|taglio%20termico|taglio-termico|tegole|tetti|vernici|vetrate)",
+      "destination": "/materiali-prodotti",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:legacyTag(acciaio|appalti|canali acquisizione clienti B2B edilizia|canali acquisizione clienti b2b edilizia|canali%20acquisizione%20clienti%20B2B%20edilizia|canali%20acquisizione%20clienti%20b2b%20edilizia|canali-acquisizione-clienti-b2b-edilizia|cantieri|carenza manodopera|carenza%20manodopera|carenza-manodopera|caro materiali|caro%20materiali|caro-materiali|chiavi in mano|chiavi%20in%20mano|chiavi-in-mano|compravendite|contenzioso|contenzioso edilizia durata e costi|contenzioso%20edilizia%20durata%20e%20costi|contenzioso-edilizia-durata-e-costi|database B2B di aziende italiane|database b2b di aziende italiane|database%20B2B%20di%20aziende%20italiane|database%20b2b%20di%20aziende%20italiane|database-b2b-di-aziende-italiane|edilizia|escavatori|formazione professionale|formazione%20professionale|formazione-professionale|general contractor|general%20contractor|general-contractor|grandi opere|grandi%20opere|grandi-opere|imprese di costruzione|imprese edili|imprese%20di%20costruzione|imprese%20edili|imprese-di-costruzione|imprese-edili|infrastrutture|investimenti|lavoro|lead generation|lead%20generation|lead-generation|macchine movimento terra|macchine%20movimento%20terra|macchine-movimento-terra|marketing B2B|marketing b2b|marketing%20B2B|marketing%20b2b|marketing-b2b|mercato immobiliare|mercato%20immobiliare|mercato-immobiliare|noleggio|nuove costruzioni|nuove%20costruzioni|nuove-costruzioni|prezzi case|prezzi costruzioni|prezzi%20case|prezzi%20costruzioni|prezzi-case|prezzi-costruzioni|recupero crediti|recupero crediti in edilizia|recupero%20crediti|recupero%20crediti%20in%20edilizia|recupero-crediti|recupero-crediti-in-edilizia)",
+      "destination": "/mercato",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:legacyTag(bari|eventi costruzioni|eventi%20costruzioni|eventi-costruzioni|fiere edilizia|fiere%20edilizia|fiere-edilizia|innovazione edilizia|innovazione%20edilizia|innovazione-edilizia|opere pubbliche|opere%20pubbliche|opere-pubbliche|pnrr|saie)",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:legacyTag(Ecobonus|bonus edilizi|bonus%20edilizi|bonus-edilizi|detrazioni fiscali|detrazioni%20fiscali|detrazioni-fiscali|ecobonus|efficientamento energetico|efficientamento%20energetico|efficientamento-energetico|fisco|formazione|incentivi 2026|incentivi%202026|incentivi-2026|infortuni sul lavoro|infortuni%20sul%20lavoro|infortuni-sul-lavoro|patentino a crediti|patentino%20a%20crediti|patentino-a-crediti|ristrutturazioni|sicurezza cantieri|sicurezza%20cantieri|sicurezza-cantieri|superbonus)",
+      "destination": "/norme-bonus",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:legacyTag(breeam|cappotto termico|cappotto%20termico|cappotto-termico|certificazioni|direttiva case green|direttiva%20case%20green|direttiva-case-green|edilizia sostenibile|edilizia%20sostenibile|edilizia-sostenibile|isolamento termico|isolamento%20termico|isolamento-termico|leed|materiali isolanti|materiali%20isolanti|materiali-isolanti|protocollo itaca|protocollo%20itaca|protocollo-itaca|unione europea|unione%20europea|unione-europea)",
+      "destination": "/sostenibilita",
+      "permanent": true
+    }
   ]
 }
