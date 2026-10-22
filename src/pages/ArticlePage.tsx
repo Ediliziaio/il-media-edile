@@ -53,7 +53,9 @@ export default function ArticlePage() {
                 </span>
               )}
             </div>
-            <h1 itemProp="headline" className="font-headline text-3xl md:text-[2.6rem] md:leading-[1.15] font-extrabold tracking-tight mt-3">
+
+            {article?.sponsor && <p className="my-3 font-sans text-xs font-bold uppercase tracking-wide" role="note">Contenuto sponsorizzato · {article.sponsor}</p>}
+<h1 itemProp="headline" className="font-headline text-3xl md:text-[2.6rem] md:leading-[1.15] font-extrabold tracking-tight mt-3">
               {article.title}
             </h1>
 

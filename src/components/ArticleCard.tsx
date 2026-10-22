@@ -45,6 +45,7 @@ export function ArticleCard({ article: a, variant = 'standard', rank }: Props) {
         </Link>
         <div className="mt-4">{badge}{formatTag}</div>
         <Link to={url}>
+          {a.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {a.sponsor}</p>}
           <h2 className="font-headline text-2xl md:text-4xl font-extrabold leading-tight mt-2.5 group-hover:text-[#0e9447] transition-colors">
             {a.title}
           </h2>
@@ -76,6 +77,7 @@ export function ArticleCard({ article: a, variant = 'standard', rank }: Props) {
         </Link>
         <div className="mt-3">{badge}{formatTag}</div>
         <Link to={url}>
+          {a.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {a.sponsor}</p>}
           <h3 className="font-headline text-xl font-bold leading-snug mt-2 group-hover:text-[#0e9447] transition-colors">{a.title}</h3>
         </Link>
         <p className="mt-2 text-sm text-neutral-600 leading-relaxed line-clamp-3">{a.answerBox}</p>
@@ -104,7 +106,8 @@ export function ArticleCard({ article: a, variant = 'standard', rank }: Props) {
         </Link>
         <div className="min-w-0">
           <Link to={url}>
-            <h4 className="font-headline text-sm font-bold leading-snug group-hover:text-[#0e9447] transition-colors line-clamp-3">{a.title}</h4>
+            {a.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {a.sponsor}</p>}
+          <h4 className="font-headline text-sm font-bold leading-snug group-hover:text-[#0e9447] transition-colors line-clamp-3">{a.title}</h4>
           </Link>
           <div className="mt-1 text-[11px] text-neutral-500">
             <span className="font-semibold" style={{ color }}>{a.section}</span> · <time dateTime={a.date}>{formatDate(a.date)}</time>
@@ -130,7 +133,8 @@ export function ArticleCard({ article: a, variant = 'standard', rank }: Props) {
         <div className="flex-1 min-w-0">
           <div>{badge}{formatTag}</div>
           <Link to={url}>
-            <h3 className="font-headline text-xl md:text-2xl font-bold leading-snug mt-2 group-hover:text-[#0e9447] transition-colors">{a.title}</h3>
+            {a.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {a.sponsor}</p>}
+          <h3 className="font-headline text-xl md:text-2xl font-bold leading-snug mt-2 group-hover:text-[#0e9447] transition-colors">{a.title}</h3>
           </Link>
           <p className="mt-2 text-sm text-neutral-600 leading-relaxed line-clamp-2">{a.answerBox}</p>
           <div className="mt-2 flex flex-wrap gap-2">
@@ -149,7 +153,8 @@ export function ArticleCard({ article: a, variant = 'standard', rank }: Props) {
   return (
     <article className="group border-b border-neutral-200 pb-4">
       <Link to={url}>
-        <h3 className="font-headline text-base font-bold leading-snug group-hover:text-[#0e9447] transition-colors">{a.title}</h3>
+        {a.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {a.sponsor}</p>}
+          <h3 className="font-headline text-base font-bold leading-snug group-hover:text-[#0e9447] transition-colors">{a.title}</h3>
       </Link>
       <div className="mt-1 text-xs text-neutral-500">
         <span className="font-semibold" style={{ color }}>{a.section}</span> · <time dateTime={a.date}>{formatDate(a.date)}</time>

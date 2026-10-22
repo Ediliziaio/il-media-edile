@@ -1,0 +1,139 @@
+{
+  "slug": "domotica-cablata-wireless-ristrutturazione",
+  "title": "Domotica cablata o wireless? La scelta parte dai lavori",
+  "seoTitle": "Domotica cablata o wireless? La scelta parte dai lavori",
+  "metaDescription": "Cosa chiedere prima di scegliere la domotica in ristrutturazione: cablaggio, comandi locali, manutenzione e compatibilità, con una checklist pratica.",
+  "category": "News",
+  "categorySlug": "news",
+  "section": "Innovazione e BIM",
+  "sectionSlug": "innovazione",
+  "tags": [
+    "innovazione"
+  ],
+  "author": "Redazione Il Media Edile",
+  "date": "2026-10-22",
+  "updated": "2026-10-22",
+  "readTime": 3,
+  "answerBox": "Se stai rifacendo gli impianti, valuta anche il cablaggio; se vuoi intervenire su poche funzioni senza aprire le pareti, esamina soluzioni radio. La scelta va confrontata sulle stesse funzioni, includendo comandi locali, configurazione e assistenza.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Una casa con molte app non è necessariamente una casa ben organizzata. Il problema emerge quando cambiano il telefono, il router o la persona che ha configurato tutto. Prima di confrontare i marchi, conviene descrivere cosa deve accadere nella vita quotidiana: spegnere le luci uscendo, chiudere gli oscuranti, gestire il riscaldamento per zone. Sono richieste diverse dall'acquisto di singoli dispositivi connessi."
+    },
+    {
+      "type": "h2",
+      "id": "sezione-1",
+      "text": "Prima decisione: quanto cantiere hai già previsto?"
+    },
+    {
+      "type": "p",
+      "text": "Durante una ristrutturazione completa, chiedi al progettista di valutare percorsi, spazi nel quadro e predisposizioni insieme all'impianto elettrico. A lavori conclusi queste scelte possono diventare più onerose. In una casa abitata, invece, parti da un elenco ristretto di funzioni e da un sopralluogo: una soluzione radio non elimina ogni possibile intervento sull'alimentazione o sui carichi da comandare."
+    },
+    {
+      "type": "p",
+      "text": "Non esiste una separazione assoluta tra le due famiglie. KNX Association descrive anche soluzioni KNX RF e l'integrazione tra dispositivi radio e cablati attraverso un accoppiatore di mezzi. È un esempio concreto di architettura mista, non una prova che ogni prodotto wireless sia compatibile con qualsiasi impianto. [1]"
+    },
+    {
+      "type": "h2",
+      "id": "sezione-4",
+      "text": "Confronta due proposte che facciano le stesse cose"
+    },
+    {
+      "type": "p",
+      "text": "Prepara una scheda delle funzioni: quali luci, quali tapparelle, quali stanze e quali automatismi. Accanto a ogni voce scrivi come vuoi comandarla: pulsante, programma orario, sensore, telefono. Chiedi poi a entrambi i fornitori di compilare la stessa scheda. Altrimenti rischi di confrontare il costo di poche prese connesse con quello di un sistema che comprende progettazione e avviamento."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Domanda da fare",
+        "Prova da chiedere"
+      ],
+      "rows": [
+        [
+          "Cosa resta operativo senza Internet?",
+          "Esecuzione dei comandi locali e degli scenari dichiarati"
+        ],
+        [
+          "Chi conserva la configurazione?",
+          "Consegna del progetto e indicazione dei diritti di accesso"
+        ],
+        [
+          "Come si aggiunge una funzione?",
+          "Elenco dei componenti e delle attività necessarie"
+        ],
+        [
+          "Chi interviene in caso di guasto?",
+          "Referente, procedura e condizioni di assistenza"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "sezione-7",
+      "text": "La dimostrazione utile dura pochi minuti"
+    },
+    {
+      "type": "p",
+      "text": "Durante la presentazione chiedi di usare un normale comando a parete, poi di verificare cosa accade quando il collegamento a Internet non è disponibile. La prova va concordata con l'installatore e non richiede manomissioni dell'impianto. Se il venditore promette un comportamento, fallo riportare nell'offerta. La frase «funziona tutto offline» è troppo generica: serve l'elenco di ciò che continua a funzionare e di ciò che si interrompe."
+    },
+    {
+      "type": "p",
+      "text": "Un secondo test riguarda la manutenzione ordinaria. Come si sostituisce un sensore? Chi aggiorna il sistema? Quali impostazioni può modificare il proprietario senza chiamare un tecnico? Mettere queste risposte per iscritto aiuta anche chi abiterà la casa dopo di te."
+    },
+    {
+      "type": "h2",
+      "id": "sezione-10",
+      "text": "Cosa inserire nel preventivo"
+    },
+    {
+      "type": "p",
+      "text": "La nostra proposta di confronto prevede cinque righe separate: dispositivi, opere impiantistiche, configurazione iniziale, istruzioni all'utente e assistenza successiva. Chiedi di distinguere gli eventuali servizi periodici dall'acquisto iniziale. Non presumere che l'app gratuita renda gratuito tutto il servizio, né che un sistema cablato sia automaticamente privo di dipendenze esterne."
+    },
+    {
+      "type": "p",
+      "text": "Per gli interventi sugli impianti, il riferimento generale resta il D.M. 37/2008; progettazione, esecuzione e documentazione vanno affidate ai soggetti competenti per lo specifico lavoro. [2] Questa guida serve a formulare la richiesta, non a progettare collegamenti elettrici."
+    },
+    {
+      "type": "h2",
+      "id": "sezione-13",
+      "text": "Il capitolato breve da portare al sopralluogo"
+    },
+    {
+      "type": "p",
+      "text": "- Elenca le tre funzioni davvero necessarie e le eventuali estensioni future. - Indica quali stanze saranno interessate dai lavori e quali devono restare utilizzabili. - Chiedi la compatibilità dei componenti proposti, senza dedurla dal solo protocollo citato. - Richiedi una consegna finale con configurazione, credenziali sotto il tuo controllo e istruzioni. - Valuta la proposta completa, compresa l'assistenza, prima di scegliere il marchio."
+    },
+    {
+      "type": "p",
+      "text": "La scelta migliore è quella di cui comprendi il funzionamento e la gestione nel tempo. Il numero di automatismi mostrati in una demo viene dopo."
+    },
+    {
+      "type": "h2",
+      "id": "fonti",
+      "text": "Fonti e riferimenti"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[KNX Association — KNX RF e integrazione cablato/radio](https://knx.org/news/knx-rf-wireless-solutions-and-devices-smart-homeowners)",
+        "[Normattiva — D.M. 37/2008](https://www.normattiva.it/eli/stato/DECRETO/2008/01/22/37)"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wireless significa che non servono lavori?",
+      "a": "Non necessariamente. Alimentazione, attuatori e impianto esistente richiedono una verifica specifica."
+    },
+    {
+      "q": "Posso mescolare dispositivi di marche diverse?",
+      "a": "Solo verificando la compatibilità della configurazione concreta: la presenza di un nome di protocollo non basta."
+    },
+    {
+      "q": "Serve sempre un abbonamento?",
+      "a": "Dipende dal servizio. Chiedi quali funzioni e costi periodici sono inclusi nella proposta."
+    }
+  ],
+  "noInfographic": true,
+  "coverCaption": "Illustrazione editoriale generata con IA. Non documenta un intervento reale.",
+  "sponsor": null
+}
