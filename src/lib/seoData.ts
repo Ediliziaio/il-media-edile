@@ -409,7 +409,9 @@ export function datiSeo(): SeoOptions {
           '@type': 'Dataset',
           '@id': `${SITE_URL}${articleUrl(a)}#dataset`,
           name: a.title,
+          description: a.metaDescription,
           url: `${SITE_URL}${articleUrl(a)}`,
+          creator: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: SITE_NAME, url: SITE_URL },
           license: 'https://creativecommons.org/licenses/by/4.0/',
           dateModified: a.updated,
           distribution: {
