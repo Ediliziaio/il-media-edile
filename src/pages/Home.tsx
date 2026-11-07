@@ -24,6 +24,14 @@ export default function Home() {
         Il Media Edile — classifiche indipendenti e confronti dei migliori produttori
         e prodotti dell'edilizia italiana, con dati scaricabili
       </h1>
+      <section id="percorsi-tematici-seo" aria-labelledby="percorsi-tematici-titolo" className="mx-auto max-w-7xl px-4 py-8">
+        <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-5 sm:p-7">
+          <h2 id="percorsi-tematici-titolo" className="text-2xl font-bold text-neutral-950">Produttori e dati: scegli il percorso</h2>
+          <p className="mt-3 max-w-4xl text-neutral-700 leading-relaxed">Un elenco di marchi, una classifica e una tabella rispondono a domande diverse. Parti dallo strumento che ti serve e approfondisci le informazioni prima di scegliere.</p>
+          <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3"><li><a href="/produttori" className="font-bold text-neutral-950 underline underline-offset-4">Trova produttori per categoria</a><p className="mt-2 text-sm text-neutral-700 leading-relaxed">Consulta l’indice dei marchi e dei prodotti trattati dal portale.</p></li><li><a href="/dati" className="font-bold text-neutral-950 underline underline-offset-4">Consulta e scarica le tabelle</a><p className="mt-2 text-sm text-neutral-700 leading-relaxed">Accedi ai dataset CSV per leggere le voci e confrontare le informazioni.</p></li><li><a href="/materiali-prodotti/top-10-produttori-serramenti-italia" className="font-bold text-neutral-950 underline underline-offset-4">Approfondisci i produttori di serramenti</a><p className="mt-2 text-sm text-neutral-700 leading-relaxed">Passa dall’indice generale alla guida dedicata a finestre e infissi.</p></li></ul>
+        </div>
+      </section>
+
 
       {/* Leaderboard top */}
       <div className="mx-auto max-w-7xl px-4 pt-4">
