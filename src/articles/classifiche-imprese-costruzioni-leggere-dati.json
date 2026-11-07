@@ -1,0 +1,205 @@
+{
+  "slug": "classifiche-imprese-costruzioni-leggere-dati",
+  "title": "Classifiche delle imprese di costruzioni: come leggere fatturato, perimetro e periodo",
+  "seoTitle": "Classifiche imprese costruzioni: leggere i dati",
+  "metaDescription": "Come interpretare le classifiche delle imprese di costruzioni: metrica, esercizio, gruppo e singola società. Una scheda per confronti corretti.",
+  "category": "News",
+  "categorySlug": "news",
+  "section": "Mercato e Imprese",
+  "sectionSlug": "mercato",
+  "tags": [
+    "imprese",
+    "dati",
+    "classifiche"
+  ],
+  "author": "Redazione Il Media Edile",
+  "date": "2026-11-07",
+  "updated": "2026-11-07",
+  "readTime": 7,
+  "answerBox": "Come interpretare le classifiche delle imprese di costruzioni: metrica, esercizio, gruppo e singola società. Una scheda per confronti corretti.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Una classifica delle imprese di costruzioni sembra un documento immediato: nomi, numeri e posizioni. Prima di utilizzarla per conoscere un mercato, selezionare interlocutori o descrivere la dimensione di un’azienda, occorre però capire come è stata costruita. Il primo posto ha significato soltanto rispetto alla metrica, al periodo e all’insieme delle imprese considerate."
+    },
+    {
+      "type": "p",
+      "text": "Questa guida propone una scheda di lettura. Non presenta una nuova graduatoria e non attribuisce risultati economici ad aziende specifiche. Gli esempi sono illustrativi: servono a distinguere confronti utili da accostamenti che producono un ordine numerico senza una base omogenea."
+    },
+    {
+      "type": "h2",
+      "text": "La prima domanda: che cosa misura la classifica?",
+      "id": "la-prima-domanda-che-cosa-misura-la-classifica"
+    },
+    {
+      "type": "p",
+      "text": "Fatturato, valore della produzione, occupati e portafoglio ordini descrivono aspetti diversi. Il fatturato non rappresenta automaticamente il margine; una crescita dei ricavi non dimostra, da sola, un miglioramento della redditività o della liquidità. La metrica deve essere dichiarata nel titolo della tabella oppure nelle note immediatamente accessibili."
+    },
+    {
+      "type": "p",
+      "text": "Anche termini apparentemente vicini vanno letti con attenzione. Il [glossario del sistema informativo sulle imprese della Provincia autonoma di Trento](https://statweb.provincia.tn.it/SistemaInformativoImprese/Glossario_2.html) distingue il valore della produzione dal solo fatturato: il primo comprende ulteriori componenti. Non è quindi corretto sostituire un dato con l’altro per completare una riga mancante senza segnalarlo."
+    },
+    {
+      "type": "p",
+      "text": "Quando la fonte utilizza una definizione specifica, riportala. “Volume d’affari” o “giro d’affari” possono essere usati in modo poco preciso nei testi divulgativi. Per un confronto operativo cerca il nome della voce e la sua collocazione nel documento originario."
+    },
+    {
+      "type": "h2",
+      "text": "Esercizio economico e data di pubblicazione",
+      "id": "esercizio-economico-e-data-di-pubblicazione"
+    },
+    {
+      "type": "p",
+      "text": "L’anno scritto nel titolo dell’articolo può indicare l’anno di pubblicazione, non quello a cui si riferiscono i dati. Una graduatoria pubblicata oggi può raccogliere bilanci di un esercizio precedente. La scheda deve distinguere chiaramente questi due momenti."
+    },
+    {
+      "type": "p",
+      "text": "Controlla inoltre la durata del periodo. Due valori annuali sono più facilmente confrontabili se riferiti a esercizi di durata coerente. Se una società ha modificato la chiusura dell’esercizio o se la fonte segnala un periodo anomalo, conserva la nota e non trattare il numero come equivalente senza una verifica."
+    },
+    {
+      "type": "p",
+      "text": "Per le notizie successive, mantieni separati dato consuntivo, previsione e obiettivo dichiarato. Una previsione comunicata dall’impresa può essere informativa, ma non diventa un ricavo già realizzato perché è più recente di un bilancio disponibile."
+    },
+    {
+      "type": "h2",
+      "text": "Gruppo, singola società e perimetro geografico",
+      "id": "gruppo-singola-societ-e-perimetro-geografico"
+    },
+    {
+      "type": "p",
+      "text": "Il nome commerciale può identificare un gruppo, una capogruppo oppure una singola società operativa. Prima di ordinare le righe, verifica quale soggetto corrisponde al numero. Scrivi la denominazione utilizzata dalla fonte e specifica se il dato è individuale o consolidato, quando questa informazione è disponibile."
+    },
+    {
+      "type": "p",
+      "text": "Non sommare liberamente dati di società appartenenti allo stesso gruppo per ricostruire un totale. Rischieresti di utilizzare basi contabili differenti o conteggiare attività interne più volte. Se non disponi di un dato di gruppo coerente, la soluzione trasparente è lasciare il confronto aperto, non fabbricare una cifra apparentemente completa."
+    },
+    {
+      "type": "p",
+      "text": "Lo stesso controllo riguarda la geografia. Ricavi globali di un gruppo internazionale e ricavi di una società attiva soltanto in Italia non descrivono automaticamente la stessa porzione di mercato. La classifica può includerli, ma deve spiegare quale domanda intende risolvere e quali limiti comporta quella scelta."
+    },
+    {
+      "type": "h2",
+      "text": "Una scheda minima per ogni riga",
+      "id": "una-scheda-minima-per-ogni-riga"
+    },
+    {
+      "type": "p",
+      "text": "Una buona tabella permette di risalire alla fonte di ogni valore. Oltre al collegamento, registra pagina o sezione, data del documento e data di consultazione. Questo lavoro rende più semplice controllare un aggiornamento o correggere una cifra senza perdere il criterio utilizzato."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Campo",
+        "Informazione da conservare",
+        "Errore da evitare"
+      ],
+      "rows": [
+        [
+          "Soggetto",
+          "Denominazione e perimetro",
+          "Confondere gruppo e società"
+        ],
+        [
+          "Metrica",
+          "Voce esatta utilizzata",
+          "Mescolare ricavi e produzione"
+        ],
+        [
+          "Periodo",
+          "Esercizio e durata",
+          "Usare l’anno dell’articolo"
+        ],
+        [
+          "Unità",
+          "Euro, migliaia o milioni",
+          "Moltiplicare o dividere male"
+        ],
+        [
+          "Fonte",
+          "Documento e pagina",
+          "Citare soltanto un titolo"
+        ],
+        [
+          "Nota",
+          "Limiti o dati mancanti",
+          "Trasformare un’assenza in zero"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Il dato mancante non indica un’impresa piccola o poco trasparente. Significa soltanto che quella ricerca, con quelle fonti e quel termine, non ha prodotto un valore utilizzabile. Le conclusioni devono rispettare il limite della raccolta."
+    },
+    {
+      "type": "h2",
+      "text": "Un esempio di graduatoria da non costruire",
+      "id": "un-esempio-di-graduatoria-da-non-costruire"
+    },
+    {
+      "type": "p",
+      "text": "Immagina tre righe: impresa A con ricavi consolidati dell’esercizio X, impresa B con valore della produzione individuale dell’esercizio X e impresa C con un obiettivo di fatturato dell’esercizio successivo. Ordinare queste cifre produce una sequenza, ma non un confronto omogeneo delle dimensioni aziendali."
+    },
+    {
+      "type": "p",
+      "text": "La correzione consiste nel scegliere una base: per esempio una stessa metrica consuntiva, un medesimo periodo e un criterio esplicito sul perimetro. Quando il dato non è disponibile, separa la riga o escludila motivando la scelta. Non cambiare criterio soltanto per raggiungere un numero prestabilito di imprese."
+    },
+    {
+      "type": "p",
+      "text": "Puoi poi affiancare schede informative con dati differenti, purché non siano presentate come posizioni della stessa graduatoria. Una nota di contesto mantiene il suo valore senza essere forzata dentro un ordinamento numerico."
+    },
+    {
+      "type": "h2",
+      "text": "Come interpretare le variazioni rispetto all’anno precedente",
+      "id": "come-interpretare-le-variazioni-rispetto-all-anno-precedente"
+    },
+    {
+      "type": "p",
+      "text": "Un passaggio di posizione può dipendere dall’andamento dell’impresa, dall’ingresso di nuovi soggetti o da una modifica del perimetro della classifica. Prima di scrivere “sale” o “scende”, verifica che la selezione e la metrica siano rimaste coerenti."
+    },
+    {
+      "type": "p",
+      "text": "Per leggere una variazione economica, cerca le spiegazioni presenti nei documenti originali e distingui i fatti riportati dalle tue ipotesi. Acquisizioni, cessioni o cambi di perimetro possono richiedere approfondimenti; non attribuire una causa specifica soltanto perché sembra plausibile."
+    },
+    {
+      "type": "p",
+      "text": "Le percentuali devono inoltre partire da valori comparabili e riportare una base chiara. Se manca il dato precedente, evita di calcolare una crescita usando un numero tratto da un soggetto o da un periodo diverso. Una casella vuota spiegata è più utile di una percentuale non ricostruibile."
+    },
+    {
+      "type": "h2",
+      "text": "Utilizzare la classifica per una decisione concreta",
+      "id": "utilizzare-la-classifica-per-una-decisione-concreta"
+    },
+    {
+      "type": "p",
+      "text": "Se cerchi un interlocutore per un progetto, la dimensione economica è solo un punto di partenza. Restano da verificare competenze pertinenti, organizzazione, disponibilità e requisiti richiesti dal caso specifico. Una posizione elevata non certifica automaticamente l’idoneità a qualsiasi lavoro."
+    },
+    {
+      "type": "p",
+      "text": "Se stai studiando un segmento, considera anche l’insieme osservato. Una selezione editoriale di grandi imprese non rappresenta tutte le aziende del settore. Evita di trasformare la somma delle righe disponibili in una misura dell’intero mercato senza una metodologia che lo giustifichi."
+    },
+    {
+      "type": "p",
+      "text": "Nella sezione [dati del settore](https://www.mediaedile.it/dati) puoi approfondire come consultare le informazioni; l’area [produttori](https://www.mediaedile.it/produttori) offre invece un percorso diverso, dedicato alle aziende dei materiali e dei prodotti. Tenere distinti costruttori e produttori aiuta a non mescolare attività economiche differenti."
+    },
+    {
+      "type": "p",
+      "text": "Prima di condividere una tabella, prova a farla leggere a una persona che non ha partecipato alla raccolta. Deve poter riconoscere metrica, esercizio e fonte senza chiedere spiegazioni aggiuntive. Se questi elementi sono nascosti in una conversazione o in un file separato non collegato, completa le note prima della pubblicazione."
+    }
+  ],
+  "faq": [
+    {
+      "q": "La classifica per fatturato indica le imprese migliori?",
+      "a": "Indica un ordinamento rispetto a una metrica economica e a un insieme selezionato. La qualità di un lavoro, l’affidabilità per una commessa e l’idoneità tecnica richiedono verifiche ulteriori e pertinenti alla decisione."
+    },
+    {
+      "q": "Posso confrontare bilanci di anni diversi?",
+      "a": "Puoi descriverli in una raccolta informativa, ma devi rendere visibile la differenza. Per una graduatoria omogenea è preferibile una base temporale coerente; non nascondere il periodo per completare l’elenco."
+    },
+    {
+      "q": "Che cosa significa un valore non disponibile?",
+      "a": "Significa che manca un dato utilizzabile secondo i criteri dichiarati. Non equivale a zero e non autorizza conclusioni sulla dimensione o sulla qualità dell’impresa. Registra la lacuna e la fonte controllata."
+    }
+  ],
+  "noInfographic": true,
+  "coverCaption": "Schema illustrativo per leggere metrica, periodo e perimetro dei dati."
+}
