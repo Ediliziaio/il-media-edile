@@ -1,292 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
     <loc>https://www.mediaedile.it/</loc>
     <lastmod>2026-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/classifiche</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/produttori</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/dati</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/news</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/norme-bonus</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/mercato</loc>
     <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/materiali-prodotti</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/impianti</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/innovazione</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/sostenibilita</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://www.mediaedile.it/innovazione/bim-obbligatorio-appalti-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/mercato/contenzioso-edilizia-durata-costi</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/mercato/canali-acquisizione-clienti-b2b-edilizia-2026</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/mercato/carenza-manodopera-edilizia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/mercato/caro-materiali-costruzione-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/sostenibilita/direttiva-case-green-italia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/sostenibilita/edilizia-sostenibile-certificazioni</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/mercato/mercato-immobiliare-italia-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/news/pnrr-edilizia-stato-lavori-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/news/saie-bari-fiera-edilizia-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/norme-bonus/sicurezza-cantieri-nuove-norme</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/norme-bonus/superbonus-2026-cosa-cambia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/norme-bonus/top-10-bonus-edilizi-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/mercato/top-10-imprese-costruzione-italiane</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/mercato/top-10-macchine-movimento-terra</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/sostenibilita/top-10-materiali-isolanti-edilizia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/impianti/top-10-pannelli-fotovoltaici-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/impianti/top-10-pompe-di-calore-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-10-produttori-calcestruzzo-italia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-10-produttori-ceramica-piastrelle-italia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-10-produttori-serramenti-italia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/innovazione/top-10-software-bim-edilizia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/impianti/top-5-caldaie-condensazione-2026</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-5-coperture-tetti-edilizia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/mercato/top-5-imprese-ristrutturazione-italia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-5-porte-blindate-italia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/impianti/top-5-produttori-ascensori-italia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-5-produttori-parquet-italia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-5-produttori-serramenti-alluminio</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-5-produttori-serramenti-pvc</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/innovazione/top-5-sistemi-domotica-casa</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mediaedile.it/materiali-prodotti/top-5-vernici-pitture-edilizia</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/newsletter</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/chi-siamo</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/contatti</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/privacy</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.mediaedile.it/cookie-policy</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
-<url><loc>https://www.mediaedile.it/mercato/classifiche-imprese-costruzioni-leggere-dati</loc><lastmod>2026-11-07</lastmod></url>
+<url><loc>https://www.mediaedile.it/mercato/classifiche-imprese-costruzioni-leggere-dati</loc><lastmod>2026-11-07</lastmod><image:image><image:loc>https://www.mediaedile.it/images/classifiche-imprese-costruzioni-leggere-dati-photo.webp</image:loc><image:caption>Classifiche delle imprese di costruzioni: come leggere fatturato, perimetro e periodo</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/innovazione/domotica-cablata-wireless-ristrutturazione</loc><lastmod>2026-10-22</lastmod><image:image><image:loc>https://www.mediaedile.it/images/domotica-cablata-wireless-ristrutturazione-photo.webp</image:loc><image:caption>Domotica cablata o wireless? La scelta parte dai lavori</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/impianti/green-energy-group-leggere-insieme-fotovoltaico-accumulo-e-ricarica</loc><lastmod>2026-10-22</lastmod><image:image><image:loc>https://www.mediaedile.it/images/green-energy-group-leggere-insieme-fotovoltaico-accumulo-e-ricarica-photo.webp</image:loc><image:caption>Green Energy Group: leggere insieme fotovoltaico, accumulo e ricarica</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/impianti/innovasol-partire-dallacqua-calda-per-valutare-il-solare-termico</loc><lastmod>2026-10-22</lastmod><image:image><image:loc>https://www.mediaedile.it/images/innovasol-partire-dallacqua-calda-per-valutare-il-solare-termico-photo.webp</image:loc><image:caption>Innovasol: partire dall’acqua calda per valutare il solare termico</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/renova-solution-un-progetto-di-casa-che-unisce-infissi-energia-e-lavori</loc><lastmod>2026-10-22</lastmod><image:image><image:loc>https://www.mediaedile.it/images/renova-solution-un-progetto-di-casa-che-unisce-infissi-energia-e-lavori-photo.webp</image:loc><image:caption>Renova Solution: un progetto di casa che unisce infissi, energia e lavori</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/mercato/contenzioso-edilizia-durata-costi</loc><lastmod>2026-09-15</lastmod><image:image><image:loc>https://www.mediaedile.it/images/contenzioso-edilizia-durata-costi-photo.webp</image:loc><image:caption>Il contenzioso nell’edilizia: quanto dura, quanto costa e da cosa nasce</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/mercato/canali-acquisizione-clienti-b2b-edilizia-2026</loc><lastmod>2026-09-14</lastmod><image:image><image:loc>https://www.mediaedile.it/images/canali-acquisizione-clienti-b2b-edilizia-2026-photo.webp</image:loc><image:caption>Canali di acquisizione clienti nel B2B edile e impiantistico: la mappa 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/innovazione/bim-obbligatorio-appalti-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/bim-obbligatorio-appalti-2026-photo.webp</image:loc><image:caption>BIM obbligatorio negli appalti pubblici: cosa devono sapere le imprese</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/mercato/carenza-manodopera-edilizia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/carenza-manodopera-edilizia-photo.webp</image:loc><image:caption>Carenza di manodopera nell'edilizia: cause e soluzioni</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/mercato/caro-materiali-costruzione-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/caro-materiali-costruzione-2026-photo.webp</image:loc><image:caption>Caro materiali da costruzione: andamento prezzi e prospettive</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/sostenibilita/direttiva-case-green-italia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/direttiva-case-green-italia-photo.webp</image:loc><image:caption>Direttiva Case Green UE: obblighi e tempistiche per l'Italia</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/sostenibilita/edilizia-sostenibile-certificazioni</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/edilizia-sostenibile-certificazioni-photo.webp</image:loc><image:caption>Edilizia sostenibile: certificazioni LEED, BREEAM e protocollo ITACA</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/mercato/mercato-immobiliare-italia-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/mercato-immobiliare-italia-2026-photo.webp</image:loc><image:caption>Mercato immobiliare italiano: dati, prezzi e tendenze nel 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/news/pnrr-edilizia-stato-lavori-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/pnrr-edilizia-stato-lavori-2026-photo.webp</image:loc><image:caption>PNRR ed edilizia: a che punto sono i cantieri nel 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/news/saie-bari-fiera-edilizia-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/saie-bari-fiera-edilizia-2026-photo.webp</image:loc><image:caption>SAIE Bari e le fiere dell'edilizia: novità e protagonisti</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/norme-bonus/sicurezza-cantieri-nuove-norme</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/sicurezza-cantieri-nuove-norme-photo.webp</image:loc><image:caption>Sicurezza nei cantieri: le nuove regole e il patentino a crediti</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/norme-bonus/superbonus-2026-cosa-cambia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/superbonus-2026-cosa-cambia-photo.webp</image:loc><image:caption>Superbonus 2026: cosa cambia per cantieri e ristrutturazioni</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/norme-bonus/top-10-bonus-edilizi-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-bonus-edilizi-2026-photo.webp</image:loc><image:caption>Bonus edilizi 2026: i 10 incentivi più importanti e come sfruttarli</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/mercato/top-10-imprese-costruzione-italiane</loc><lastmod>2026-11-07</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-imprese-costruzione-italiane-photo.webp</image:loc><image:caption>Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/mercato/top-10-macchine-movimento-terra</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-macchine-movimento-terra-photo.webp</image:loc><image:caption>Migliori macchine movimento terra: la top 10 per i cantieri edili nel 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/sostenibilita/top-10-materiali-isolanti-edilizia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-materiali-isolanti-edilizia-photo.webp</image:loc><image:caption>Migliori materiali isolanti per l'edilizia: la top 10 per efficienza energetica</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/impianti/top-10-pannelli-fotovoltaici-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-pannelli-fotovoltaici-2026-photo.webp</image:loc><image:caption>Migliori pannelli fotovoltaici 2026: la top 10 per abitazioni e condomini</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/impianti/top-10-pompe-di-calore-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-pompe-di-calore-2026-photo.webp</image:loc><image:caption>Migliori pompe di calore 2026: la top 10 per riscaldare casa in modo efficiente</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-10-produttori-calcestruzzo-italia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-produttori-calcestruzzo-italia-photo.webp</image:loc><image:caption>Produttori di calcestruzzo in Italia: la top 10 dei principali gruppi cementieri</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-10-produttori-ceramica-piastrelle-italia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-produttori-ceramica-piastrelle-italia-photo.webp</image:loc><image:caption>Produttori ceramica e piastrelle: la top 10 delle aziende italiane leader nel 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-10-produttori-serramenti-italia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-produttori-serramenti-italia-photo.webp</image:loc><image:caption>Migliori produttori serramenti: la top 10 delle aziende leader in Italia nel 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/innovazione/top-10-software-bim-edilizia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-10-software-bim-edilizia-photo.webp</image:loc><image:caption>Migliori software BIM per l'edilizia: la top 10 per progettisti e imprese nel 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/impianti/top-5-caldaie-condensazione-2026</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-caldaie-condensazione-2026-photo.webp</image:loc><image:caption>Le 5 migliori caldaie a condensazione del 2026: classifica, prezzi e consumi</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-5-coperture-tetti-edilizia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-coperture-tetti-edilizia-photo.webp</image:loc><image:caption>Le 5 migliori soluzioni per coperture e tetti in edilizia: classifica 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/mercato/top-5-imprese-ristrutturazione-italia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-imprese-ristrutturazione-italia-photo.webp</image:loc><image:caption>Le 5 migliori imprese di ristrutturazione in Italia: classifica e come scegliere</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-5-porte-blindate-italia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-porte-blindate-italia-photo.webp</image:loc><image:caption>Le 5 migliori porte blindate italiane: classifica, classi antieffrazione e prezzi</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/impianti/top-5-produttori-ascensori-italia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-produttori-ascensori-italia-photo.webp</image:loc><image:caption>I 5 migliori produttori di ascensori e piattaforme elevatrici in Italia</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-5-produttori-parquet-italia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-produttori-parquet-italia-photo.webp</image:loc><image:caption>I 5 migliori produttori di parquet in Italia: classifica, essenze e prezzi</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-5-produttori-serramenti-alluminio</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-produttori-serramenti-alluminio-photo.webp</image:loc><image:caption>Migliori serramenti in alluminio: la classifica dei 5 produttori top in Italia</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-5-produttori-serramenti-pvc</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-produttori-serramenti-pvc-photo.webp</image:loc><image:caption>Migliori serramenti in PVC: la classifica dei 5 produttori top in Italia</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/innovazione/top-5-sistemi-domotica-casa</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-sistemi-domotica-casa-photo.webp</image:loc><image:caption>I 5 migliori sistemi di domotica per la casa: classifica e confronto 2026</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/top-5-vernici-pitture-edilizia</loc><lastmod>2026-07-21</lastmod><image:image><image:loc>https://www.mediaedile.it/images/top-5-vernici-pitture-edilizia-photo.webp</image:loc><image:caption>Le 5 migliori vernici e pitture per l'edilizia: classifica e guida alla scelta</image:caption></image:image></url>
 </urlset>
