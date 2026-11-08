@@ -1,0 +1,217 @@
+{
+  "slug": "indici-costi-costruzione-prezzi-materiali",
+  "title": "Indici dei costi di costruzione e prezzi dei materiali: come leggere i confronti",
+  "seoTitle": "Indici costi costruzione: leggere i confronti",
+  "metaDescription": "Distingui indici, prezzi unitari e offerte: periodo, base, aggregato e unità. Una guida per leggere i dati sui costi di costruzione senza forzarli.",
+  "category": "News",
+  "categorySlug": "news",
+  "section": "Mercato e Imprese",
+  "sectionSlug": "mercato",
+  "tags": [
+    "dati",
+    "caro materiali",
+    "prezzi costruzioni"
+  ],
+  "author": "Redazione Il Media Edile",
+  "date": "2026-11-08",
+  "updated": "2026-11-08",
+  "readTime": 7,
+  "answerBox": "Distingui indici, prezzi unitari e offerte: periodo, base, aggregato e unità. Una guida per leggere i dati sui costi di costruzione senza forzarli.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Un indice dei costi di costruzione può salire mentre un’offerta per una specifica fornitura cambia in modo diverso. Non è necessariamente una contraddizione: indicatore statistico, prezzo unitario e preventivo descrivono oggetti differenti. Per interpretarli occorre leggere aggregato, periodo, base di riferimento e condizioni del confronto."
+    },
+    {
+      "type": "p",
+      "text": "Questa guida propone un metodo per utilizzare i dati come contesto senza trasformarli in un listino. Gli esempi numerici sono illustrativi e non riportano l’andamento attuale del mercato. L’obiettivo è rendere comprensibile quale domanda ogni dato può aiutare a risolvere e quali conclusioni richiedano documenti ulteriori."
+    },
+    {
+      "type": "h2",
+      "text": "Tre oggetti da mantenere distinguibili",
+      "id": "tre-oggetti-da-mantenere-distinguibili"
+    },
+    {
+      "type": "p",
+      "text": "Un indice descrive un’evoluzione rispetto a una base e secondo una metodologia. Un prezzo unitario si riferisce a una voce identificata e alle sue condizioni. Un’offerta commerciale comprende una fornitura o un insieme di attività, con quantità, servizi e condizioni specifiche."
+    },
+    {
+      "type": "p",
+      "text": "Questi oggetti possono essere collegati nella lettura del mercato, ma non sono intercambiabili. Un valore di indice pari a 120 non significa che un materiale costi 120 euro, né permette di ricavare il prezzo del tuo ordine senza altre informazioni."
+    },
+    {
+      "type": "p",
+      "text": "Prima di utilizzare una tabella, scrivi quindi che cosa vuoi capire. Stai cercando una tendenza generale, confrontando due quotazioni o preparando una richiesta ai fornitori? La domanda aiuta a scegliere il documento pertinente e a evitare confronti costruiti soltanto perché contengono numeri simili."
+    },
+    {
+      "type": "h2",
+      "text": "Leggere il nome completo della serie",
+      "id": "leggere-il-nome-completo-della-serie"
+    },
+    {
+      "type": "p",
+      "text": "La denominazione dell’indicatore è parte del dato. “Prezzi delle costruzioni” e “costi dei materiali” non identificano automaticamente lo stesso aggregato. Cerca la descrizione della serie e le note che spiegano come venga costruita."
+    },
+    {
+      "type": "p",
+      "text": "La [nota metodologica Istat sui prezzi alla produzione delle costruzioni](https://www.istat.it/it/files/2024/01/Nota-Informativa-Prezzi-Costruzioni.pdf) distingue, nel sistema descritto, costi diretti, spese generali e mark-up. Spiega inoltre il collegamento fra alcune serie dei costi di costruzione e i sottoaggregati dei costi diretti. Questa distinzione impedisce di trattare ogni indicatore come una misura del solo materiale acquistato."
+    },
+    {
+      "type": "p",
+      "text": "Quando riporti un dato in un documento interno, conserva il nome completo della serie. Un’etichetta abbreviata può essere utile per il grafico, ma deve rimandare a una scheda in cui il significato resti recuperabile."
+    },
+    {
+      "type": "h2",
+      "text": "Periodo, frequenza e versione del dato",
+      "id": "periodo-frequenza-e-versione-del-dato"
+    },
+    {
+      "type": "p",
+      "text": "Un confronto deve indicare quali periodi mette in relazione. Una variazione rispetto al mese precedente e una rispetto allo stesso mese dell’anno precedente rispondono a domande differenti. Non sostituire una con l’altra soltanto perché il numero è più evidente nel comunicato."
+    },
+    {
+      "type": "p",
+      "text": "Registra anche la data di consultazione e lo stato del dato, quando la fonte distingue valori provvisori e definitivi. Se utilizzi documenti scaricati in momenti diversi, conserva le versioni: eventuali revisioni devono essere riconoscibili nel percorso di analisi."
+    },
+    {
+      "type": "p",
+      "text": "La data dell’articolo che cita il dato non coincide necessariamente con il periodo della rilevazione. Lo stesso controllo è utile nella [lettura delle classifiche delle imprese di costruzioni](https://www.mediaedile.it/mercato/classifiche-imprese-costruzioni-leggere-dati): periodo economico e momento della pubblicazione devono rimanere distinguibili."
+    },
+    {
+      "type": "h2",
+      "text": "Un esempio di variazione percentuale",
+      "id": "un-esempio-di-variazione-percentuale"
+    },
+    {
+      "type": "p",
+      "text": "Immagina una serie omogenea che passi da 110 a 115, con la stessa base e le medesime condizioni di lettura. La differenza è di 5 punti indice. La variazione percentuale rispetto a 110 si calcola invece come 5 diviso 110, moltiplicato per 100: circa 4,55 per cento."
+    },
+    {
+      "type": "p",
+      "text": "I due numeri non sono equivalenti. Scrivere “aumento del 5 per cento” confonderebbe punti indice e percentuale. Il calcolo illustrativo serve a controllare l’aritmetica, non a ricostruire una serie reale o suggerire un adeguamento automatico del prezzo di una commessa."
+    },
+    {
+      "type": "p",
+      "text": "Prima di applicare una formula a dati effettivi, verifica che appartengano alla stessa serie e che la metodologia permetta il confronto. Se cambia la base o il perimetro, consulta le informazioni della fonte invece di unire liberamente numeri non omogenei."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Elemento",
+        "Esempio illustrativo",
+        "Significato"
+      ],
+      "rows": [
+        [
+          "Valore iniziale",
+          "110",
+          "Livello nella serie considerata"
+        ],
+        [
+          "Valore successivo",
+          "115",
+          "Livello nel periodo confrontato"
+        ],
+        [
+          "Differenza",
+          "5 punti indice",
+          "Sottrazione fra i livelli"
+        ],
+        [
+          "Variazione relativa",
+          "Circa 4,55 per cento",
+          "Differenza rapportata al valore iniziale"
+        ],
+        [
+          "Prezzo dell’ordine",
+          "Non determinato",
+          "Richiede la specifica offerta"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Dalla tendenza alla fornitura concreta",
+      "id": "dalla-tendenza-alla-fornitura-concreta"
+    },
+    {
+      "type": "p",
+      "text": "Per leggere un’offerta servono identificazione del prodotto, quantità, unità di misura, servizi inclusi e condizioni. Il contesto statistico può aiutare a formulare domande, ma non sostituisce questi elementi. Un ordine comprende caratteristiche che una serie aggregata non descrive singolarmente."
+    },
+    {
+      "type": "p",
+      "text": "Se due preventivi cambiano, verifica prima se riguardano la stessa fornitura. Potrebbero differire codice prodotto, consegna, configurazione o quantità. Non attribuire automaticamente tutta la differenza a una tendenza di mercato osservata in un grafico."
+    },
+    {
+      "type": "p",
+      "text": "Prepara una base comune per le richieste e mantieni separate le alternative. Il confronto diventa più leggibile quando ogni differenza è associata a una condizione documentata, invece di essere spiegata con una generica espressione come “sono aumentati i materiali”."
+    },
+    {
+      "type": "h2",
+      "text": "Costruire una scheda delle fonti",
+      "id": "costruire-una-scheda-delle-fonti"
+    },
+    {
+      "type": "p",
+      "text": "Per ogni indicatore conserva URL, denominazione, periodo, base e unità. Aggiungi il riferimento alla metodologia e la data di consultazione. Se il dato viene copiato in un foglio, mantieni il collegamento al documento originale, evitando numeri privi della loro provenienza."
+    },
+    {
+      "type": "p",
+      "text": "Nel foglio puoi distinguere dato osservato, calcolo eseguito e interpretazione. Il primo proviene dalla fonte, il secondo deve essere ricostruibile, la terza resta una lettura da sostenere con informazioni pertinenti. Questa struttura aiuta un’altra persona a verificare il ragionamento."
+    },
+    {
+      "type": "p",
+      "text": "L’area [dati di Media Edile](https://www.mediaedile.it/dati) offre un percorso per consultare raccolte e riferimenti. Prima di utilizzare un file, controlla sempre descrizione, periodo e limiti del singolo insieme di dati."
+    },
+    {
+      "type": "h2",
+      "text": "Non trasformare il dato in una clausola automatica",
+      "id": "non-trasformare-il-dato-in-una-clausola-automatica"
+    },
+    {
+      "type": "p",
+      "text": "L’utilizzo di un indice in una relazione economica o contrattuale richiede di verificare il documento e le regole pertinenti al caso. Questa guida non stabilisce quale indicatore applicare a un contratto, quali soglie utilizzare o se un importo debba essere aggiornato."
+    },
+    {
+      "type": "p",
+      "text": "Se la decisione ha conseguenze economiche, porta al referente competente il testo dell’accordo e la serie che intendi utilizzare. Chiedi quale perimetro venga considerato e come debbano essere trattati periodo, frequenza ed eventuali revisioni dei dati."
+    },
+    {
+      "type": "p",
+      "text": "Tenere distinta la lettura statistica dalla decisione contrattuale evita un passaggio improprio: la disponibilità pubblica di un indicatore non dimostra che sia quello previsto per ogni situazione."
+    },
+    {
+      "type": "h2",
+      "text": "Presentare il risultato senza perdere le note",
+      "id": "presentare-il-risultato-senza-perdere-le-note"
+    },
+    {
+      "type": "p",
+      "text": "Un grafico dovrebbe dichiarare serie, periodo e unità in modo leggibile. Se mostri soltanto una linea e una percentuale, chi guarda potrebbe attribuirgli un significato diverso da quello della fonte. Le note principali devono rimanere vicine al risultato."
+    },
+    {
+      "type": "p",
+      "text": "Nella sintesi separa ciò che osservi da ciò che non puoi concludere. Puoi descrivere l’andamento della serie selezionata; non puoi dedurre da quel solo dato il prezzo di ogni fornitura o la situazione economica di tutte le imprese del settore."
+    },
+    {
+      "type": "p",
+      "text": "Per proseguire, scegli una serie e un documento commerciale reale della tua organizzazione, poi verifica quali domande richiedano l’una e quali l’altro. La sezione [Mercato e imprese](https://www.mediaedile.it/mercato) raccoglie altri approfondimenti da leggere mantenendo questa distinzione."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Un indice pari a 120 indica un prezzo di 120 euro?",
+      "a": "No. È un livello riferito alla base e alla metodologia della serie. Il prezzo di una fornitura richiede una voce identificata, un’unità e le condizioni dell’offerta."
+    },
+    {
+      "q": "Cinque punti indice equivalgono sempre al cinque per cento?",
+      "a": "No. La variazione percentuale dipende dal valore iniziale. Nell’esempio da 110 a 115, cinque punti corrispondono a circa il 4,55 per cento rispetto a 110."
+    },
+    {
+      "q": "Posso usare un indice per aggiornare qualsiasi contratto?",
+      "a": "Non si può dedurre dalla sola disponibilità della serie. Occorre verificare accordo, perimetro e regole applicabili con il referente competente, senza trasformare una lettura statistica in una decisione automatica."
+    }
+  ],
+  "noInfographic": true,
+  "coverCaption": "Schema illustrativo per distinguere indicatore statistico, prezzo e offerta."
+}
