@@ -134,7 +134,7 @@ export default function ArticlePage() {
             )}
 
             {/* Blocchi con infografica e annunci in-article */}
-            <div itemProp="articleBody" className="mt-8 space-y-6">
+            <div data-editorial-body itemProp="articleBody" className="mt-8 space-y-6">
               {article.blocks.map((b, i) => (
                 <div key={i}>
                   <BlockRenderer block={b} index={i} />

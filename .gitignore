@@ -3,3 +3,4 @@ dist/
 *.log
 .DS_Store
 /editorial/drafts/
+.editorial-length-report.json

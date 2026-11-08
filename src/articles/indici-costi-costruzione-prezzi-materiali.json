@@ -15,7 +15,7 @@
   "author": "Redazione Il Media Edile",
   "date": "2026-11-08",
   "updated": "2026-11-08",
-  "readTime": 7,
+  "readTime": 12,
   "answerBox": "Distingui indici, prezzi unitari e offerte: periodo, base, aggregato e unità. Una guida per leggere i dati sui costi di costruzione senza forzarli.",
   "blocks": [
     {
@@ -179,6 +179,87 @@
     {
       "type": "p",
       "text": "Tenere distinta la lettura statistica dalla decisione contrattuale evita un passaggio improprio: la disponibilità pubblica di un indicatore non dimostra che sia quello previsto per ogni situazione."
+    },
+    {
+      "type": "h2",
+      "text": "Preparare una scheda della serie utilizzata",
+      "id": "preparare-una-scheda-della-serie-utilizzata"
+    },
+    {
+      "type": "p",
+      "text": "Quando scarichi un dato, conserva la denominazione completa della serie, il periodo e l’unità espressa dalla fonte. Aggiungi il riferimento della metodologia e la data della consultazione. Un foglio che contiene soltanto mese e valore può sembrare sufficiente finché non deve essere aggiornato da un’altra persona. La scheda deve permettere di riconoscere quale indicatore sia stato utilizzato, evitando di sostituirlo con una serie dal nome simile soltanto perché compare nello stesso archivio."
+    },
+    {
+      "type": "p",
+      "text": "Distingui il dato originario da eventuali trasformazioni eseguite per la tua analisi. Se calcoli una variazione o prepari un grafico, mantieni le colonne di partenza e una spiegazione del passaggio. Non sovrascrivere immediatamente i numeri scaricati con il risultato della formula. Il controllo dovrebbe poter seguire fonte, valori e calcolo, verificando se il confronto riguardi la stessa serie e le condizioni previste dalla metodologia pertinente."
+    },
+    {
+      "type": "p",
+      "text": "Se la fonte presenta aggiornamenti o revisioni, registra quale versione sia stata utilizzata nel documento interno. Non è necessario pubblicare ogni file di lavoro, ma il percorso deve rimanere recuperabile. Un valore riportato in una presentazione può essere stato corretto successivamente o appartenere a una consultazione diversa. La cronologia consente di capire se la differenza dipenda da un aggiornamento della base oppure da un errore di trascrizione o di calcolo."
+    },
+    {
+      "type": "h2",
+      "text": "Leggere livelli e variazioni senza cambiare domanda",
+      "id": "leggere-livelli-e-variazioni-senza-cambiare-domanda"
+    },
+    {
+      "type": "p",
+      "text": "Il livello di un indice e la sua variazione descrivono informazioni collegate ma differenti. Nel riepilogo indica sempre se stai mostrando un valore della serie, una differenza in punti o una variazione relativa. Non usare lo stesso simbolo per tutti questi risultati. Una tabella dovrebbe rendere comprensibile il significato del numero anche a chi non ha partecipato alla raccolta, senza richiedere una spiegazione orale per interpretare il titolo della colonna."
+    },
+    {
+      "type": "p",
+      "text": "Mantieni inoltre chiaro il periodo del confronto. Una lettura fra due mesi consecutivi non risponde alla stessa domanda di una lettura rispetto allo stesso periodo dell’anno precedente. La scelta dipende dall’analisi che intendi svolgere. Non sostituire una variazione con l’altra perché la seconda produce un numero più evidente. Il documento deve dichiarare il riferimento utilizzato e conservare i dati necessari a ricostruire il calcolo pertinente."
+    },
+    {
+      "type": "p",
+      "text": "Se confronti più serie, verifica prima la loro compatibilità metodologica. La presenza di una base numerica apparentemente simile non dimostra che misurino lo stesso oggetto. Puoi presentare indicatori differenti in un quadro informativo, ma devi mantenere riconoscibile il compito di ciascuno. Il passaggio improprio avviene quando una sequenza di numeri viene trattata come un’unica misura soltanto perché il foglio permette di ordinarla o di disegnarla nello stesso grafico."
+    },
+    {
+      "type": "h2",
+      "text": "Un esempio illustrativo con indice e offerta",
+      "id": "un-esempio-illustrativo-con-indice-e-offerta"
+    },
+    {
+      "type": "p",
+      "text": "Immagina una serie statistica omogenea che mostri una variazione relativa del 3 per cento fra due periodi e due offerte della tua organizzazione che differiscano del 7 per cento nel totale. I numeri, da soli, non permettono di attribuire la differenza restante a un comportamento del fornitore. Prima devi verificare perimetro della serie, configurazione commerciale, quantità e condizioni delle due offerte. L’esempio utilizza percentuali inventate per spiegare il problema di lettura."
+    },
+    {
+      "type": "p",
+      "text": "Le proposte potrebbero riguardare consegne, servizi o prodotti differenti. Il documento commerciale deve quindi essere ricostruito riga per riga, mantenendo l’indicatore come contesto della domanda. Una verifica può mostrare che parte della differenza nasce da un cambiamento della fornitura; un’altra può rimanere da chiarire. Non serve forzare ogni scostamento in una spiegazione generale sul mercato. È più utile collegare ciascun punto al riferimento che permette effettivamente di esaminarlo."
+    },
+    {
+      "type": "p",
+      "text": "Il foglio potrebbe avere tre sezioni: dato statistico, base delle offerte e domande aperte. Questa struttura evita di applicare automaticamente una percentuale aggregata a una singola riga commerciale. Il confronto non stabilisce quale prezzo sia corretto per il tuo ordine e non determina l’applicazione di una clausola. Prepara invece un quadro leggibile da discutere con i referenti economici e tecnici, mantenendo separate le informazioni osservate dalle decisioni che richiedono una valutazione ulteriore."
+    },
+    {
+      "type": "h2",
+      "text": "Preparare grafici e tabelle che mantengano i riferimenti",
+      "id": "preparare-grafici-e-tabelle-che-mantengano-i-riferimenti"
+    },
+    {
+      "type": "p",
+      "text": "Nel grafico indica serie, periodo e unità vicino al risultato. Se utilizzi un titolo abbreviato, aggiungi una nota che permetta di risalire alla denominazione completa. Un’immagine estratta da una presentazione dovrebbe restare comprensibile senza il commento di chi l’ha preparata. La legenda non è un dettaglio decorativo: aiuta a evitare che un valore di indice venga letto come un prezzo o che una variazione relativa venga interpretata come differenza in punti."
+    },
+    {
+      "type": "p",
+      "text": "Quando la tabella viene riutilizzata, conserva anche il riferimento della consultazione. Una copia senza fonte può circolare più a lungo del documento che l’ha generata. Il lettore deve poter riconoscere se l’analisi riguardi ancora il periodo pertinente alla propria domanda. Non aggiornare soltanto l’anno nel titolo lasciando invariati dati e note: l’aggiornamento deve descrivere il lavoro effettivamente svolto e la base informativa utilizzata nella nuova versione del quadro."
+    },
+    {
+      "type": "p",
+      "text": "Per una sintesi rivolta a interlocutori diversi, separa ciò che il grafico mostra dalle interpretazioni proposte. Puoi descrivere il movimento della serie selezionata; eventuali spiegazioni richiedono riscontri pertinenti. Se una relazione causale non è stata verificata, mantienila come domanda o ipotesi da esaminare. Il documento acquista utilità quando rende possibile discutere i limiti, senza confondere una rappresentazione numerica convincente con una dimostrazione completa del fenomeno economico."
+    },
+    {
+      "type": "h2",
+      "text": "Conservare una traccia dell’analisi e delle sue decisioni",
+      "id": "conservare-una-traccia-dell-analisi-e-delle-sue-decisioni"
+    },
+    {
+      "type": "p",
+      "text": "Alla fine del lavoro, archivia la fonte, il foglio e il riepilogo dei criteri. Indica quali trasformazioni siano state eseguite e quale utilizzo del dato sia stato effettivamente valutato. Se il documento sostiene una decisione con effetti economici, mantieni il collegamento al confronto svolto con i soggetti competenti. La disponibilità di una serie pubblica non definisce automaticamente come debba essere applicata a ogni contratto o a qualsiasi situazione dell’organizzazione."
+    },
+    {
+      "type": "p",
+      "text": "Una prova utile consiste nel ricostruire un solo risultato senza utilizzare appunti esterni. Il revisore dovrebbe poter trovare i valori, riconoscere il periodo e ripetere il passaggio aritmetico, distinguendolo dall’interpretazione finale. Se un collegamento manca, completa la scheda prima di diffondere la tabella. Questo controllo aiuta a produrre analisi riutilizzabili, senza trasformare una raccolta di numeri in un listino o in una regola generale che la metodologia non descrive."
     },
     {
       "type": "h2",

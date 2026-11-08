@@ -14,8 +14,8 @@
   ],
   "author": "Redazione Il Media Edile",
   "date": "2026-11-07",
-  "updated": "2026-11-07",
-  "readTime": 7,
+  "updated": "2026-11-08",
+  "readTime": 12,
   "answerBox": "Come interpretare le classifiche delle imprese di costruzioni: metrica, esercizio, gruppo e singola società. Una scheda per confronti corretti.",
   "blocks": [
     {
@@ -163,6 +163,96 @@
     {
       "type": "p",
       "text": "Le percentuali devono inoltre partire da valori comparabili e riportare una base chiara. Se manca il dato precedente, evita di calcolare una crescita usando un numero tratto da un soggetto o da un periodo diverso. Una casella vuota spiegata è più utile di una percentuale non ricostruibile."
+    },
+    {
+      "type": "h2",
+      "text": "Ricostruire il percorso dal documento alla riga",
+      "id": "ricostruire-il-percorso-dal-documento-alla-riga"
+    },
+    {
+      "type": "p",
+      "text": "Una classifica verificabile dovrebbe permettere di seguire il numero dalla fonte alla tabella finale. Conserva documento, pagina o sezione, denominazione della voce e unità originaria. Se il dato viene convertito da migliaia a milioni, indica il passaggio in una colonna di lavoro. La tabella pubblicata può essere più sintetica, ma il fascicolo deve rendere ricostruibile la trasformazione senza chiedere a chi ha raccolto il dato di ricordare ogni scelta."
+    },
+    {
+      "type": "p",
+      "text": "Mantieni distinta la trascrizione dalla normalizzazione. La prima riporta ciò che compare nel documento; la seconda prepara una base omogenea per il confronto. Se sostituisci immediatamente il valore originario con quello convertito, perdi un controllo importante sugli errori. Una revisione può così confrontare fonte, numero riportato e risultato utilizzato, verificando anche separatori decimali e indicazioni sulle unità che potrebbero essere state interpretate in modo diverso."
+    },
+    {
+      "type": "p",
+      "text": "La scheda di raccolta dovrebbe avere uno stato per i valori ancora da controllare. Un documento trovato non equivale automaticamente a un dato utilizzabile: potresti dover chiarire periodo, perimetro o metrica. Non inserire la riga nella graduatoria definitiva per completare il numero di posizioni annunciato dal titolo. È preferibile pubblicare un elenco più breve con criteri coerenti, spiegando le esclusioni, rispetto a mescolare informazioni che rispondono a domande differenti."
+    },
+    {
+      "type": "h2",
+      "text": "Gestire denominazioni e gruppi senza duplicazioni apparenti",
+      "id": "gestire-denominazioni-e-gruppi-senza-duplicazioni-apparenti"
+    },
+    {
+      "type": "p",
+      "text": "Per ogni impresa identifica quale soggetto venga descritto dalla fonte. Nome del marchio, denominazione societaria e nome del gruppo possono non coincidere nel testo divulgativo. Conserva la denominazione del documento e aggiungi, se utile, un’etichetta editoriale comprensibile. La relazione fra le due deve essere esplicita: il lettore non dovrebbe dover dedurre da un logo quale perimetro economico corrisponda al valore mostrato."
+    },
+    {
+      "type": "p",
+      "text": "Prima di includere due righe con nomi simili, verifica se rappresentino soggetti distinti e quale rapporto abbiano nella raccolta. Il problema non si risolve eliminando automaticamente una riga o sommando i valori. Serve capire che cosa misuri ciascun dato. Se la classifica ammette gruppi e società individuali con criteri differenti, deve dichiararlo; se ricerca una base omogenea, deve stabilire come trattare queste differenze prima dell’ordinamento."
+    },
+    {
+      "type": "p",
+      "text": "Non ricostruire un consolidato aggiungendo numeri trovati in documenti separati. Una somma aritmetica può produrre un risultato preciso senza rappresentare il perimetro che vuoi descrivere. Mantieni il dato mancante come tale e segnala la necessità di una fonte pertinente. La chiarezza della metodologia è più utile della completezza apparente, soprattutto quando il lettore potrebbe utilizzare la graduatoria per individuare interlocutori o interpretare la dimensione di un segmento."
+    },
+    {
+      "type": "h2",
+      "text": "Un esempio di controllo delle unità",
+      "id": "un-esempio-di-controllo-delle-unit"
+    },
+    {
+      "type": "p",
+      "text": "Immagina una fonte che riporti 850.000 con unità espressa in migliaia di euro e un’altra che mostri 920 milioni di euro. Per confrontare i valori devi prima normalizzare l’unità, conservando entrambe le espressioni originarie. Il primo numero corrisponde aritmeticamente a 850 milioni di euro. Senza questa nota, la riga potrebbe essere interpretata come un valore molto più piccolo oppure venire moltiplicata una seconda volta durante l’importazione nel foglio."
+    },
+    {
+      "type": "p",
+      "text": "Aggiungi poi il controllo della metrica e del periodo. Avere corretto l’unità non rende automaticamente omogenei due dati che riguardano voci economiche o esercizi differenti. Il confronto può procedere soltanto dopo aver verificato anche quegli elementi. Questo esempio utilizza numeri inventati per descrivere il metodo: non rappresenta imprese reali e non fornisce una misura del mercato delle costruzioni."
+    },
+    {
+      "type": "p",
+      "text": "Quando il lavoro viene condiviso, fai rileggere alcune righe a una persona che non abbia preparato il foglio. Chiedile di risalire al valore originario e di spiegare il passaggio di unità. Se deve cercare una nota in una conversazione privata o indovinare il significato di una colonna, completa la documentazione. La revisione deve poter individuare l’errore prima che l’ordinamento e il grafico lo rendano visivamente convincente."
+    },
+    {
+      "type": "h2",
+      "text": "Decidere come trattare i dati mancanti",
+      "id": "decidere-come-trattare-i-dati-mancanti"
+    },
+    {
+      "type": "p",
+      "text": "La metodologia dovrebbe specificare che cosa accade quando manca un documento o una voce omogenea. Puoi lasciare il soggetto fuori dalla graduatoria, presentarlo in una sezione separata oppure dichiarare la lacuna nella raccolta. La scelta dipende dalla domanda editoriale, ma deve rimanere coerente fra le imprese. Cambiare criterio per includere un nome noto renderebbe meno leggibile il significato delle posizioni."
+    },
+    {
+      "type": "p",
+      "text": "Distingui dato non reperito, dato non confrontabile e dato non ancora verificato. Sono situazioni differenti e non autorizzano la stessa conclusione. Nessuna equivale automaticamente a zero. Il foglio di lavoro può conservare l’esito della ricerca e i documenti controllati, così un aggiornamento successivo non riparte da una casella priva di spiegazione. Anche l’assenza di un valore diventa un’informazione utilizzabile quando è descritta con precisione."
+    },
+    {
+      "type": "p",
+      "text": "Se ricevi una segnalazione, chiedi il documento e il riferimento della voce proposta. Non sostituire subito il dato perché il messaggio contiene una cifra più recente o un nome riconoscibile. Verifica che la nuova informazione rispetti gli stessi criteri di periodo, unità e perimetro. La correzione dovrebbe conservare una nota su ciò che cambia, rendendo distinguibili un errore di trascrizione e un aggiornamento della base informativa."
+    },
+    {
+      "type": "h2",
+      "text": "Rendere leggibile l’aggiornamento della classifica",
+      "id": "rendere-leggibile-l-aggiornamento-della-classifica"
+    },
+    {
+      "type": "p",
+      "text": "Quando pubblichi una nuova versione, separa l’anno della raccolta dall’esercizio dei dati. Indica se siano cambiati i criteri o l’insieme dei soggetti osservati. Un movimento di posizione può dipendere dalla composizione dell’elenco e non soltanto da una variazione economica dell’impresa. Il commento editoriale deve partire da questa verifica, evitando di attribuire cause non documentate a una semplice differenza nell’ordinamento."
+    },
+    {
+      "type": "p",
+      "text": "Conserva un riepilogo delle modifiche principali e la versione precedente del foglio. Chi controlla dovrebbe poter capire quali righe siano state aggiornate e quali restino basate sugli stessi documenti. Non occorre pubblicare ogni passaggio operativo, ma i criteri essenziali devono essere vicini alla tabella. Una graduatoria utile non chiede al lettore di fidarsi del solo numero di posizione: gli permette di riconoscere che cosa è stato effettivamente confrontato."
+    },
+    {
+      "type": "h2",
+      "text": "Una nota editoriale vicina alla tabella",
+      "id": "una-nota-editoriale-vicina-alla-tabella"
+    },
+    {
+      "type": "p",
+      "text": "Prima della diffusione, prepara una nota breve che dichiari domanda della raccolta, metrica, esercizio e perimetro dei soggetti. Indica dove trovare fonti e criteri completi. La sintesi deve restare comprensibile anche quando la tabella viene letta senza il resto dell’articolo. Evita espressioni come “migliori imprese” se l’ordinamento riguarda soltanto una misura economica: il titolo deve descrivere ciò che il dato permette effettivamente di confrontare. Il controllo finale può partire proprio da questa corrispondenza fra promessa della pagina e informazioni documentate nelle righe."
     },
     {
       "type": "h2",
