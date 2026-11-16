@@ -3,6 +3,7 @@
   "enforcePublishedOnOrAfter": "2026-11-07",
   "requiredSlugs": [
     "classifiche-imprese-costruzioni-leggere-dati",
-    "indici-costi-costruzione-prezzi-materiali"
+    "indici-costi-costruzione-prezzi-materiali",
+    "occupazione-costruzioni-persone-ore-fonti"
   ]
 }
