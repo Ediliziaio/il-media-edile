@@ -333,11 +333,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 9,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Impresa parmense specializzata in grandi opere per il settore energetico: pipeline, impianti oil and gas, opere civili per l'energia e progetti per la transizione. Bonatti opera in alcuni dei contesti geografici più complessi del mondo, con una reputazione internazionale per la capacità di lavorare in aree remote e condizioni estreme. La specializzazione impiantistico-infrastrutturale la rende un caso unico tra i grandi costruttori italiani."
       }
     ]
@@ -599,11 +599,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 5,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Cooperativa Muratori e Braccianti di Carpi, tra le maggiori cooperative di produzione e lavoro italiane, attiva dal 1908. CMB opera nell'edilizia residenziale, ospedaliera, industriale e nel restauro monumentale, con una forte presenza in Emilia-Romagna e commesse in tutta Italia. Il modello cooperativo, la verticalizzazione delle competenze e la lunga tradizione nel recupero del patrimonio storico sono i tratti distintivi dell'impresa."
       }
     ]
@@ -912,11 +912,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 3,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Impresa romana con oltre un secolo di storia, specializzata in opere sotterranee e infrastrutture di trasporto. Ghella è tra i principali player europei nello scavo meccanizzato con TBM per metropolitane e ferrovie, con cantieri attivi in Italia, Europa, Oceania e Americhe. La competenza nel sottosuolo e nella meccanizzazione dello scavo costituisce il principale vantaggio competitivo del gruppo, insieme a una solida cultura della sicurezza in galleria."
       }
     ]
@@ -937,6 +937,25 @@ export const brands: Brand[] = [
         "sezione": "Innovazione e BIM",
         "classifica": "La classifica completa dei software BIM",
         "descrizione": "Storico rivale di Revit, molto amato dagli architetti per l'interfaccia intuitiva e la fluidità di modellazione. Archicad eccelle nel progetto architettonico, nella documentazione grafica e nella collaborazione tramite BIMcloud, con un'adozione recente delle funzioni per strutture e MEP. Forte la presenza in Europa e in Italia, con una community attiva e un buon equilibrio tra potenza e usabilità."
+      }
+    ]
+  },
+  {
+    "nome": "Gruppo ICM",
+    "url": "https://www.gruppoicm.com/it/profilo",
+    "sezioni": [
+      "Mercato e Imprese"
+    ],
+    "bestRank": 6,
+    "voci": [
+      {
+        "rank": 6,
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
+        "slug": "top-10-imprese-costruzione-italiane",
+        "sectionSlug": "mercato",
+        "sezione": "Mercato e Imprese",
+        "classifica": "Dieci gruppi: selezione editoriale",
+        "descrizione": "Il Gruppo ICM riunisce società attive prevalentemente nelle costruzioni. La sua storia è collegata all’impresa fondata da Giuseppe Maltauro. Il [profilo aziendale del gruppo](https://www.gruppoicm.com/it/profilo) permette di verificare identità e attività; ICMQ è invece un’organizzazione distinta che offre servizi di certificazione e verifica."
       }
     ]
   },
@@ -994,25 +1013,6 @@ export const brands: Brand[] = [
         "sezione": "Mercato e Imprese",
         "classifica": "La classifica completa delle macchine movimento terra",
         "descrizione": "Gli escavatori Hitachi hanno una reputazione leggendaria tra gli operatori per la qualità dell'idraulica e la precisione dei movimenti. Lo ZX210 della classe 21 tonnellate è una macchina da produzione pura: cicli rapidi, consumi onesti e componentistica di alto livello. Molto apprezzato da chi lavora su scavi di precisione e opere idrauliche, con una rete assistenza in crescita sul territorio nazionale."
-      }
-    ]
-  },
-  {
-    "nome": "ICMQ",
-    "url": "",
-    "sezioni": [
-      "Mercato e Imprese"
-    ],
-    "bestRank": 6,
-    "voci": [
-      {
-        "rank": 6,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
-        "slug": "top-10-imprese-costruzione-italiane",
-        "sectionSlug": "mercato",
-        "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
-        "descrizione": "Impresa Costruzioni Giuseppe Maltauro, con sede in Veneto, attiva da oltre un secolo in opere stradali, ferroviarie, aeroportuali e marittime. ICMQ è specializzata nella costruzione di viadotti, ponti e opere d'arte, con un parco attrezzature tra i più completi del settore. L'impresa partecipa regolarmente a grandi appalti infrastrutturali in Italia e ha sviluppato competenze riconosciute nella gestione di cantieri complessi in ambito ferroviario."
       }
     ]
   },
@@ -1708,11 +1708,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 2,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Gruppo parmense fondato nel 1910, tra i più antichi e rispettati del settore. Pizzarotti opera nell'edilizia civile, sanitaria e commerciale e nelle grandi infrastrutture, con importanti commesse anche all'estero, dal Nord America all'Africa. Il gruppo ha mantenuto una gestione familiare e una reputazione di affidabilità nella consegna delle opere, con focus crescente su ospedali, scuole e progetti in project financing."
       }
     ]
@@ -1812,11 +1812,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 4,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Gruppo friulano con sede a Pozzuolo del Friuli, attivo in grandi opere infrastrutturali, ponti, viadotti, edilizia di pregio e infrastrutture immobiliari tramite partecipate specializzate. Rizzani de Eccher ha realizzato opere iconiche in Italia e all'estero, dagli stadi ai grattacieli, con una reputazione particolare nelle opere in calcestruzzo armato e nelle strutture complesse. Il gruppo unisce ingegneria avanzata e capacità esecutiva."
       }
     ]
@@ -1831,11 +1831,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 7,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Gruppo veneto nato nel 1929, attivo nella costruzione di opere stradali, autostradali, ferroviarie e idrauliche. Sacaim ha consolidato negli anni una posizione di rilievo nel Nord-Est e nei mercati esteri, con particolare specializzazione in ponti e viadotti in calcestruzzo armato precompresso. L'azienda combina tradizione costruttiva e investimenti in tecnologie di cantiere, con un portafoglio che spazia dalle grandi arterie alle opere idrauliche."
       }
     ]
@@ -1869,11 +1869,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 10,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Gruppo romano quotato, leader italiano nella costruzione e manutenzione di infrastrutture ferroviarie, dalla posa dei binari al rinnovo di tratte e stazioni. Salcef ha costruito un'integrazione verticale che comprende materiali, ingegneria e mezzi propri, e sta espandendo la presenza in Europa, Nord America e Medio Oriente. La specializzazione ferroviaria e l'innovazione nei materiali sostenibili per l'armamento sono i punti di forza distintivi."
       }
     ]
@@ -2097,11 +2097,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 8,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Gruppo umbro con storia ultracentenaria, oggi articolato in divisioni dedicate a costruzioni, concessioni e servizi. Todini Costruzioni Generali è attiva in strade, ferrovie, opere idrauliche ed edilizia civile, con una presenza consolidata in Italia e in Africa. Il gruppo ha saputo diversificare le attività mantenendo il core business delle infrastrutture, partecipando a importanti consorzi per commesse nazionali e internazionali."
       }
     ]
@@ -2382,11 +2382,11 @@ export const brands: Brand[] = [
     "voci": [
       {
         "rank": 1,
-        "titolo": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
+        "titolo": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
         "slug": "top-10-imprese-costruzione-italiane",
         "sectionSlug": "mercato",
         "sezione": "Mercato e Imprese",
-        "classifica": "La classifica completa delle imprese di costruzione italiane",
+        "classifica": "Dieci gruppi: selezione editoriale",
         "descrizione": "Primo gruppo italiano delle costruzioni, nato dalla storica Impregilo e rafforzatosi con l'integrazione di Astaldi e altre realtà del Progetto Italia. Webuild è attivo in grandi opere idrauliche, metropolitane, ferrovie ad alta velocità, dighe e autostrade, con una presenza internazionale che spazia da Europa e Medio Oriente ad Australia e Americhe. È il riferimento nazionale per le infrastrutture complesse e punta forte su sostenibilità e innovazione di cantiere."
       }
     ]

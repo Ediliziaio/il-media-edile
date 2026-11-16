@@ -1,8 +1,8 @@
 {
   "slug": "top-10-imprese-costruzione-italiane",
-  "title": "Imprese di costruzione italiane: la top 10 dei maggiori gruppi general contractor",
-  "seoTitle": "Maggiori imprese costruzione italiane: top 10 | Media Edile",
-  "metaDescription": "Le 10 maggiori imprese di costruzione italiane nel 2026: classifica dei gruppi leader tra opere, infrastrutture ed edilizia. Scopri chi sono e cosa fanno.",
+  "title": "Imprese di costruzione italiane: dieci gruppi e i criteri di confronto",
+  "seoTitle": "Imprese costruzioni italiane: dieci gruppi a confronto",
+  "metaDescription": "Dieci gruppi delle costruzioni italiane: profili, perimetro della selezione e criteri per confrontare dimensioni, attività e dati di bilancio.",
   "category": "Top 10",
   "categorySlug": "top-10",
   "tags": [
@@ -14,10 +14,14 @@
   ],
   "author": "Redazione Media Edile",
   "date": "2026-07-21",
-  "updated": "2026-11-07",
+  "updated": "2026-11-16",
   "readTime": 11,
-  "answerBox": "Le maggiori imprese di costruzione italiane nel 2026 sono Webuild, Pizzarotti, Ghella, Rizzani de Eccher, CMB, ICMQ, Sacaim, Todini, Bonatti e Salcef Group. Il settore è trainato dagli investimenti del PNRR e dalle grandi infrastrutture: Webuild resta il primo gruppo nazionale per dimensioni e presenza internazionale, mentre gli altri operatori presidiano nicchie che vanno dall'edilizia civile alle opere speciali e all'ingegneria impiantistica.",
+  "answerBox": "La selezione comprende Webuild, Pizzarotti, Ghella, Rizzani de Eccher, CMB, Gruppo ICM, Sacaim, Todini, Bonatti e Salcef Group. L’ordine è editoriale e non costituisce una graduatoria omogenea per fatturato: per confrontare le dimensioni occorrono anno, metrica e perimetro dei bilanci. Gruppo ICM e ICMQ sono organizzazioni distinte.",
   "blocks": [
+    {
+      "type": "p",
+      "text": "Nota di aggiornamento del 16 novembre 2026: corretto il riferimento al Gruppo ICM, prima indicato erroneamente come ICMQ. Le identità sono verificabili nel [profilo del Gruppo ICM](https://www.gruppoicm.com/it/profilo) e nel [sito di ICMQ](https://www.icmq.it/). La selezione ha ordine editoriale e non rappresenta una graduatoria per fatturato certificata."
+    },
     {
       "type": "p",
       "text": "Prima di interpretare le posizioni, verifica metrica, esercizio e perimetro dei dati. La [guida alla lettura delle classifiche delle imprese di costruzioni](https://www.mediaedile.it/mercato/classifiche-imprese-costruzioni-leggere-dati) propone una scheda per distinguere gruppo, singola società e periodo di riferimento."
@@ -52,7 +56,7 @@
     },
     {
       "type": "ranking",
-      "title": "La classifica completa delle imprese di costruzione italiane",
+      "title": "Dieci gruppi: selezione editoriale",
       "items": [
         {
           "rank": 1,
@@ -86,8 +90,9 @@
         },
         {
           "rank": 6,
-          "name": "ICMQ",
-          "text": "Impresa Costruzioni Giuseppe Maltauro, con sede in Veneto, attiva da oltre un secolo in opere stradali, ferroviarie, aeroportuali e marittime. ICMQ è specializzata nella costruzione di viadotti, ponti e opere d'arte, con un parco attrezzature tra i più completi del settore. L'impresa partecipa regolarmente a grandi appalti infrastrutturali in Italia e ha sviluppato competenze riconosciute nella gestione di cantieri complessi in ambito ferroviario."
+          "name": "Gruppo ICM",
+          "text": "Il Gruppo ICM riunisce società attive prevalentemente nelle costruzioni. La sua storia è collegata all’impresa fondata da Giuseppe Maltauro. Il [profilo aziendale del gruppo](https://www.gruppoicm.com/it/profilo) permette di verificare identità e attività; ICMQ è invece un’organizzazione distinta che offre servizi di certificazione e verifica.",
+          "url": "https://www.gruppoicm.com/it/profilo"
         },
         {
           "rank": 7,
@@ -161,7 +166,7 @@
           "Italia"
         ],
         [
-          "ICMQ",
+          "Gruppo ICM",
           "Vicenza",
           "Strade, ferrovie, opere d'arte",
           "Italia"
