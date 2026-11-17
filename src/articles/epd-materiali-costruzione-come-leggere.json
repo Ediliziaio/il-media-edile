@@ -1,0 +1,268 @@
+{
+  "slug": "epd-materiali-costruzione-come-leggere",
+  "title": "EPD dei materiali da costruzione: come leggere la dichiarazione ambientale",
+  "seoTitle": "EPD materiali da costruzione: guida alla lettura",
+  "metaDescription": "Come leggere una EPD: prodotto, unità, perimetro, date e indicatori. Scheda CSV per raccogliere i documenti senza confronti ambientali impropri.",
+  "category": "News",
+  "categorySlug": "news",
+  "section": "Sostenibilità",
+  "sectionSlug": "sostenibilita",
+  "tags": [
+    "EPD",
+    "materiali da costruzione",
+    "documenti ambientali"
+  ],
+  "author": "Redazione Media Edile",
+  "date": "2026-11-17",
+  "updated": "2026-11-17",
+  "readTime": 12,
+  "answerBox": "Per leggere una EPD di un materiale da costruzione occorre identificare prodotto, titolare, regole di riferimento, unità dichiarata o funzionale e confini dello studio. Solo dopo si possono interpretare gli indicatori ambientali. La presenza del documento, da sola, non dimostra che un prodotto sia il migliore per qualunque impiego né rende confrontabili tutte le dichiarazioni disponibili.",
+  "blocks": [
+    {
+      "type": "h2",
+      "id": "che-cosa-cercare-in-una-epd",
+      "text": "Che cosa cercare in una EPD"
+    },
+    {
+      "type": "p",
+      "text": "Per leggere una EPD di un materiale da costruzione occorre identificare prodotto, titolare, regole di riferimento, unità dichiarata o funzionale e confini dello studio. Solo dopo si possono interpretare gli indicatori ambientali. La presenza del documento, da sola, non dimostra che un prodotto sia il migliore per qualunque impiego né rende confrontabili tutte le dichiarazioni disponibili."
+    },
+    {
+      "type": "p",
+      "text": "La sigla significa Environmental Product Declaration, dichiarazione ambientale di prodotto. Il documento comunica informazioni sull'impatto ambientale riferite a un perimetro definito. Il sito ufficiale di [EPDItaly](https://www.epditaly.it/) descrive il ruolo delle informazioni verificate e della convalida da parte di organismi riconosciuti dal programma. Questo è il punto di partenza per leggere una dichiarazione, non una ragione per interrompere l'analisi davanti a un logo."
+    },
+    {
+      "type": "p",
+      "text": "Chi seleziona materiali per una ristrutturazione può usare la EPD come parte di una richiesta documentale ordinata. La valutazione del prodotto comprende però anche impiego, prestazioni pertinenti, quantità, compatibilità e condizioni di progetto. Qui proponiamo un percorso di lettura e una scheda di raccolta: non una graduatoria ambientale fra marchi, non un calcolo LCA e non una verifica di conformità a un capitolato specifico."
+    },
+    {
+      "type": "h2",
+      "id": "partire-dal-prodotto-effettivamente-offerto",
+      "text": "Partire dal prodotto effettivamente offerto"
+    },
+    {
+      "type": "p",
+      "text": "Il primo controllo è la corrispondenza fra materiale offerto e campo di applicazione della dichiarazione. Trascrivi denominazione commerciale, codice, eventuale variante e soggetto che fornisce il documento. Se la EPD riguarda una famiglia, un prodotto medio o più stabilimenti, segnala il fatto invece di attribuirla automaticamente a ogni articolo dello stesso catalogo. La domanda da porre è se quella fornitura rientri nel perimetro documentato."
+    },
+    {
+      "type": "p",
+      "text": "Una scheda commerciale può avere un nome abbreviato, mentre la EPD usa una descrizione tecnica più ampia. Chiedi al produttore il collegamento fra le due identificazioni. Conserva la risposta con il documento e con l'offerta, soprattutto quando l'acquisto viene gestito attraverso un distributore. Non occorre supporre un'incongruenza: occorre rendere esplicito il passaggio che permette di collegare il dato ambientale al materiale che sarà consegnato."
+    },
+    {
+      "type": "p",
+      "text": "Le FAQ di EPDItaly affrontano anche configurazioni nelle quali chi produce e chi commercializza con il proprio marchio non coincidono, richiamando condizioni di rappresentatività e corrispondenza. Il riferimento è la [pagina ufficiale delle domande frequenti](https://www.epditaly.it/faq-2/). Per la singola fornitura chiedi evidenze pertinenti al prodotto, senza dedurre dal solo nome del marchio che la dichiarazione sia valida oppure, al contrario, che sia automaticamente estranea."
+    },
+    {
+      "type": "h2",
+      "id": "annotare-numero-validita-e-fonte-del-documento",
+      "text": "Annotare numero, validità e fonte del documento"
+    },
+    {
+      "type": "p",
+      "text": "Registra il numero della dichiarazione, il programma di pubblicazione, le date riportate e il collegamento alla scheda nel relativo archivio. La copia inviata via email è utile, ma il riferimento pubblico permette di cercare eventuali aggiornamenti. Se i dati della copia e quelli dell'archivio non coincidono, chiedi quale versione debba essere utilizzata per la valutazione. Non correggere a mano un documento del produttore."
+    },
+    {
+      "type": "p",
+      "text": "Mantieni separate data di pubblicazione, eventuali aggiornamenti e periodo di validità dichiarato. Una data recente non prova da sola che i dati di base descrivano la tua fornitura; una data meno recente non basta a scartare un documento senza leggere il suo stato. Usa la scheda per registrare le informazioni disponibili e le domande, lasciando al professionista incaricato le verifiche richieste dal progetto."
+    },
+    {
+      "type": "p",
+      "text": "Per un archivio ordinato puoi assegnare al file un codice interno e conservare l'originale invariato. Nel registro aggiungi la data di consultazione e la persona che ha confermato il collegamento al prodotto. Se cambia la soluzione di progetto, verifica nuovamente il documento pertinente. Riutilizzare una EPD perché “l'avevamo già raccolta” può far perdere la corrispondenza con materiale, variante o campo di impiego effettivamente valutati."
+    },
+    {
+      "type": "h2",
+      "id": "leggere-l-unita-prima-dei-risultati",
+      "text": "Leggere l'unità prima dei risultati"
+    },
+    {
+      "type": "p",
+      "text": "Un valore ambientale ha significato insieme all'unità cui è riferito. Prima di copiare un numero in un confronto, trascrivi integralmente l'unità dichiarata o funzionale e le eventuali condizioni associate. Non limitarti a scrivere “per metro quadrato” se il documento specifica caratteristiche del prodotto o della funzione. Ridurre il riferimento a una formula abbreviata può eliminare proprio l'informazione necessaria per capire che cosa si sta confrontando."
+    },
+    {
+      "type": "p",
+      "text": "Immagina un esempio soltanto illustrativo: due materiali sono offerti per una parete, ma un documento esprime risultati rispetto a una massa e l'altro rispetto a una superficie con una determinata configurazione. Mettere i valori uno accanto all'altro non crea una base comune. L'esempio non contiene dati ambientali reali e non dimostra una preferenza: mostra perché occorra chiarire il riferimento prima di formulare un giudizio."
+    },
+    {
+      "type": "p",
+      "text": "Anche una conversione aritmetica apparentemente semplice può richiedere dati sul prodotto e sulla funzione nel progetto. Non introdurre densità, spessori o durate presunti per ottenere una classifica veloce. Registra invece quali dati servano a chi svolge la valutazione. Il contributo di chi acquista è raccogliere riferimenti coerenti, non riempire le caselle vuote con valori medi trovati in una pagina generica."
+    },
+    {
+      "type": "h2",
+      "id": "capire-il-perimetro-del-ciclo-di-vita-studiato",
+      "text": "Capire il perimetro del ciclo di vita studiato"
+    },
+    {
+      "type": "p",
+      "text": "La dichiarazione va letta insieme alle fasi e ai confini considerati. Nella tua scheda riporta le denominazioni dei moduli presenti e segnala quelli non dichiarati secondo quanto scritto nel documento. Non leggere una casella priva di valore come impatto nullo. Una cifra riferita a una parte del ciclo di vita non descrive automaticamente produzione, trasporto, utilizzo e fine vita dell'intero sistema installato."
+    },
+    {
+      "type": "p",
+      "text": "Il percorso ufficiale di [redazione e verifica spiegato da EPDItaly](https://www.epditaly.it/iter/) richiama regole di categoria di prodotto, definizione di obiettivo e campo di applicazione, inventario, valutazione degli impatti e interpretazione. Questi elementi spiegano perché il risultato numerico non vada separato dal metodo che lo ha prodotto. La pagina descrive l'iter generale del programma; per il dettaglio occorre leggere la specifica dichiarazione e le regole richiamate."
+    },
+    {
+      "type": "p",
+      "text": "Nel confronto preliminare formula domande precise: il trasporto considerato quale scenario rappresenta? Le informazioni sull'uso a che condizioni si riferiscono? Quali ipotesi vengono adottate per le fasi successive? Non occorre ricostruire il modello durante una trattativa commerciale. Serve capire quali aspetti siano già documentati, quali debbano essere raccordati al progetto e quali non si possano dedurre da una tabella isolata."
+    },
+    {
+      "type": "h2",
+      "id": "non-ridurre-gli-indicatori-a-un-solo-numero",
+      "text": "Non ridurre gli indicatori a un solo numero"
+    },
+    {
+      "type": "p",
+      "text": "Una presentazione commerciale può evidenziare un indicatore perché immediato da comunicare. Quando leggi la EPD conserva la distinzione fra indicatori, unità e fasi, riportando i titoli esatti. Un valore di una categoria non rappresenta ogni possibile effetto ambientale. Chiedi a chi valuta i materiali quali indicatori siano pertinenti allo scopo del confronto e come verranno trattate eventuali differenze fra i risultati."
+    },
+    {
+      "type": "p",
+      "text": "Evita espressioni come “impatto zero” ricavate da una singola riga o da un saldo parziale. Per capire un dato servono definizione, perimetro e ipotesi, comprese eventuali note. Se una comunicazione del produttore riassume la EPD, collega il messaggio alla pagina o alla tabella originale da cui deriva. Una sintesi diventa verificabile quando consente di tornare al riferimento e riconosce ciò che lascia fuori."
+    },
+    {
+      "type": "p",
+      "text": "Per una richiesta di offerta è spesso sufficiente chiedere il documento completo e segnalare che sarà letto nel quadro del progetto. Non imporre una graduatoria improvvisata al rivenditore. Puoi invece chiedere se sia disponibile un referente per chiarire campi di applicazione, dati e versione. La qualità del percorso dipende dalla possibilità di controllare le informazioni, non dalla quantità di cifre inserite nel catalogo."
+    },
+    {
+      "type": "h2",
+      "id": "distinguere-epd-prestazioni-e-certificazione-dell-edificio",
+      "text": "Distinguere EPD, prestazioni e certificazione dell'edificio"
+    },
+    {
+      "type": "p",
+      "text": "La documentazione ambientale del prodotto e la valutazione complessiva dell'edificio affrontano livelli diversi. Una EPD non risolve da sola la scelta di un isolante, di un rivestimento o di un componente. Occorre verificare anche le caratteristiche pertinenti all'impiego e la loro integrazione nel sistema progettato. Non trasformare la disponibilità di un documento in una garanzia su prestazioni che non sono l'oggetto di quel documento."
+    },
+    {
+      "type": "p",
+      "text": "Per orientarti fra i diversi livelli puoi affiancare la guida alle [certificazioni nell'edilizia sostenibile](https://www.mediaedile.it/sostenibilita/edilizia-sostenibile-certificazioni). È utile mantenere domande separate: quali informazioni ambientali comunica il materiale? Quali requisiti richiede il progetto? Quali verifiche riguardano l'edificio? Una risposta su un livello non dovrebbe essere estesa automaticamente agli altri, soprattutto quando entra in un capitolato o in una richiesta documentale del committente."
+    },
+    {
+      "type": "p",
+      "text": "Se un'offerta afferma che la EPD soddisfa un requisito specifico, chiedi il riferimento al requisito e il collegamento al documento. Per appalti, certificazioni e obblighi applicabili occorre una verifica aggiornata del caso: questa guida non attribuisce conformità a prodotti. Anche un materiale con documentazione ampia può richiedere chiarimenti prima di essere considerato adeguato alla particolare soluzione progettata e al relativo contesto di fornitura."
+    },
+    {
+      "type": "h2",
+      "id": "confrontare-le-alternative-senza-creare-una-falsa-classifica",
+      "text": "Confrontare le alternative senza creare una falsa classifica"
+    },
+    {
+      "type": "p",
+      "text": "Prepara una tabella con le alternative considerate e lascia inizialmente fuori il giudizio migliore o peggiore. Raccogli prodotto, unità, regole richiamate, versione, moduli e scenario. Evidenzia le differenze che richiedono una valutazione prima del confronto. Questa tabella può portare a una conclusione utile anche senza un vincitore: le informazioni disponibili non consentono ancora un paragone omogeneo e serve una richiesta di integrazione."
+    },
+    {
+      "type": "p",
+      "text": "Un esempio organizzativo: la proposta A include la EPD del prodotto identificato nell'offerta, mentre la proposta B allega una dichiarazione di famiglia e non specifica la variante. La prima azione è chiedere alla seconda parte di documentare la corrispondenza, non penalizzarla con un punteggio ambientale inventato. Finché manca il riferimento, il problema è la completezza del dossier, non una prestazione inferiore dimostrata del materiale."
+    },
+    {
+      "type": "p",
+      "text": "Lo stesso principio aiuta a leggere altre selezioni editoriali. Nella guida su [come interpretare le classifiche delle imprese di costruzioni](https://www.mediaedile.it/mercato/classifiche-imprese-costruzioni-leggere-dati) vengono messi in evidenza perimetro e metrica. Per i prodotti ambientali il contenuto tecnico cambia, ma resta utile chiedere sempre che cosa venga confrontato e con quali informazioni. Un ordinamento senza una base dichiarata nasconde differenze anziché spiegarle."
+    },
+    {
+      "type": "h2",
+      "id": "preparare-una-richiesta-documentale-al-produttore",
+      "text": "Preparare una richiesta documentale al produttore"
+    },
+    {
+      "type": "p",
+      "text": "Invia il codice del materiale e l'impiego previsto, descrivendo lo scopo della richiesta. Chiedi la EPD pertinente, il collegamento all'archivio del programma e gli eventuali chiarimenti sul campo di applicazione. Evita domande assolute come “è il materiale più ecologico?”. Sono difficili da verificare e incoraggiano risposte promozionali. Una domanda circoscritta consente invece di ottenere un riferimento che il progettista può esaminare."
+    },
+    {
+      "type": "p",
+      "text": "Nel messaggio separa documenti già ricevuti, informazioni mancanti e aspetti da valutare. Se il produttore propone un'alternativa, chiedi come cambia l'identificazione del prodotto e quale documentazione la accompagni. Conserva la comunicazione senza sostituirla alla dichiarazione originale. Quando intervengono più fornitori, mantieni una stessa struttura di richiesta: così le differenze nei dossier emergono senza dipendere dal formato grafico scelto dalle aziende."
+    },
+    {
+      "type": "p",
+      "text": "Può essere utile indicare chi raccoglie i documenti e chi svolge la verifica finale. Il rivenditore può trasmettere una EPD, il produttore può chiarire il prodotto e il professionista incaricato può valutarne la pertinenza al progetto: non sono azioni intercambiabili. Il registro dovrebbe rendere visibili i passaggi completati e quelli ancora aperti, senza attribuire a una semplice consegna del file il valore di approvazione tecnica."
+    },
+    {
+      "type": "h2",
+      "id": "collegare-i-documenti-ambientali-alle-quantita-del-progetto",
+      "text": "Collegare i documenti ambientali alle quantità del progetto"
+    },
+    {
+      "type": "p",
+      "text": "Il dossier dei materiali dovrebbe distinguere la documentazione del prodotto dalle quantità previste nel progetto. Una EPD può essere leggibile e pertinente, mentre la quantità inserita nel computo può ancora essere provvisoria. Mantieni separati i due stati: documento raccolto e quantità da confermare. In questo modo chi esegue la valutazione riconosce quali informazioni siano disponibili e quali dipendano da scelte progettuali, rilievi o definizione della fornitura."
+    },
+    {
+      "type": "p",
+      "text": "Nella scheda aggiungi un riferimento al codice della voce di capitolato o del materiale, se esiste. Non è necessario riportare qui l'intero computo. Serve un collegamento che impedisca di associare la dichiarazione di una variante a una quantità relativa a un'altra soluzione. Se il progetto cambia, individua quali righe devono essere ricontrollate. Un archivio di molti documenti senza corrispondenza alle forniture può essere meno utile di poche schede correttamente identificate."
+    },
+    {
+      "type": "h2",
+      "id": "separare-i-dati-dichiarati-dalle-ipotesi-del-valutatore",
+      "text": "Separare i dati dichiarati dalle ipotesi del valutatore"
+    },
+    {
+      "type": "p",
+      "text": "Quando un professionista utilizza la EPD in un'analisi più ampia, può aver bisogno di ipotesi riferite al progetto. Nella raccolta documentale tienile distinguibili dai dati originali del produttore. Scrivi chi ha introdotto ciascuna ipotesi, per quale scopo e con quale riferimento. Non modificare il PDF per farlo coincidere con uno scenario progettuale: conserva il documento e affiancagli le elaborazioni pertinenti, riconoscibili come elaborazioni successive."
+    },
+    {
+      "type": "p",
+      "text": "Un esempio organizzativo è l'informazione sul percorso della fornitura: il luogo del progetto può richiedere una valutazione diversa dallo scenario riportato nel documento. Qui non viene proposto alcun fattore o calcolo. La questione utile è capire chi debba verificare lo scenario e quali dati servano. Attribuire a una EPD un risultato ricalcolato senza spiegare il passaggio può far apparire dichiarato dal produttore ciò che deriva invece da una scelta del valutatore."
+    },
+    {
+      "type": "h2",
+      "id": "scrivere-una-descrizione-ambientale-verificabile",
+      "text": "Scrivere una descrizione ambientale verificabile"
+    },
+    {
+      "type": "p",
+      "text": "Se presenti il materiale a un cliente, usa una formulazione che possa essere ricondotta al dossier: identifica il prodotto, cita la dichiarazione e spiega quale informazione viene richiamata. Evita superlativi come “il più sostenibile” se non esiste un confronto pertinente e documentato. Una descrizione precisa può essere più utile commercialmente perché permette al destinatario di fare domande e controllare i riferimenti senza ricostruire un'affermazione generica."
+    },
+    {
+      "type": "p",
+      "text": "Nelle schede di progetto distinguere disponibilità della EPD, caratteristiche del materiale e ragioni della scelta aiuta anche la redazione dei contenuti pubblici. Se un'informazione non è stata verificata, non trasformarla in un risultato ottenuto in cantiere. Il valore editoriale sta nel descrivere un percorso leggibile: quali documenti sono stati consultati, come si riferiscono alla fornitura e quali valutazioni sono rimaste affidate ai soggetti competenti."
+    },
+    {
+      "type": "h2",
+      "id": "una-scheda-per-rendere-leggibile-il-dossier",
+      "text": "Una scheda per rendere leggibile il dossier"
+    },
+    {
+      "type": "p",
+      "text": "Scarica la [scheda di lettura EPD per materiali da costruzione](https://www.mediaedile.it/downloads/epd-materiali-costruzione-come-leggere.csv). Le righe servono a raccogliere identità del prodotto, riferimento del programma, unità, perimetro, date e domande. È un modello editoriale vuoto, privo di dati ambientali precompilati. Puoi affiancarlo alle offerte e condividerlo con chi segue la valutazione, conservando un collegamento al documento ufficiale e alle risposte ricevute."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Informazione",
+        "Riferimento da raccogliere"
+      ],
+      "rows": [
+        [
+          "Prodotto e codice offerta",
+          "Da compilare con il documento o con la domanda pertinente"
+        ],
+        [
+          "Titolare EPD",
+          "Da compilare con il documento o con la domanda pertinente"
+        ],
+        [
+          "Numero dichiarazione",
+          "Da compilare con il documento o con la domanda pertinente"
+        ],
+        [
+          "Programma e link ufficiale",
+          "Da compilare con il documento o con la domanda pertinente"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Prima di chiudere la selezione verifica che le domande determinanti abbiano una risposta documentata. Se resta una differenza fra materiali, descrivila senza forzare un totale. Una scelta motivata può integrare informazioni ambientali, prestazioni pertinenti e condizioni del progetto, rendendo espliciti i limiti del confronto. La EPD diventa utile quando permette di leggere meglio la fornitura, non quando viene usata come etichetta conclusiva al posto dell'analisi."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Una EPD dimostra che un prodotto è sempre il più sostenibile?",
+      "a": "No. Le informazioni riguardano un prodotto e un perimetro definiti. Un confronto richiede basi pertinenti e valutazioni riferite allo scopo e al progetto."
+    },
+    {
+      "q": "Perché leggere l’unità prima dei risultati?",
+      "a": "Il valore è riferito all’unità e alle condizioni dichiarate. Copiare soltanto la cifra può eliminare il riferimento necessario per comprenderla."
+    },
+    {
+      "q": "La scheda CSV calcola un punteggio ambientale?",
+      "a": "No. Raccoglie riferimenti, perimetro e domande senza dati ambientali precompilati, conversioni o classifiche."
+    }
+  ],
+  "noInfographic": true,
+  "coverCaption": "La copertina originale è generata con intelligenza artificiale: campioni e rapporto astratto hanno funzione illustrativa. Non rappresenta una dichiarazione ambientale autentica, un marchio di certificazione o risultati di prova."
+}

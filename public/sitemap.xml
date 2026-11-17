@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
     <loc>https://www.mediaedile.it/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -62,7 +62,7 @@
   </url>
 <url>
     <loc>https://www.mediaedile.it/sostenibilita</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -96,6 +96,7 @@
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
+<url><loc>https://www.mediaedile.it/sostenibilita/epd-materiali-costruzione-come-leggere</loc><lastmod>2026-11-17</lastmod><image:image><image:loc>https://www.mediaedile.it/images/epd-materiali-costruzione-come-leggere-photo.webp</image:loc><image:caption>EPD dei materiali da costruzione: come leggere la dichiarazione ambientale</image:caption></image:image></url>
 <url><loc>https://www.mediaedile.it/mercato/occupazione-costruzioni-persone-ore-fonti</loc><lastmod>2026-11-16</lastmod><image:image><image:loc>https://www.mediaedile.it/images/occupazione-costruzioni-persone-ore-fonti-photo.webp</image:loc><image:caption>Occupazione nelle costruzioni: leggere persone, ore e fonti statistiche</image:caption></image:image></url>
 <url><loc>https://www.mediaedile.it/mercato/indici-costi-costruzione-prezzi-materiali</loc><lastmod>2026-11-08</lastmod><image:image><image:loc>https://www.mediaedile.it/images/indici-costi-costruzione-prezzi-materiali-photo.webp</image:loc><image:caption>Indici dei costi di costruzione e prezzi dei materiali: come leggere i confronti</image:caption></image:image></url>
 <url><loc>https://www.mediaedile.it/mercato/classifiche-imprese-costruzioni-leggere-dati</loc><lastmod>2026-11-08</lastmod><image:image><image:loc>https://www.mediaedile.it/images/classifiche-imprese-costruzioni-leggere-dati-photo.webp</image:loc><image:caption>Classifiche delle imprese di costruzioni: come leggere fatturato, perimetro e periodo</image:caption></image:image></url>

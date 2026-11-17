@@ -128,7 +128,7 @@
       "permanent": true
     },
     {
-      "source": "/tag/:legacyTag(breeam|cappotto termico|cappotto%20termico|cappotto-termico|certificazioni|direttiva case green|direttiva%20case%20green|direttiva-case-green|edilizia sostenibile|edilizia%20sostenibile|edilizia-sostenibile|isolamento termico|isolamento%20termico|isolamento-termico|leed|materiali isolanti|materiali%20isolanti|materiali-isolanti|protocollo itaca|protocollo%20itaca|protocollo-itaca|unione europea|unione%20europea|unione-europea)",
+      "source": "/tag/:legacyTag(EPD|breeam|cappotto termico|cappotto%20termico|cappotto-termico|certificazioni|direttiva case green|direttiva%20case%20green|direttiva-case-green|documenti ambientali|documenti%20ambientali|documenti-ambientali|edilizia sostenibile|edilizia%20sostenibile|edilizia-sostenibile|epd|isolamento termico|isolamento%20termico|isolamento-termico|leed|materiali isolanti|materiali%20isolanti|materiali-isolanti|protocollo itaca|protocollo%20itaca|protocollo-itaca|unione europea|unione%20europea|unione-europea)",
       "destination": "/sostenibilita",
       "permanent": true
     }

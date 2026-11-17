@@ -16,6 +16,11 @@
       "href": "/mercato/indici-costi-costruzione-prezzi-materiali",
       "title": "Leggere indici e prezzi",
       "description": "Evita di confondere un indice statistico con il prezzo di una specifica fornitura."
+    },
+    {
+      "href": "/sostenibilita/epd-materiali-costruzione-come-leggere",
+      "title": "EPD materiali da costruzione: guida alla lettura",
+      "description": "Come leggere una EPD: prodotto, unità, perimetro, date e indicatori. Scheda CSV per raccogliere i documenti senza confronti ambientali impropri."
     }
   ]
 }
