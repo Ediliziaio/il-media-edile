@@ -1,4 +1,3 @@
-import { PriorityPaths } from "@/components/PriorityPaths";
 import { Link } from 'react-router'
 import { articles, getBySection, getRankings, sections, heroImage } from '@/lib/articles'
 import { useSeo } from '@/lib/seo'
@@ -25,7 +24,6 @@ export default function Home() {
         Il Media Edile — classifiche indipendenti e confronti dei migliori produttori
         e prodotti dell'edilizia italiana, con dati scaricabili
       </h1>
-      <PriorityPaths />
 
 
       {/* Leaderboard top */}
