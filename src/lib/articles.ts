@@ -44,6 +44,8 @@ export interface Article {
   noInfographic?: boolean
   /** didascalia della copertina; stringa vuota = nessuna didascalia */
   coverCaption?: string
+  /** Nome del file della copertina, indipendente dall’URL dell’articolo. */
+  coverSlug?: string
 }
 
 const modules = import.meta.glob<{ default: Article }>('../articles/*.json', { eager: true })
@@ -112,12 +114,13 @@ export function articleUrl(a: Article): string {
 
 /** Immagine di copertina visibile (hero in pagina): WebP leggero per l'LCP. */
 export function heroImage(a: Article): string {
+  if (a.coverSlug) return `/images/${a.coverSlug}.webp`
   return `/images/${a.slug}-photo.webp`
 }
 
 /** Immagine per Open Graph / Twitter / JSON-LD: JPG 1200×630, compatibile ovunque. */
 export function ogImage(a: Article): string {
-  return `/images/${a.slug}-og.jpg`
+  return `/images/${a.coverSlug ?? a.slug}-og.jpg`
 }
 
 export function inlineImage(a: Article): string {

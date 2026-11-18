@@ -23,7 +23,7 @@ const staticEntries = [...previous.matchAll(/<url>[\s\S]*?<\/url>/g)]
     return date ? entry.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${date}</lastmod>`) : entry;
   });
 const articleEntries = articles.map(a => {
-  const image = `/images/${a.slug}-photo.webp`;
+  const image = a.coverSlug ? `/images/${a.coverSlug}.webp` : `/images/${a.slug}-photo.webp`;
   const imageXml = existsSync(join(root,'public',image)) ? `<image:image><image:loc>${domain}${image}</image:loc><image:caption>${esc(a.title)}</image:caption></image:image>` : '';
   return `<url><loc>${esc(url(a))}</loc><lastmod>${esc(a.updated || a.date)}</lastmod>${imageXml}</url>`;
 });

@@ -1,8 +1,8 @@
 {
   "slug": "innovasol-partire-dallacqua-calda-per-valutare-il-solare-termico",
-  "title": "Innovasol: partire dall’acqua calda per valutare il solare termico",
-  "seoTitle": "Innovasol: valutare il solare termico per casa",
-  "metaDescription": "Una richiesta centrata sulle abitudini della famiglia aiuta a valutare il solare termico. Il servizio di Innovasol raccontato attraverso i dati da.",
+  "title": "Innovasol: solare termico e acqua calda per la casa",
+  "seoTitle": "Innovasol: solare termico per la casa in Sicilia",
+  "metaDescription": "Innovasol progetta e installa solare termico in Sicilia, con sopralluogo e assistenza. Come collegare l’impianto all’acqua calda usata in casa.",
   "category": "News",
   "categorySlug": "news",
   "section": "Impianti ed Efficienza",
@@ -12,17 +12,17 @@
   ],
   "author": "Redazione Il Media Edile",
   "date": "2026-10-22",
-  "updated": "2026-10-22",
+  "updated": "2026-11-18",
   "readTime": 5,
-  "answerBox": "Prima del modello di pannello viene una domanda semplice: quando e come viene utilizzata l’acqua calda in casa? È la base per avviare un confronto sulla soluzione.",
+  "answerBox": "Innovasol progetta e installa impianti solari termici in Sicilia. Il servizio comprende sopralluogo, definizione della proposta e installazione, con assistenza dopo la consegna. La scelta del sistema parte dall’acqua calda utilizzata in casa e dal rapporto con l’impianto esistente, per sviluppare una soluzione riferita all’abitazione.",
   "blocks": [
     {
       "type": "p",
-      "text": "Prima del modello di pannello viene una domanda semplice: quando e come viene utilizzata l’acqua calda in casa? È la base per avviare un confronto sulla soluzione."
+      "text": "Innovasol progetta e installa impianti solari termici in Sicilia. Il servizio comprende sopralluogo, definizione della proposta e installazione, con assistenza dopo la consegna. La scelta del sistema parte dall’acqua calda utilizzata in casa e dal rapporto con l’impianto esistente, per sviluppare una soluzione riferita all’abitazione."
     },
     {
       "type": "p",
-      "text": "Quando si parla di energia solare, il tetto attira subito l'attenzione. Per una famiglia, però, può essere altrettanto utile partire dalle abitudini quotidiane: docce, orari, numero di persone e generatore già utilizzato. Innovasol dedica una pagina del proprio sito al solare termico in Sicilia, distinto dalla proposta fotovoltaica."
+      "text": "Docce, cucina e presenze familiari aiutano a descrivere il fabbisogno a cui deve rispondere il solare termico. Non occorre scegliere subito un modello di pannello: è più utile conoscere gli utilizzi abituali e il generatore già presente. Con queste informazioni Innovasol può affrontare il progetto distinguendo il servizio per l’acqua calda dalla produzione di elettricità, che appartiene invece al fotovoltaico."
     },
     {
       "type": "h2",
@@ -157,6 +157,7 @@
     }
   ],
   "noInfographic": true,
-  "coverCaption": "Illustrazione generata con IA. Non rappresenta un intervento reale dell’azienda.",
-  "sponsor": "Innovasol"
+  "coverCaption": "Impianto solare termico per l’acqua calda: immagine originale generata con AI a scopo illustrativo, non un’installazione Innovasol.",
+  "sponsor": "Innovasol",
+  "coverSlug": "innovasol-solare-termico-acqua-calda"
 }
