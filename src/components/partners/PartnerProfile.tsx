@@ -1,8 +1,8 @@
 import { PartnerLink } from "./PartnerLink";
-import { partnerPath, type Partner, type Portal } from "./partner-types";
+import { type Partner, type Portal } from "./partner-types";
 
-export function PartnerProfile({ partner: p, partners, portal, trailingSlash = false }: {
-  partner: Partner; partners: Partner[]; portal: Portal; trailingSlash?: boolean;
+export function PartnerProfile({ partner: p, portal, trailingSlash = false }: {
+  partner: Partner; portal: Portal; trailingSlash?: boolean;
 }) {
   const focus = p.focus[portal];
   const listPath = `/aziende-partner${trailingSlash ? "/" : ""}`;
@@ -29,16 +29,15 @@ export function PartnerProfile({ partner: p, partners, portal, trailingSlash = f
         <section id="azienda"><h2>Conosci {p.name}</h2>{p.about.map(t => <p key={t}>{t}</p>)}</section>
         <section><h2>{p.presentation.heading}</h2>{p.presentation.paragraphs.map(t => <p key={t}>{t}</p>)}</section>
         <section id="servizi"><h2>Prodotti e servizi</h2><ul className="partner-services">{p.services.map(s => <li key={s}>{s}</li>)}</ul></section>
-        <section><h2>{focus.heading}</h2>{focus.paragraphs.map(t => <p key={t}>{t}</p>)}</section>
         <section className="partner-sources"><h2>Scopri di più</h2>
           <ul>{p.sources.map((url, i) => <li key={url}><a href={url} rel="sponsored noopener noreferrer" target="_blank">{p.sourceLabels?.[i] || (i === 0 ? "Sito ufficiale" : "Scopri l’azienda")} <span aria-hidden="true">↗</span></a></li>)}</ul>
           <p>Presentazione aggiornata il <time dateTime={p.updated}>18 novembre 2026</time>.</p>
         </section>
       </article>
       <aside id="contatti" className="partner-contact" aria-label={`Contatti ${p.name}`}>
-        <p className="partner-kicker">Il prossimo passo</p><h2>Il tuo progetto con {p.name}</h2>
+        <p className="partner-kicker">Contatti</p><h2>Contatta {p.name}</h2>
         <p>{p.territory}</p>
-        <a className="partner-primary-button" href={p.contactUrl} rel="sponsored noopener noreferrer" target="_blank">Contatta {p.name} <span aria-hidden="true">↗</span></a>
+        <a className="partner-primary-button" href={p.contactUrl} rel="sponsored noopener noreferrer" target="_blank">Richiedi informazioni <span aria-hidden="true">↗</span></a>
         <a className="partner-secondary-button" href={p.website} rel="sponsored noopener noreferrer" target="_blank">Visita il sito ufficiale</a>
         <dl>
           <dt>Dove trovarla</dt><dd>{p.address}</dd>
@@ -48,9 +47,5 @@ export function PartnerProfile({ partner: p, partners, portal, trailingSlash = f
         {p.legalName && <p className="partner-small">{p.legalName}</p>}
       </aside>
     </div>
-    <nav className="partner-related" aria-label="Altre aziende partner"><h2>Altre aziende da conoscere</h2>
-      <div>{partners.filter(x => x.slug !== p.slug).map(x => <PartnerLink key={x.slug} href={partnerPath(x.slug, trailingSlash)}>{x.name}<span aria-hidden="true">↗</span></PartnerLink>)}</div>
-      <PartnerLink className="partner-back" href={listPath}>← Tutte le aziende partner</PartnerLink>
-    </nav>
   </>;
 }

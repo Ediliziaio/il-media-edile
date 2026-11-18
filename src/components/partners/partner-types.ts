@@ -1,5 +1,5 @@
 export type Portal = "guida-edile" | "guida-serramenti" | "media-edile";
-export interface PartnerFocus { summary: string; heading: string; paragraphs: string[] }
+export interface PartnerFocus { summary: string }
 export interface Partner {
   slug: string; name: string; legalName: string; website: string; contactUrl: string;
   phone: string; phoneLabel: string; email: string; location: string; territory: string;
