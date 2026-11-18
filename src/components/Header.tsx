@@ -72,22 +72,22 @@ export function Header() {
               </button>
             </form>
           </div>
-          <button className="md:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menu">
+          <button className="md:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menu" aria-expanded={open} aria-controls="main-navigation">
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
 
         {/* Navigazione principale — sezioni del blog (struttura sitelinks) */}
-        <nav aria-label="Navigazione principale" className={`${open ? 'block' : 'hidden'} md:block border-t border-neutral-100`}>
+        <nav id="main-navigation" aria-label="Navigazione principale" className={`${open ? 'block' : 'hidden'} md:block border-t border-neutral-100`}>
           <ul className="flex flex-col md:flex-row md:items-center md:justify-start gap-0.5 md:gap-5 md:overflow-x-auto md:whitespace-nowrap scrollbar-none">
             <li>
-              <NavLink to="/" end className={({isActive}) => linkCls(isActive)} style={({isActive}) => linkStyle(isActive, '#0e9447')}>
+              <NavLink to="/" end onClick={() => setOpen(false)} className={({isActive}) => linkCls(isActive)} style={({isActive}) => linkStyle(isActive, '#0e9447')}>
                 Home
               </NavLink>
             </li>
             {sections.map((s) => (
               <li key={s.slug}>
-                <NavLink to={`/${s.slug}`} className={({isActive}) => linkCls(isActive)} style={({isActive}) => linkStyle(isActive, s.color)}>
+                <NavLink to={`/${s.slug}`} onClick={() => setOpen(false)} className={({isActive}) => linkCls(isActive)} style={({isActive}) => linkStyle(isActive, s.color)}>
                   {s.name}
                 </NavLink>
               </li>
@@ -95,6 +95,7 @@ export function Header() {
             <li>
               <NavLink
                 to="/produttori"
+                onClick={() => setOpen(false)}
                 className={({isActive}) => `block py-2.5 px-1 text-[13px] font-bold tracking-tight transition-colors border-b-2 ${
                   isActive ? 'text-[#0e9447] border-[#0e9447]' : 'text-neutral-700 border-transparent hover:border-[#0e9447]'
                 }`}
@@ -102,10 +103,11 @@ export function Header() {
                 Produttori
               </NavLink>
             </li>
-            <li><NavLink to="/aziende-partner" className={({isActive})=>linkCls(isActive)} style={({isActive})=>linkStyle(isActive,'#0e9447')}>Aziende partner</NavLink></li>
+            <li><NavLink to="/aziende-partner" onClick={() => setOpen(false)} className={({isActive})=>linkCls(isActive)} style={({isActive})=>linkStyle(isActive,'#0e9447')}>Aziende partner</NavLink></li>
             <li>
               <NavLink
                 to="/classifiche"
+                onClick={() => setOpen(false)}
                 className={({isActive}) => `block py-2.5 px-1 text-[13px] font-bold tracking-tight transition-colors border-b-2 ${
                   isActive ? 'text-[#0e9447] border-[#0e9447]' : 'text-[#0e9447] border-transparent hover:border-[#0e9447]'
                 }`}
@@ -114,7 +116,7 @@ export function Header() {
               </NavLink>
             </li>
             <li className="md:ml-auto">
-              <NavLink to="/chi-siamo" className={({isActive}) => linkCls(isActive)} style={({isActive}) => linkStyle(isActive, '#0e9447')}>
+              <NavLink to="/chi-siamo" onClick={() => setOpen(false)} className={({isActive}) => linkCls(isActive)} style={({isActive}) => linkStyle(isActive, '#0e9447')}>
                 Chi siamo
               </NavLink>
             </li>
