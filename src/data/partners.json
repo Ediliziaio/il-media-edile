@@ -93,13 +93,13 @@
       "Vendita, installazione e servizi chiavi in mano"
     ],
     "about": [
-      "CR Lodi Casa & Design vende e installa serramenti, pavimenti, rivestimenti e arredo bagno a Lodi. Lo showroom si trova a Cornegliano Laudense, in via Veneto 8.",
-      "L’azienda tratta finestre in PVC, alluminio e legno, porte interne e blindate, pavimenti in gres, parquet e laminato. Per il bagno offre mobili, sanitari, box doccia e rubinetteria."
+      "CR Lodi Casa & Design vende e installa serramenti, pavimenti, rivestimenti e arredo bagno. Giuseppe Cinnirella è il fondatore e titolare dell’azienda.",
+      "Lo showroom di 300 m² si trova in via Veneto 8, a Cornegliano Laudense, vicino a Lodi. Qui si possono vedere e confrontare materiali, finiture e prodotti per la casa."
     ],
     "presentation": {
-      "heading": "Vendita e installazione per la casa",
+      "heading": "Lo showroom di Giuseppe Cinnirella",
       "paragraphs": [
-        "Il servizio comprende la scelta dei prodotti in showroom e l’installazione diretta. Sono disponibili anche interventi chiavi in mano, che riuniscono prodotti e lavorazioni per il rinnovamento degli ambienti."
+        "Nello showroom CR Lodi si scelgono finestre e porte, pavimenti in gres, parquet e laminato, mobili bagno, sanitari, docce e rubinetteria. L’azienda affianca alla vendita l’installazione e gli interventi di ristrutturazione chiavi in mano. Per organizzare una visita si può contattare direttamente lo showroom."
       ]
     },
     "focus": {
@@ -428,6 +428,74 @@
         "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Via%20Statale%20dei%20Giovi%2010%2C%2022073%20Fino%20Mornasco%20%28CO%29%2C%20Italia"
       }
     ]
+  },
+  {
+    "slug": "infissi-e-living",
+    "name": "Infissi e Living",
+    "legalName": "Infissi e Living SRLS",
+    "website": "https://infissieliving.com/",
+    "contactUrl": "https://infissieliving.com/contatti/",
+    "phone": "+393336954335",
+    "phoneLabel": "333 695 4335",
+    "email": "info@infissieliving.com",
+    "location": "Roma",
+    "territory": "Roma",
+    "address": "Via Appiano 24, 00136 Roma",
+    "street": "Via Appiano 24",
+    "city": "Roma",
+    "region": "Lazio",
+    "postalCode": "00136",
+    "sectors": [
+      "Serramenti",
+      "Schermature solari",
+      "Outdoor"
+    ],
+    "services": [
+      "Infissi e serramenti",
+      "Porte blindate e grate in ferro",
+      "Persiane in ferro e alluminio",
+      "Zanzariere e avvolgibili",
+      "Pergole e bioclimatiche",
+      "Vetrate panoramiche VEPA",
+      "Rilievo, consulenza, posa e assistenza"
+    ],
+    "about": [
+      "Infissi e Living fornisce e installa serramenti, porte blindate e sistemi di protezione a Roma. La sede si trova in via Appiano 24.",
+      "L’offerta comprende anche zanzariere, avvolgibili, persiane, pergole bioclimatiche e vetrate panoramiche. L’azienda esegue inoltre lavorazioni in ferro per grate, cancelli, recinzioni e ringhiere."
+    ],
+    "presentation": {
+      "heading": "Dalla scelta dei prodotti alla posa",
+      "paragraphs": [
+        "Il servizio comprende consulenza, progettazione su misura, rilievo delle aperture, posa e assistenza dopo l’installazione. Finestre, sistemi di oscuramento e soluzioni per gli spazi esterni possono essere valutati insieme in base alle caratteristiche dell’immobile."
+      ]
+    },
+    "focus": {
+      "guida-edile": {
+        "summary": "Fornitura e installazione di infissi, porte blindate, schermature e soluzioni outdoor a Roma."
+      },
+      "guida-serramenti": {
+        "summary": "Infissi, porte blindate, zanzariere e persiane, con rilievo e posa a Roma."
+      },
+      "media-edile": {
+        "summary": "Infissi e Living installa serramenti, sistemi di protezione, pergole e vetrate panoramiche a Roma."
+      }
+    },
+    "sources": [
+      "https://infissieliving.com/",
+      "https://infissieliving.com/servizi/",
+      "https://infissieliving.com/contatti/"
+    ],
+    "sourceLabels": [
+      "Sito ufficiale",
+      "Servizi",
+      "Contatti"
+    ],
+    "aliases": [
+      "Infissi & Living",
+      "Infissi Living"
+    ],
+    "logo": "/partners/infissi-e-living.webp",
+    "updated": "2026-11-18"
   },
   {
     "slug": "innovasol",

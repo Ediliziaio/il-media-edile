@@ -18,10 +18,6 @@
   "blocks": [
     {
       "type": "p",
-      "text": "**Contenuto sponsorizzato · Innovasol**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-    },
-    {
-      "type": "p",
       "text": "Prima del modello di pannello viene una domanda semplice: quando e come viene utilizzata l’acqua calda in casa? È la base per avviare un confronto sulla soluzione."
     },
     {
@@ -131,7 +127,7 @@
     },
     {
       "type": "p",
-      "text": "[Approfondisci il solare termico con Innovasol](https://innovasol.it/solare-termico-sicilia/ \"sponsored\")"
+      "text": "[Richiedi informazioni a Innovasol](https://innovasol.it/contatti/ \"sponsored\")"
     },
     {
       "type": "h2",

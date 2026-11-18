@@ -18,10 +18,6 @@
   "blocks": [
     {
       "type": "p",
-      "text": "**Contenuto sponsorizzato · Renova Solution**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-    },
-    {
-      "type": "p",
       "text": "Tre acquisti separati possono diventare un unico percorso di miglioramento della casa. Il punto di partenza è una richiesta che metta in relazione comfort, impianti e lavori."
     },
     {
@@ -131,7 +127,7 @@
     },
     {
       "type": "p",
-      "text": "[Conosci i servizi di Renova Solution](https://www.renovasolution.it/ \"sponsored\")"
+      "text": "[Richiedi informazioni a Renova Solution](https://www.renovasolution.it/contatti \"sponsored\")"
     },
     {
       "type": "h2",

@@ -18,10 +18,6 @@
   "blocks": [
     {
       "type": "p",
-      "text": "**Contenuto sponsorizzato · Green Energy Group**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-    },
-    {
-      "type": "p",
       "text": "L’impianto solare, la batteria e la ricarica dell’auto rispondono a esigenze diverse. Valutarli insieme aiuta a costruire una richiesta coerente, senza considerarli un pacchetto obbligatorio."
     },
     {
@@ -131,7 +127,7 @@
     },
     {
       "type": "p",
-      "text": "[Esplora le soluzioni di Green Energy Group](https://greenenergygroup.it/ \"sponsored\")"
+      "text": "[Richiedi informazioni a Green Energy Group](https://greenenergygroup.it/contatti/ \"sponsored\")"
     },
     {
       "type": "h2",
