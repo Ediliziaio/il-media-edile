@@ -66,6 +66,8 @@ function applySeo(html, seo) {
   html = setMeta(html, 'property', 'og:description', seo.description)
   html = setMeta(html, 'property', 'og:type', seo.type ?? 'website')
   if (seo.image) html = setMeta(html, 'property', 'og:image', seo.image)
+  if (seo.imageWidth) html = setMeta(html, 'property', 'og:image:width', String(seo.imageWidth))
+  if (seo.imageHeight) html = setMeta(html, 'property', 'og:image:height', String(seo.imageHeight))
   html = setMeta(html, 'name', 'twitter:title', seo.title)
   html = setMeta(html, 'name', 'twitter:description', seo.description)
   if (seo.image) html = setMeta(html, 'name', 'twitter:image', seo.image)

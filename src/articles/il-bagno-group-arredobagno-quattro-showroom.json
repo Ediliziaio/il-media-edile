@@ -1,5 +1,10 @@
 {
   "sponsor": "Il Bagno Group",
+  "socialImage": {
+    "src": "/images/il-bagno-group-arredobagno-quattro-showroom-photo.webp",
+    "width": 1200,
+    "height": 675
+  },
   "slug": "il-bagno-group-arredobagno-quattro-showroom",
   "title": "Il Bagno Group: arredobagno e quattro showroom fra Brianza e Comasco",
   "seoTitle": "Il Bagno Group: arredobagno e quattro showroom",

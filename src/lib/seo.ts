@@ -8,6 +8,8 @@ export interface SeoOptions {
   canonical?: string
   type?: 'website' | 'article'
   image?: string
+  imageWidth?: number
+  imageHeight?: number
   published?: string
   modified?: string
   section?: string
@@ -46,6 +48,8 @@ export function useSeo(opts: SeoOptions) {
     upsertMeta('name', 'twitter:description', opts.description)
     if (opts.image) {
       upsertMeta('property', 'og:image', opts.image)
+      upsertMeta('property', 'og:image:width', String(opts.imageWidth ?? 1200))
+      upsertMeta('property', 'og:image:height', String(opts.imageHeight ?? 630))
       upsertMeta('name', 'twitter:image', opts.image)
     }
     if (opts.published) upsertMeta('property', 'article:published_time', opts.published)

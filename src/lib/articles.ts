@@ -46,6 +46,8 @@ export interface Article {
   coverCaption?: string
   /** Nome del file della copertina, indipendente dall’URL dell’articolo. */
   coverSlug?: string
+  /** Copertina esistente da usare anche nelle anteprime social. */
+  socialImage?: { src: string; width: number; height: number }
 }
 
 const modules = import.meta.glob<{ default: Article }>('../articles/*.json', { eager: true })
@@ -118,9 +120,9 @@ export function heroImage(a: Article): string {
   return `/images/${a.slug}-photo.webp`
 }
 
-/** Immagine per Open Graph / Twitter / JSON-LD: JPG 1200×630, compatibile ovunque. */
+/** Immagine per Open Graph / Twitter / JSON-LD; può riusare la copertina esistente. */
 export function ogImage(a: Article): string {
-  return `/images/${a.coverSlug ?? a.slug}-og.jpg`
+  return a.socialImage?.src ?? `/images/${a.coverSlug ?? a.slug}-og.jpg`
 }
 
 export function inlineImage(a: Article): string {

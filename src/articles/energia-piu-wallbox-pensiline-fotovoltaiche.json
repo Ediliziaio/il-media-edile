@@ -1,5 +1,10 @@
 {
   "sponsor": "Energia Più",
+  "socialImage": {
+    "src": "/images/energia-piu-wallbox-pensiline-fotovoltaiche-photo.webp",
+    "width": 1200,
+    "height": 675
+  },
   "slug": "energia-piu-wallbox-pensiline-fotovoltaiche",
   "title": "Energia Più: wallbox e pensiline fotovoltaiche per la ricarica elettrica",
   "seoTitle": "Energia Più: wallbox e pensiline fotovoltaiche",
