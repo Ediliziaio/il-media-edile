@@ -18,6 +18,7 @@ import {
 } from './articles'
 import type { SeoOptions } from './seo'
 import { brands } from '@/data/brands.generated'
+import { partners, partnerSeo } from './partners'
 
 export type Section = (typeof sections)[number]
 export type StaticPageId = 'chi-siamo' | 'contatti' | 'privacy' | 'cookie-policy'
@@ -356,6 +357,11 @@ export function getSeoForPath(path: string): SeoOptions | null {
   if (p === '/') return homeSeo()
   if (p === '/classifiche') return classificheSeo()
   if (p === '/produttori') return produttoriSeo()
+  if (p === '/aziende-partner') return partnerSeo()
+  if (p.startsWith('/aziende-partner/')) {
+    const slug=p.slice('/aziende-partner/'.length)
+    return partners.some(x=>x.slug===slug)?partnerSeo(slug):null
+  }
   if (p === '/dati') return datiSeo()
   if (p === '/newsletter') return newsletterSeo()
   if (p === '/cerca') return searchSeo()
@@ -472,6 +478,8 @@ export function getAllPrerenderPaths(): string[] {
     '/classifiche',
     '/dati',
     '/produttori',
+    '/aziende-partner',
+    ...partners.map(p=>`/aziende-partner/${p.slug}`),
     '/newsletter',
     '/cerca',
     '/chi-siamo',

@@ -12,6 +12,7 @@ import SearchPage from '@/pages/SearchPage'
 import StaticPage from '@/pages/StaticPage'
 import NewsletterPage from '@/pages/NewsletterPage'
 import NotFound from '@/pages/NotFound'
+import { PartnerDirectoryPage, PartnerProfilePage } from '@/pages/PartnerPages'
 
 /**
  * Sorgente UNICA delle rotte: usata sia dal client (main.tsx) sia dal
@@ -33,6 +34,8 @@ export default function App() {
           <Route path="/cerca" element={<SearchPage />} />
           <Route path="/classifiche" element={<ClassifichePage />} />
           <Route path="/produttori" element={<ProduttoriPage />} />
+          <Route path="/aziende-partner" element={<PartnerDirectoryPage />} />
+          <Route path="/aziende-partner/:slug" element={<PartnerProfilePage />} />
           <Route path="/dati" element={<DatiPage />} />
           <Route path="/newsletter" element={<NewsletterPage />} />
           <Route path="/chi-siamo" element={<StaticPage page="chi-siamo" />} />

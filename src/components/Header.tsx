@@ -102,6 +102,7 @@ export function Header() {
                 Produttori
               </NavLink>
             </li>
+            <li><NavLink to="/aziende-partner" className={({isActive})=>linkCls(isActive)} style={({isActive})=>linkStyle(isActive,'#0e9447')}>Aziende partner</NavLink></li>
             <li>
               <NavLink
                 to="/classifiche"
