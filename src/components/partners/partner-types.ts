@@ -1,5 +1,9 @@
 export type Portal = "guida-edile" | "guida-serramenti" | "media-edile";
 export interface PartnerFocus { summary: string }
+export interface PartnerShowroom {
+  city: string; address: string; street: string; postalCode: string;
+  region: string; email: string; directionsUrl: string;
+}
 export interface Partner {
   slug: string; name: string; legalName: string; website: string; contactUrl: string;
   phone: string; phoneLabel: string; email: string; location: string; territory: string;
@@ -8,5 +12,6 @@ export interface Partner {
   presentation: { heading: string; paragraphs: string[] };
   focus: Record<Portal, PartnerFocus>; logo: string; logoBackground?: string; updated: string;
   sourceLabels?: string[]; aliases?: string[];
+  showrooms?: PartnerShowroom[];
 }
 export function partnerPath(slug: string, trailingSlash = false) { return `/aziende-partner/${slug}${trailingSlash ? "/" : ""}`; }

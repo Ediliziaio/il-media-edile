@@ -62,6 +62,79 @@
     "aliases": []
   },
   {
+    "slug": "cr-lodi",
+    "name": "CR Lodi Casa & Design",
+    "legalName": "",
+    "website": "https://crlodicasaedesign.it/",
+    "contactUrl": "https://crlodicasaedesign.it/contatti/",
+    "phone": "+390371752990",
+    "phoneLabel": "0371 752 990",
+    "email": "info@cinnirellaristrutturazioni.it",
+    "location": "Cornegliano Laudense · Lodi",
+    "territory": "Lodi e Cornegliano Laudense",
+    "address": "Showroom: Via Veneto 8, 26854 Cornegliano Laudense (LO)",
+    "street": "Via Veneto 8",
+    "city": "Cornegliano Laudense",
+    "postalCode": "26854",
+    "region": "Lombardia",
+    "sectors": [
+      "Serramenti",
+      "Arredobagno",
+      "Pavimenti e rivestimenti",
+      "Ristrutturazioni"
+    ],
+    "services": [
+      "Finestre in PVC, alluminio e legno",
+      "Porte interne e blindate",
+      "Pavimenti in gres, parquet e laminato",
+      "Rivestimenti per bagno e cucina",
+      "Mobili bagno, sanitari e rubinetteria",
+      "Box doccia",
+      "Vendita, installazione e servizi chiavi in mano"
+    ],
+    "about": [
+      "CR Lodi Casa & Design vende e installa serramenti, pavimenti, rivestimenti e arredo bagno a Lodi. Lo showroom si trova a Cornegliano Laudense, in via Veneto 8.",
+      "L’azienda tratta finestre in PVC, alluminio e legno, porte interne e blindate, pavimenti in gres, parquet e laminato. Per il bagno offre mobili, sanitari, box doccia e rubinetteria."
+    ],
+    "presentation": {
+      "heading": "Vendita e installazione per la casa",
+      "paragraphs": [
+        "Il servizio comprende la scelta dei prodotti in showroom e l’installazione diretta. Sono disponibili anche interventi chiavi in mano, che riuniscono prodotti e lavorazioni per il rinnovamento degli ambienti."
+      ]
+    },
+    "focus": {
+      "guida-edile": {
+        "summary": "Vendita e installazione di infissi, pavimenti, rivestimenti e arredo bagno a Lodi."
+      },
+      "guida-serramenti": {
+        "summary": "Finestre in PVC, alluminio e legno, porte e installazione, con showroom a Cornegliano Laudense."
+      },
+      "media-edile": {
+        "summary": "CR Lodi Casa & Design vende e installa serramenti, pavimenti, rivestimenti e arredo bagno."
+      }
+    },
+    "sources": [
+      "https://crlodicasaedesign.it/",
+      "https://crlodicasaedesign.it/servizi/",
+      "https://crlodicasaedesign.it/contatti/",
+      "https://www.cinnirellaristrutturazioni.it/"
+    ],
+    "sourceLabels": [
+      "Sito ufficiale",
+      "Prodotti e servizi",
+      "Contatti",
+      "Cinnirella Ristrutturazioni"
+    ],
+    "aliases": [
+      "CR.Lodi",
+      "CR Lodi",
+      "Cinnirella Ristrutturazioni"
+    ],
+    "logo": "/partners/cr-lodi.webp",
+    "updated": "2026-11-18",
+    "logoBackground": "#000000"
+  },
+  {
     "slug": "dimora-torino",
     "name": "Dimora Torino",
     "legalName": "",
@@ -316,6 +389,44 @@
     "aliases": [
       "Il Bagno",
       "IlBagno"
+    ],
+    "showrooms": [
+      {
+        "city": "Lissone",
+        "address": "Via Nuova Valassina 27, 20851 Lissone (MB)",
+        "street": "Via Nuova Valassina 27",
+        "postalCode": "20851",
+        "region": "Lombardia",
+        "email": "lissone@ilbagnogroup.com",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Via%20Nuova%20Valassina%2027%2C%2020851%20Lissone%20%28MB%29%2C%20Italia"
+      },
+      {
+        "city": "Nova Milanese",
+        "address": "Via Vittorio Veneto 2, 20834 Nova Milanese (MB)",
+        "street": "Via Vittorio Veneto 2",
+        "postalCode": "20834",
+        "region": "Lombardia",
+        "email": "novamilanese@ilbagnogroup.com",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Via%20Vittorio%20Veneto%202%2C%2020834%20Nova%20Milanese%20%28MB%29%2C%20Italia"
+      },
+      {
+        "city": "Inverigo",
+        "address": "Via Don Gnocchi 104, 22044 Inverigo (CO)",
+        "street": "Via Don Gnocchi 104",
+        "postalCode": "22044",
+        "region": "Lombardia",
+        "email": "inverigo@ilbagnogroup.com",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Via%20Don%20Gnocchi%20104%2C%2022044%20Inverigo%20%28CO%29%2C%20Italia"
+      },
+      {
+        "city": "Fino Mornasco",
+        "address": "Via Statale dei Giovi 10, 22073 Fino Mornasco (CO)",
+        "street": "Via Statale dei Giovi 10",
+        "postalCode": "22073",
+        "region": "Lombardia",
+        "email": "finomornasco@ilbagnogroup.com",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Via%20Statale%20dei%20Giovi%2010%2C%2022073%20Fino%20Mornasco%20%28CO%29%2C%20Italia"
+      }
     ]
   },
   {
