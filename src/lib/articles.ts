@@ -87,9 +87,23 @@ export function getRankings(): Article[] {
 }
 
 export function getRelated(article: Article, count = 4): Article[] {
-  const same = articles.filter((a) => a.slug !== article.slug && a.sectionSlug === article.sectionSlug)
-  const others = articles.filter((a) => a.slug !== article.slug && a.sectionSlug !== article.sectionSlug)
-  return [...same, ...others].slice(0, count)
+  const generic = new Set(['edilizia', 'costruzioni', 'innovazione', 'news', '2025', '2026', 'guida', 'guide', 'migliori', 'casa', 'come', 'cosa', 'quando', 'quale', 'quali', 'scegliere', 'scelta', 'confronto', 'confrontare', 'costi', 'prezzi', 'classifica', 'classifiche', 'italia', 'progetto', 'progetti', 'ristrutturazione', 'ristrutturazioni', 'efficienza energetica', 'riqualificazione energetica'])
+  const normalize = (value: string) => value.trim().toLocaleLowerCase('it')
+  const tags = new Set(article.tags.map(normalize).filter((tag) => !generic.has(tag)))
+  const words = (title: string) => new Set(normalize(title).split(/[^\p{L}\p{N}]+/u).filter((word) => word.length > 3 && !generic.has(word)))
+  const titleWords = words(article.title)
+  const ranked = articles.filter((candidate) => candidate.slug !== article.slug)
+    .map((candidate, index) => {
+      const sharedTags = new Set(candidate.tags.map(normalize).filter((tag) => tags.has(tag))).size
+      const sharedWords = [...words(candidate.title)].filter((word) => titleWords.has(word)).length
+      const topic = sharedTags * 8 + sharedWords * 4
+      return { candidate, index, topic, score: topic + (candidate.sectionSlug === article.sectionSlug ? 2 : 0) }
+    })
+  const topical = ranked.filter(({ topic }) => topic > 0)
+  return (topical.length ? topical : ranked.filter(({ score }) => score > 0))
+    .sort((a, b) => b.score - a.score || a.index - b.index)
+    .slice(0, count)
+    .map(({ candidate }) => candidate)
 }
 
 export function formatDate(iso: string): string {
