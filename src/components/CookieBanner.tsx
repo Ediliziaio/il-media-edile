@@ -14,19 +14,21 @@ export interface Consent {
 export function getConsent(): Consent | null {
   try {
     const raw = localStorage.getItem(KEY)
-    return raw ? (JSON.parse(raw) as Consent) : null
+    const parsed = raw ? (JSON.parse(raw) as Partial<Consent>) : null
+    return parsed && typeof parsed.analytics === 'boolean' && typeof parsed.advertising === 'boolean' ? parsed as Consent : null
   } catch {
     return null
   }
 }
 
 function save(c: Omit<Consent, 'ts'>) {
+  const state: Consent = { ...c, ts: Date.now() }
   try {
-    localStorage.setItem(KEY, JSON.stringify({ ...c, ts: Date.now() }))
+    localStorage.setItem(KEY, JSON.stringify(state))
   } catch {
     /* storage non disponibile */
   }
-  window.dispatchEvent(new CustomEvent('cookie-consent-changed'))
+  window.dispatchEvent(new CustomEvent('cookie-consent-changed', { detail: state }))
 }
 
 /**
@@ -85,7 +87,7 @@ export function CookieBanner() {
         {customize && (
           <div className="mt-4 space-y-3 border-t border-neutral-100 pt-4">
             <ToggleRow label="Necessari" desc="Sempre attivi, indispensabili per il sito" checked disabled onChange={() => {}} />
-            <ToggleRow label="Analitici" desc="Statistiche di lettura aggregate e anonime" checked={analytics} onChange={setAnalytics} />
+            <ToggleRow label="Analitici" desc="Statistiche di utilizzo per migliorare contenuti e navigazione" checked={analytics} onChange={setAnalytics} />
             <ToggleRow label="Pubblicitari" desc="Annunci personalizzati negli spazi adv" checked={advertising} onChange={setAdvertising} />
           </div>
         )}
