@@ -1,5 +1,54 @@
 [
   {
+    "title": "Infissi e Living: pergole e vetrate panoramiche a Roma",
+    "description": "Pergole bioclimatiche e vetrate panoramiche Infissi e Living a Roma: funzioni, spazi e servizi, dalla consulenza alla posa.",
+    "path": "/materiali-prodotti/infissi-e-living-pergole-vepa-roma",
+    "section": "native",
+    "slug": "infissi-e-living-pergole-vepa-roma",
+    "publishedAt": "2026-11-18",
+    "image": "/images/infissi-e-living-pergole-vepa-roma-photo.webp",
+    "sponsor": "Infissi e Living",
+    "sourceURLs": [
+      "https://infissieliving.com/",
+      "https://infissieliving.com/servizi/",
+      "https://infissieliving.com/contatti/"
+    ],
+    "category": "materiali-prodotti"
+  },
+  {
+    "title": "Energia Più: wallbox e pensiline fotovoltaiche per la ricarica elettrica",
+    "description": "Wallbox e pensiline fotovoltaiche con Energia Più: ricarica domestica, posto auto e produzione di energia da valutare nello stesso progetto.",
+    "path": "/impianti/energia-piu-wallbox-pensiline-fotovoltaiche",
+    "section": "native",
+    "slug": "energia-piu-wallbox-pensiline-fotovoltaiche",
+    "publishedAt": "2026-11-18",
+    "image": "/images/energia-piu-wallbox-pensiline-fotovoltaiche-photo.webp",
+    "sponsor": "Energia Più",
+    "sourceURLs": [
+      "https://www.energiapiu.net/",
+      "https://www.energiapiu.net/pensilina/",
+      "https://www.energiapiu.net/contatti-energia/"
+    ],
+    "category": "impianti"
+  },
+  {
+    "title": "Il Bagno Group: arredobagno e quattro showroom fra Brianza e Comasco",
+    "description": "Il Bagno Group: mobili, sanitari, docce e rivestimenti. Visita gli showroom di Lissone, Nova Milanese, Inverigo e Fino Mornasco.",
+    "path": "/materiali-prodotti/il-bagno-group-arredobagno-quattro-showroom",
+    "section": "native",
+    "slug": "il-bagno-group-arredobagno-quattro-showroom",
+    "publishedAt": "2026-11-18",
+    "image": "/images/il-bagno-group-arredobagno-quattro-showroom-photo.webp",
+    "sponsor": "Il Bagno Group",
+    "sourceURLs": [
+      "https://www.ilbagnogroup.com/",
+      "https://www.ilbagnogroup.com/il-gruppo/",
+      "https://www.ilbagnogroup.com/showroom/",
+      "https://www.ilbagnogroup.com/contatti/"
+    ],
+    "category": "materiali-prodotti"
+  },
+  {
     "title": "Domotica cablata o wireless? La scelta parte dai lavori",
     "description": "Cosa chiedere prima di scegliere la domotica in ristrutturazione: cablaggio, comandi locali, manutenzione e compatibilità, con una checklist pratica.",
     "path": "/innovazione/domotica-cablata-wireless-ristrutturazione",

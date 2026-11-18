@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
     <loc>https://www.mediaedile.it/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -44,13 +44,13 @@
   </url>
 <url>
     <loc>https://www.mediaedile.it/materiali-prodotti</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 <url>
     <loc>https://www.mediaedile.it/impianti</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -96,6 +96,9 @@
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
+<url><loc>https://www.mediaedile.it/impianti/energia-piu-wallbox-pensiline-fotovoltaiche</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://www.mediaedile.it/images/energia-piu-wallbox-pensiline-fotovoltaiche-photo.webp</image:loc><image:caption>Energia Più: wallbox e pensiline fotovoltaiche per la ricarica elettrica</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/il-bagno-group-arredobagno-quattro-showroom</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://www.mediaedile.it/images/il-bagno-group-arredobagno-quattro-showroom-photo.webp</image:loc><image:caption>Il Bagno Group: arredobagno e quattro showroom fra Brianza e Comasco</image:caption></image:image></url>
+<url><loc>https://www.mediaedile.it/materiali-prodotti/infissi-e-living-pergole-vepa-roma</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://www.mediaedile.it/images/infissi-e-living-pergole-vepa-roma-photo.webp</image:loc><image:caption>Infissi e Living: pergole e vetrate panoramiche a Roma</image:caption></image:image></url>
 <url><loc>https://www.mediaedile.it/sostenibilita/epd-materiali-costruzione-come-leggere</loc><lastmod>2026-11-17</lastmod><image:image><image:loc>https://www.mediaedile.it/images/epd-materiali-costruzione-come-leggere-photo.webp</image:loc><image:caption>EPD dei materiali da costruzione: come leggere la dichiarazione ambientale</image:caption></image:image></url>
 <url><loc>https://www.mediaedile.it/mercato/occupazione-costruzioni-persone-ore-fonti</loc><lastmod>2026-11-16</lastmod><image:image><image:loc>https://www.mediaedile.it/images/occupazione-costruzioni-persone-ore-fonti-photo.webp</image:loc><image:caption>Occupazione nelle costruzioni: leggere persone, ore e fonti statistiche</image:caption></image:image></url>
 <url><loc>https://www.mediaedile.it/mercato/indici-costi-costruzione-prezzi-materiali</loc><lastmod>2026-11-08</lastmod><image:image><image:loc>https://www.mediaedile.it/images/indici-costi-costruzione-prezzi-materiali-photo.webp</image:loc><image:caption>Indici dei costi di costruzione e prezzi dei materiali: come leggere i confronti</image:caption></image:image></url>
