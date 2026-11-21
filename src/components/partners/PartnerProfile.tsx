@@ -41,7 +41,7 @@ export function PartnerProfile({ partner: p, portal, trailingSlash = false }: {
         </section>}
         <section className="partner-sources"><h2>Scopri di più</h2>
           <ul>{p.sources.map((url, i) => <li key={url}><a href={url} rel="sponsored noopener noreferrer" target="_blank">{p.sourceLabels?.[i] || (i === 0 ? "Sito ufficiale" : "Scopri l’azienda")} <span aria-hidden="true">↗</span></a></li>)}</ul>
-          <p>Presentazione aggiornata il <time dateTime={p.updated}>18 novembre 2026</time>.</p>
+          <p>Presentazione aggiornata il <time dateTime={p.updated}>{new Date(`${p.updated}T12:00:00Z`).toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })}</time>.</p>
         </section>
       </article>
       <aside id="contatti" className="partner-contact" aria-label={`Contatti ${p.name}`}>
@@ -49,11 +49,11 @@ export function PartnerProfile({ partner: p, portal, trailingSlash = false }: {
         <p>{p.territory}</p>
         <a className="partner-primary-button" href={p.contactUrl} rel="sponsored noopener noreferrer" target="_blank">Richiedi informazioni <span aria-hidden="true">↗</span></a>
         <a className="partner-secondary-button" href={p.website} rel="sponsored noopener noreferrer" target="_blank">Visita il sito ufficiale</a>
-        <dl>
-          <dt>Dove trovarla</dt><dd>{p.address}</dd>
+        {(p.address || p.phone || p.email) && <dl>
+          {p.address && <><dt>Dove trovarla</dt><dd>{p.address}</dd></>}
           {p.phone && <><dt>Telefono</dt><dd><a href={`tel:${p.phone}`}>{p.phoneLabel}</a></dd></>}
           {p.email && <><dt>Email</dt><dd><a href={`mailto:${p.email}`}>{p.email}</a></dd></>}
-        </dl>
+        </dl>}
         {p.legalName && <p className="partner-small">{p.legalName}</p>}
       </aside>
     </div>

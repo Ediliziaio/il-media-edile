@@ -201,6 +201,144 @@
     "aliases": []
   },
   {
+    "slug": "edilizia-in-cloud",
+    "name": "Edilizia in Cloud",
+    "legalName": "Domus Group S.r.l.",
+    "website": "https://www.ediliziaincloud.com/",
+    "contactUrl": "https://www.ediliziaincloud.com/demo/",
+    "phone": "+393501780908",
+    "phoneLabel": "+39 350 178 0908",
+    "email": "info@ediliziaincloud.com",
+    "location": "Milano · Servizi in tutta Italia",
+    "territory": "Software gestionale per imprese edili, serramentisti, ristrutturatori e impiantisti in tutta Italia.",
+    "address": "Via Aurelio Saffi 29, 20123 Milano (sede legale)",
+    "city": "Milano",
+    "region": "Lombardia",
+    "postalCode": "20123",
+    "street": "Via Aurelio Saffi 29",
+    "sectors": [
+      "Software gestionale",
+      "Gestione cantieri",
+      "Servizi per imprese"
+    ],
+    "services": [
+      "Preventivi e gestione delle commesse",
+      "Programmazione di fasi e squadre",
+      "Rapportini e registrazione delle ore",
+      "Materiali, magazzino e DDT",
+      "Fatturazione elettronica e scadenzario",
+      "Controllo dei costi e dei margini di cantiere",
+      "CRM e strumenti AI per l’impresa"
+    ],
+    "about": [
+      "Edilizia in Cloud è un software gestionale per imprese edili che collega preventivi, commesse, squadre, materiali e fatture. Riunisce il lavoro dell’ufficio e le informazioni del cantiere per seguire l’avanzamento delle attività e i costi della commessa.",
+      "Il gestionale comprende rapportini, ore lavorate, DDT e magazzino, fatturazione elettronica, scadenzario e strumenti per leggere i margini. È rivolto a imprese di costruzioni e ristrutturazioni, serramentisti, impiantisti e operatori del fotovoltaico."
+    ],
+    "sources": [
+      "https://www.ediliziaincloud.com/",
+      "https://www.ediliziaincloud.com/funzionalita/",
+      "https://www.ediliziaincloud.com/demo/"
+    ],
+    "sourceLabels": [
+      "Sito ufficiale",
+      "Funzionalità del gestionale",
+      "Richiedi una demo gratuita"
+    ],
+    "focus": {
+      "guida-edile": {
+        "summary": "Gestionale per imprese edili: preventivi, commesse, squadre, materiali, fatture e controllo dei margini."
+      },
+      "guida-serramenti": {
+        "summary": "Software gestionale per serramentisti e installatori: dal preventivo alla posa, con materiali, DDT, costi e fatture."
+      },
+      "media-edile": {
+        "summary": "Software per la gestione dei cantieri, con commesse, rapportini, magazzino e controllo economico dell’impresa."
+      }
+    },
+    "presentation": {
+      "heading": "Dal preventivo al controllo della commessa",
+      "paragraphs": [
+        "Il percorso parte dall’offerta al cliente e prosegue con fasi di lavoro, risorse e registrazione dei costi. Una demo gratuita permette di esaminare le funzioni sul flusso della propria impresa. Sono disponibili una prova gratuita di 31 giorni e un avvio assistito, con configurazione e dati da importare concordati con il team."
+      ]
+    },
+    "aliases": [
+      "EdiliziaInCloud",
+      "EIC",
+      "gestionale edilizia"
+    ],
+    "logo": "/partners/edilizia-in-cloud.png",
+    "logoBackground": "#ffffff",
+    "updated": "2026-11-21"
+  },
+  {
+    "slug": "edilizia-legale",
+    "name": "Edilizia Legale",
+    "legalName": "Studio Legale Avv. Armando Rossi",
+    "website": "https://www.edilizialegale.it/",
+    "contactUrl": "https://www.edilizialegale.it/contatti",
+    "phone": "+3908118671862",
+    "phoneLabel": "081 18671862",
+    "email": "info@studioavvocatorossi.it",
+    "location": "Napoli · Milano · Torino",
+    "territory": "Assistenza a imprese e privati in tutta Italia, anche da remoto.",
+    "address": "Via M. Cervantes 55/5, 80133 Napoli. Sedi anche a Milano e Torino.",
+    "city": "Napoli",
+    "region": "Campania",
+    "postalCode": "80133",
+    "street": "Via M. Cervantes 55/5",
+    "sectors": [
+      "Assistenza legale",
+      "Appalti e contratti",
+      "Servizi per imprese"
+    ],
+    "services": [
+      "Contratti d’appalto e subappalto",
+      "Recupero crediti e SAL non pagati",
+      "Riserve, varianti e contestazioni",
+      "Contenzioso su lavori e difetti costruttivi",
+      "Assistenza su serramenti e impianti",
+      "Analisi dei documenti e del fascicolo"
+    ],
+    "about": [
+      "Edilizia Legale è il progetto dello Studio Legale Avv. Armando Rossi dedicato al diritto dell’edilizia e degli appalti. Assiste imprese, artigiani e committenti nei rapporti contrattuali e nelle controversie legate ai lavori.",
+      "Le aree di attività comprendono contratti d’appalto e subappalto, recupero crediti, SAL non pagati, varianti, contestazioni e difetti costruttivi. Il sito dedica approfondimenti anche a serramenti, fotovoltaico, cappotti e impianti. Lo studio riceve a Napoli, Milano e Torino e offre colloqui da remoto."
+    ],
+    "sources": [
+      "https://www.edilizialegale.it/",
+      "https://www.edilizialegale.it/imprese",
+      "https://www.edilizialegale.it/contatti"
+    ],
+    "sourceLabels": [
+      "Sito ufficiale",
+      "Assistenza per le imprese",
+      "Contatti e sedi dello studio"
+    ],
+    "focus": {
+      "guida-edile": {
+        "summary": "Assistenza legale per imprese e committenti su appalti, crediti, SAL, contratti e contenzioso edile."
+      },
+      "guida-serramenti": {
+        "summary": "Assistenza legale su contratti, pagamenti e contestazioni riguardanti serramenti, installazioni e lavori edili."
+      },
+      "media-edile": {
+        "summary": "Diritto dell’edilizia e degli appalti: contratti, recupero crediti, riserve, varianti e controversie di cantiere."
+      }
+    },
+    "presentation": {
+      "heading": "Il confronto parte dai documenti del lavoro",
+      "paragraphs": [
+        "Per presentare il caso si possono raccogliere contratto o preventivo, fatture, SAL, fotografie e comunicazioni già scambiate. Lo studio esamina il fascicolo e verifica i conflitti di interesse prima di definire il percorso di assistenza."
+      ]
+    },
+    "aliases": [
+      "Studio Legale Avv. Armando Rossi",
+      "avvocato edilizia"
+    ],
+    "logo": "/partners/edilizia-legale.png",
+    "logoBackground": "#ffffff",
+    "updated": "2026-11-21"
+  },
+  {
     "slug": "energia-piu",
     "name": "Energia Più",
     "legalName": "Energia Più Srl",
@@ -558,6 +696,143 @@
     "aliases": []
   },
   {
+    "slug": "marketing-edile",
+    "name": "Marketing Edile",
+    "legalName": "",
+    "website": "https://www.marketingedile.com/",
+    "contactUrl": "https://www.marketingedile.com/contattaci",
+    "phone": "",
+    "phoneLabel": "",
+    "email": "",
+    "location": "Italia · Servizi per imprese",
+    "territory": "Marketing per imprese edili, serramentisti, ristrutturatori e installatori in Italia.",
+    "address": "",
+    "city": "",
+    "region": "",
+    "postalCode": "",
+    "street": "",
+    "sectors": [
+      "Marketing edile",
+      "Comunicazione e siti web",
+      "Servizi per imprese"
+    ],
+    "services": [
+      "Strategia di marketing per imprese edili",
+      "Campagne pubblicitarie e acquisizione contatti",
+      "Siti web e pagine per richieste di preventivo",
+      "Contenuti e video per l’impresa",
+      "SEO e visibilità locale",
+      "Organizzazione e misurazione dei contatti commerciali"
+    ],
+    "about": [
+      "Marketing Edile si occupa di marketing per imprese edili, serramentisti e aziende che lavorano nelle ristrutturazioni e negli impianti. Il progetto collega strategia, contenuti, pagine web e campagne pubblicitarie al percorso commerciale dell’impresa.",
+      "Le attività comprendono siti e pagine per raccogliere richieste, campagne, contenuti e video, SEO e organizzazione dei contatti. Il lavoro viene impostato in base ai servizi proposti, al territorio e alla capacità dell’azienda di seguire sopralluoghi e preventivi."
+    ],
+    "sources": [
+      "https://www.marketingedile.com/",
+      "https://www.marketingedile.com/servizi",
+      "https://www.marketingedile.com/contattaci"
+    ],
+    "sourceLabels": [
+      "Sito ufficiale",
+      "Servizi di marketing per imprese edili",
+      "Richiedi un confronto sul progetto"
+    ],
+    "focus": {
+      "guida-edile": {
+        "summary": "Marketing per imprese edili: strategia, siti web, campagne, contenuti e organizzazione delle richieste commerciali."
+      },
+      "guida-serramenti": {
+        "summary": "Marketing per serramentisti e rivenditori: campagne, siti, contenuti e gestione delle richieste di preventivo."
+      },
+      "media-edile": {
+        "summary": "Servizi di marketing per il settore edile, dalla visibilità online alla raccolta e misurazione dei contatti."
+      }
+    },
+    "presentation": {
+      "heading": "Dal servizio dell’impresa alla richiesta del cliente",
+      "paragraphs": [
+        "Il primo confronto mette a fuoco settore, zone servite, materiali disponibili e gestione delle richieste. Attività, consegne e responsabilità vengono definite nella proposta. Il budget delle piattaforme pubblicitarie resta distinto dal compenso del servizio."
+      ]
+    },
+    "aliases": [
+      "Marketing Edile®",
+      "agenzia marketing edilizia"
+    ],
+    "logo": "/partners/marketing-edile.png",
+    "logoBackground": "#0f172a",
+    "updated": "2026-11-21"
+  },
+  {
+    "slug": "numeri-in-edilizia",
+    "name": "Numeri in Edilizia",
+    "legalName": "",
+    "website": "https://www.numerinedilizia.com/",
+    "contactUrl": "https://www.numerinedilizia.com/contatti",
+    "phone": "",
+    "phoneLabel": "",
+    "email": "info@numerinedilizia.com",
+    "location": "Italia · Consulenza e formazione",
+    "territory": "Controllo di gestione per imprese edili, ristrutturatori, serramentisti e impiantisti in Italia.",
+    "address": "",
+    "city": "",
+    "region": "",
+    "postalCode": "",
+    "street": "",
+    "sectors": [
+      "Controllo di gestione",
+      "Consulenza e formazione",
+      "Servizi per imprese"
+    ],
+    "services": [
+      "Controllo di gestione per imprese edili",
+      "Analisi dei costi e dei margini di commessa",
+      "Budget e confronto tra preventivo e consuntivo",
+      "Lettura di ricavi, incassi e liquidità",
+      "Formazione sugli indicatori dell’impresa",
+      "Calcolatori, guide e modelli operativi"
+    ],
+    "about": [
+      "Numeri in Edilizia offre formazione e consulenza sul controllo di gestione delle imprese edili. Il metodo mette in relazione ricavi, costi diretti, costi di struttura e incassi per leggere il risultato delle commesse e dell’impresa.",
+      "I percorsi sono rivolti a imprese di costruzioni, ristrutturatori, serramentisti, impiantisti e altre attività del cantiere. Il sito raccoglie guide, calcolatori e modelli per approfondire margine di commessa, costo orario, budget e punto di pareggio."
+    ],
+    "sources": [
+      "https://www.numerinedilizia.com/",
+      "https://www.numerinedilizia.com/metodo",
+      "https://www.numerinedilizia.com/contatti"
+    ],
+    "sourceLabels": [
+      "Sito ufficiale",
+      "Il metodo di controllo di gestione",
+      "Prenota l’analisi gratuita"
+    ],
+    "focus": {
+      "guida-edile": {
+        "summary": "Formazione e consulenza per leggere costi, ricavi, margini di commessa e liquidità delle imprese edili."
+      },
+      "guida-serramenti": {
+        "summary": "Controllo di gestione per serramentisti e installatori: costi di fornitura e posa, preventivi e margini di commessa."
+      },
+      "media-edile": {
+        "summary": "Metodo di controllo di gestione, consulenza e strumenti per analizzare l’andamento economico dei cantieri."
+      }
+    },
+    "presentation": {
+      "heading": "Numeri utilizzabili nelle decisioni dell’impresa",
+      "paragraphs": [
+        "Il lavoro parte dai dati disponibili e dagli indicatori che l’imprenditore deve seguire. Si definiscono criteri di lettura, responsabilità e aggiornamenti per confrontare preventivi e costi rilevati. Dal sito è possibile richiedere un’analisi gratuita di 30 minuti per presentare la propria situazione."
+      ]
+    },
+    "aliases": [
+      "Numerinedilizia",
+      "Numeriinedilizia",
+      "controllo di gestione edilizia"
+    ],
+    "logo": "/partners/numeri-in-edilizia.svg",
+    "logoBackground": "#ffffff",
+    "updated": "2026-11-21"
+  },
+  {
     "slug": "panorama-infissi",
     "name": "Panorama Infissi",
     "legalName": "Panorama Infissi Srl",
@@ -620,6 +895,73 @@
       "Informazioni sull’azienda"
     ],
     "aliases": []
+  },
+  {
+    "slug": "pratica-rapida",
+    "name": "Pratica Rapida",
+    "legalName": "Impresa Leggera S.r.l.s.",
+    "website": "https://www.praticarapida.it/",
+    "contactUrl": "https://wa.me/390398682691",
+    "phone": "+390398682691",
+    "phoneLabel": "+39 039 868 2691",
+    "email": "modulistica@praticarapida.it",
+    "location": "Lissone (MB)",
+    "territory": "Servizi online per installatori, rivenditori e imprese in tutta Italia.",
+    "address": "Lissone (MB)",
+    "city": "Lissone",
+    "region": "Lombardia",
+    "postalCode": "",
+    "street": "",
+    "sectors": [
+      "Pratiche ENEA",
+      "Conto Termico",
+      "Servizi per imprese"
+    ],
+    "services": [
+      "Gestione delle pratiche ENEA",
+      "Pratiche Conto Termico",
+      "Raccolta e controllo della documentazione",
+      "Portale per installatori e rivenditori",
+      "Assistenza sulle pratiche dei clienti"
+    ],
+    "about": [
+      "Pratica Rapida gestisce pratiche ENEA e Conto Termico per installatori, rivenditori e imprese che lavorano nella riqualificazione energetica. Affianca l’azienda nella raccolta dei dati e dei documenti necessari alle pratiche dei propri clienti.",
+      "Il servizio è rivolto anche a chi vende e installa serramenti e impianti. Il portale dedicato raccoglie le informazioni degli interventi e consente di seguire la documentazione e l’avanzamento delle pratiche."
+    ],
+    "sources": [
+      "https://www.praticarapida.it/",
+      "https://www.praticarapida.it/pratica-enea",
+      "https://www.praticarapida.it/conto-termico"
+    ],
+    "sourceLabels": [
+      "Sito ufficiale e contatti",
+      "Servizio pratiche ENEA",
+      "Servizio Conto Termico"
+    ],
+    "focus": {
+      "guida-edile": {
+        "summary": "Pratiche ENEA e Conto Termico: gestione documentale e assistenza per installatori, rivenditori e imprese."
+      },
+      "guida-serramenti": {
+        "summary": "Pratiche ENEA per serramentisti e rivenditori, raccolta dei documenti e servizi per il Conto Termico."
+      },
+      "media-edile": {
+        "summary": "Servizi per la gestione delle pratiche ENEA e Conto Termico degli interventi di riqualificazione energetica."
+      }
+    },
+    "presentation": {
+      "heading": "Un servizio per installatori e rivenditori",
+      "paragraphs": [
+        "Pratica Rapida affianca il lavoro dell’installatore nella parte documentale dell’intervento. Per conoscere il servizio adatto, l’impresa può presentare il tipo di lavorazione e confrontarsi con il team sui documenti da raccogliere e sui passaggi da gestire."
+      ]
+    },
+    "aliases": [
+      "ENEA",
+      "PraticaRapida"
+    ],
+    "logo": "/partners/pratica-rapida.png",
+    "logoBackground": "#ffffff",
+    "updated": "2026-11-21"
   },
   {
     "slug": "renova-solution",

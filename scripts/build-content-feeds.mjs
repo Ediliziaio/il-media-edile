@@ -28,7 +28,7 @@ const articleEntries = articles.map(a => {
   return `<url><loc>${esc(url(a))}</loc><lastmod>${esc(a.updated || a.date)}</lastmod>${imageXml}</url>`;
 });
 const partners=JSON.parse(readFileSync(join(root,'src/data/partners.json'),'utf8'));
-const partnerEntries=[{path:'/aziende-partner',updated:'2026-11-18'},...partners.map(p=>({path:'/aziende-partner/'+p.slug,updated:p.updated}))].map(p=>`<url><loc>${domain}${p.path}</loc><lastmod>${p.updated}</lastmod></url>`);
+const partnerEntries=[{path:'/aziende-partner',updated:partners.map(p=>p.updated).sort().at(-1)},...partners.map(p=>({path:'/aziende-partner/'+p.slug,updated:p.updated}))].map(p=>`<url><loc>${domain}${p.path}</loc><lastmod>${p.updated}</lastmod></url>`);
 writeFileSync(sitemapFile,`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${[...staticEntries,...articleEntries,...partnerEntries].join('\n')}\n</urlset>\n`);
 const feedFile = join(root,'public/feed.xml');
 let feed = readFileSync(feedFile,'utf8').replace(/\s*<item>[\s\S]*?<\/item>/g,'');
